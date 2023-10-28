@@ -1,0 +1,564 @@
+1 Andrychów Andrychów dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE NIE TAK TAK
+2 Anieliny Anieliny dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE NIE TAK TAK
+3 Babimost Babimost dworzec tymczasowy
+4 Baborówko Baborówko dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+5 Baby Baby dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+6 Balinka Balinka dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+7 Barchów Barchów dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+8 Barcice Barcice dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+9 Bardo Przyłęk Bardo dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+10 Bardo Śląskie Bardo dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE NIE TAK TAK
+11 Barłogi Barłogi dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+12 Bednary Bednary dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+13 Bełchów Bełchów dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE NIE TAK TAK
+14 Biadoliny Biadoliny dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+15 Biała Podlaska Biała Podlaska dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE TAK NIE NIE TAK TAK TAK
+16 Białogard Białogard dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK TAK TAK NIE TAK TAK TAK
+17 Białośliwie Białośliwie dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+18 Biały Bór Biały Bór dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+19 Biały Dunajec Biały Dunajec dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+20 Białystok Białystok dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
+21 Białystok Bacieczki Białystok dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+22 Bielsk Podlaski Bielsk Podlaski dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+23 Bielsko-Biała Główna Bielsko-Biała dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK TAK TAK TAK TAK TAK TAK TAK TAK TAK
+24 Bierutów Bierutów dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
+25 Bierzwnik Bierzwnik dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+26 Bińcze Bińcze dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+27 Biskupice Wielkopolskie Biskupice dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE TAK NIE NIE TAK TAK TAK
+28 Biskupiec Pomorski Bielice dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+29 Błądzim Błądzim dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+30 Błonie Błonie dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE TAK NIE NIE TAK TAK TAK
+31 Bochnia Bochnia dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE TAK TAK NIE TAK TAK TAK
+32 Boguszów-Gorce Zachód Boguszów Gorce dworzev nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+33 Bojanowo Bojanowo dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+34 Bolesławiec Bolesławiec dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK NIE NIE NIE TAK TAK TAK
+35 Boleszkowice Boleszkowice dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+36 Borowa Oleśnicka Borowa dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+37 Brwinów Brwinów dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE NIE NIE NIE NIE NIE TAK TAK TAK
+38 Bronów Pleszew dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE NIE TAK TAK
+39 Brusy Brusy dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+40 Brzeg Brzeg dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE TAK Tak NIE TAK TAK TAK
+41 Brzeg Dolny Brzeg Dolny dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK NIE NIE NIE TAK TAK TAK
+42 Brzesko Okocim Brzesko dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+43 Budachów Budachów dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+44 Budzyń Budzyń dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+45 Bukowo Bukowo dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+46 Bydgoszcz Główna Bydgoszcz dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK TAK TAK TAK TAK TAK TAK TAK TAK TAK
+47 Bydgoszcz Łęgnowo Bydgoszcz dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+48 Bydgoszcz Zachód Bydgoszcz dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+49 Bystrzyca Kłodzka Przedmieście Bystrzyca Kłodzka dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+50 Bytom Bytom dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK NIE NIE NIE TAK TAK TAK
+51 Bytom Odrzański Bytom Odrzański dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+52 Cekcyn Cekcyn dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+53 Celestynów Celestynów stacja nieudostępniana
+54 Chełm Chełm dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
+55 Chełm Miasto Chełm dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+56 Chocicza Chocicza dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE NIE TAK TAK
+57 Chodzież Chodzież dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK NIE NIE NIE TAK TAK TAK
+58 Chojna Chojna dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
+59 Chojnów Chojnów dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
+60 Chorzów Batory Chorzów dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE NIE NIE NIE NIE NIE TAK TAK TAK
+61 Chrzęsne Chrzęsne dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+62 Chrząstowice Chrząstowice dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+63 Chynów Chynów dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE NIE NIE NIE NIE NIE TAK TAK TAK
+64 Ciechanów Ciechanów dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK TAK TAK NIE TAK TAK TAK
+65 Czaplinek Czaplinek dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+66 Czarna Białostocka Czarna Białostocka dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+67 Czarna Tarnowska Czarna dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+68 Czarna Woda Czarna Woda dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE NIE TAK TAK
+69 Czechowice-Dziedzice Czechowice-Dziedzice dworzec tymczasowy
+70 Czempiń Czempiń dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
+71 Czeremcha Czeremcha dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
+72 Czerwieńsk Czerwieńsk dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+73 Czerwonka Czerwonka dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+74 Częstochowa Częstochowa dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK TAK TAK TAK TAK TAK TAK TAK TAK TAK
+75 Częstochowa Stradom Częstochowa dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK NIE NIE TAK TAK TAK TAK
+76 Damnica Damnica dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+77 Dąbrowa Białostocka Dąbrowa Białostocka dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+78 Dąbrowa Górnicza Dąbrowa Górnicza dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+79 Dęba Opoczyńska Dęba Opoczyńska dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+80 Dębe Wielkie Dębe Wielkie dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+81 Dębica Dębica dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE TAK TAK TAK TAK TAK
+82 Dęblin Dęblin dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE TAK NIE TAK TAK TAK
+83 Dobczyn Dobczyn dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+84 Dobiegniew Dobiegniew czasowo nieudostępniany
+85 Dobieszyn Dobieszyn dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE NIE NIE NIE NIE NIE TAK TAK TAK
+86 Dobroszyce Dobroszyce dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+87 Dolice Dolice dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+88 Domaszków Domaszków dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+89 Drawski Młyn Drawski Młyn dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+90 Duszniki-Zdrój Duszniki-Zdrój dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+91 Działdowo Działdowo dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK TAK TAK TAK TAK TAK TAK TAK TAK TAK
+92 Dziembówko Dziembówko dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+93 Dziemiany Kaszubskie Dziemiany dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE NIE TAK TAK
+94 Dziewule Dziewule dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+95 Elbląg Elbląg dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK TAK TAK TAK TAK TAK NIE TAK TAK TAK
+96 Ełk Ełk dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK TAK TAK NIE TAK TAK TAK
+97 Gałkówek Gałków Mały czasowo nieudostępniany
+98 Garbatka-Letnisko Garbatka-Letnisko dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE NIE NIE NIE NIE NIE TAK TAK TAK
+99 Garwolin Garwolin dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
+100 Gądki Gądki dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+101 Gądków Wielki Gądków Wielki dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK TAK NIE NIE NIE TAK TAK TAK
+102 Gdańsk Główny Gdańsk dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK TAK TAK TAK TAK TAK TAK TAK TAK TAK
+103 Gdańsk Oliwa Gdańsk dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE NIE NIE NIE NIE NIE TAK TAK TAK
+104 Gdańsk Osowa Gdańsk dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE NIE NIE NIE NIE NIE TAK TAK TAK
+105 Gdańsk Wrzeszcz Gdańsk dworzec tyczasowy
+106 Gdynia Chylonia Gdynia dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE NIE NIE NIE NIE NIE TAK TAK TAK
+107 Gdynia Główna Gdynia dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK TAK TAK TAK TAK TAK TAK TAK TAK TAK
+108 Giżycko Giżycko dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE NIE NIE NIE NIE NIE TAK TAK TAK
+109 Gliwice Gliwice dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK TAK TAK TAK TAK TAK TAK TAK TAK TAK
+110 Głogów Głogów dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK NIE NIE NIE TAK TAK TAK
+111 Głogówek Głogówek dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+112 Głowno Głowno dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+113 Głuchołazy Głuchołazy dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+114 Głuszyca Głuszyca dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+115 Gniewkowo Gniewkowo dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+116 Gniezno Gniezno dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK TAK TAK NIE TAK TAK TAK
+117 Gołubie Kaszubskie Gołubie dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+118 Godętowo Goętowo dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+119 Gorzanów Gorzanów dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+120 Gorzkowice Gorzkowice dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+121 Gorzów Wielkopolski Gorzów Wielkopolski dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK TAK TAK NIE TAK TAK NIE TAK TAK TAK
+122 Grabów nad Pilicą Grabów nad Pilicą dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE NIE NIE NIE NIE NIE TAK TAK TAK
+123 Granowiec Granowiec dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE NIE TAK TAK
+124 Gręboszów Gręboszów dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+125 Grodzisk Mazowiecki Grodzisk Mazowiecki dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE TAK NIE NIE TAK TAK TAK
+126 Gronowo Elbląskie Gronowo dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE NIE TAK TAK
+127 Grudziądz Grudziądz dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK TAK TAK NIE TAK TAK TAK
+128 Grupa Grupa dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+129 Gryfice Gryfice dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
+130 Gryfino Gryfino dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK TAK NIE NIE TAK TAK TAK
+131 Grzmiąca Grzmiąca dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+132 Hel Hel dworzec tymczasowy
+133 Iława Główna Iława dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK TAK TAK TAK TAK TAK TAK TAK TAK TAK
+134 Iłowiec Pecna dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+135 Imbramowice Imbramowice dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+136 Inowrocław Inowrocław dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE TAK TAK TAK TAK TAK TAK
+137 Iwin Iwin dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+138 Jabłonowo Pomorskie Jabłonowo Pomorskie dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+139 Jabłoń Kościelna Jabłoń Kościelna dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+140 Janikowo Janikowo dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+141 Janinów Janinów dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+142 Jarocin Jarocin dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK TAK NIE NIE TAK TAK TAK
+143 Jarosław Jarosław dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE TAK TAK TAK TAK TAK TAK
+144 Jasienica Mazowiecka Tłuszcz dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE NIE NIE NIE NIE NIE TAK TAK TAK
+145 Jasień Brzeski Jasień dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+146 Jastarnia Jastarnia czasowo nieudostępniany
+147 Jastrowie Jastrowie dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+148 Jastrząb Jastrząb dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+149 Jastrzębna Balinka dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+150 Jawor Jawor dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+151 Jaworzyna Śląska Jaworzyna Śląska dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK NIE NIE NIE TAK TAK TAK
+152 Jelenia Góra Jelenia Góra dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK TAK TAK TAK TAK TAK TAK TAK TAK TAK
+153 Jeżewo Jeżewo dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE TAK TAK TAK TAK
+154 Jędrzejów Jędrzejów dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
+155 Józefów Józefów dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE TAK TAK TAK TAK
+156 Kaliska Kaliska dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE NIE TAK TAK
+157 Kaliska Kujawskie Kaliska dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+158 Kalisz Kalisz dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK TAK TAK NIE TAK TAK TAK
+159 Kalisz Kaszubski Kalisz dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE NIE TAK TAK
+160 Kamieniec Ząbkowicki Kamieniec Ząbkowicki dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+161 Kamienna Nowa Kamienna Nowa dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+162 Kanie Kanie dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+163 Kamień Pomorski Kamień Pomorski dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
+164 Katowice Katowice dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK TAK TAK TAK TAK TAK TAK TAK TAK TAK
+165 Katowice Ligota Katowice dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK NIE TAK TAK TAK TAK TAK
+166 Kąty Wrocławskie Kąty Wrocławskie dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
+167 Kędzierzyn-Koźle Kędzierzyn-Koźle dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK TAK NIE TAK TAK TAK TAK
+168 Kępno Kępno dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK TAK NIE NIE NIE TAK TAK TAK
+169 Kielce Kielce dworzec tymczasowy
+170 Kiełpino Kartuskie Kiełpino dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE NIE TAK TAK
+171 Kliniska Kliniska Wielkie dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE NIE TAK TAK
+172 Kluczbork Kluczbork dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK NIE NIE NIE TAK TAK TAK
+173 Kłodawa Kłodawa dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+174 Kłodzko Główne Kłodzko dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK NIE NIE NIE TAK TAK TAK
+175 Knyszyn Ruda dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+176 Kobylnica Kobylnica dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+177 Kolumna Łask dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+178 Koluszki Koluszki dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE TAK NIE NIE TAK TAK TAK
+179 Koło Koło dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK NIE NIE NIE TAK TAK TAK
+180 Kołobrzeg Kołobrzeg dworzec tymczasowy
+181 Kołodziejewo Kołodziejewo
+182 Koniecpol Koniecpol dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+183 Konin Konin dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK NIE TAK NIE TAK TAK TAK
+184 Konopki Konopki dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+185 Kornelin Kornelin dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+186 Korsze Korsze dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+187 Korzeńsko Korzeńsko dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+188 Kostów Kostów dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+189 Kostrzyn Kostrzyn nad Odrą dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK TAK NIE TAK NIE TAK TAK TAK
+190 Kostrzyn Wielkopolski Kostrzyn Wielkopolski dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
+191 Koszalin Koszalin dworzec tymczasowy
+192 Koszęcin Koszęcin dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+193 Kościan Kościan dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK TAK NIE NIE TAK TAK TAK
+194 Kotlin Kotlin dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE NIE TAK TAK
+195 Kotomierz Kotomierz dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+196 Kowalewo Pomorskie Kowalewo Pomorskie dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+197 Kowalów Kowalów dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+198 Kraków Główny Kraków dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK TAK TAK TAK TAK TAK TAK TAK TAK TAK
+199 Kraków Płaszów Kraków dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE TAK NIE NIE TAK TAK TAK
+200 Kraków Swoszowice Kraków dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE TAK TAK TAK TAK
+201 Krasiejów Krasiejów dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+202 Kraśnik Kraśnik dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+203 Krotoszyn Krotoszyn dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
+204 Kruszyna Kruszyna dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE NIE NIE NIE NIE NIE TAK TAK TAK
+205 Krynica-Zdrój Krynica-Zdrój dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+206 Krzeszowice Krzeszowice dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE TAK NIE NIE TAK TAK TAK
+207 Krzywizna Krzywizna dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+208 Krzyż Krzyż Wielkopolski dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK TAK TAK NIE NIE TAK TAK TAK
+209 Księginice Księginice dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE NIE TAK TAK
+210 Kudowa-Zdrój Kudowa-Zdrój dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+211 Kundzin Kundzin dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+212 Kutno Kutno dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE TAK TAK TAK TAK TAK TAK
+213 Kuźnica Białostocka Kuźnica dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+214 Laskowice Pomorskie Laskowice dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+215 Lednogóra Lednogóra dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE NIE TAK TAK
+216 Legnica Legnica dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK TAK TAK TAK TAK TAK TAK
+217 Leńcze Leńcze dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE NIE TAK TAK
+218 Leszno Leszno dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK TAK TAK TAK TAK TAK TAK TAK TAK TAK
+219 Leżajsk Leżajsk dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE TAK TAK TAK TAK
+220 Lębork Lębork dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK TAK NIE TAK TAK TAK TAK
+221 Lipka Krajeńska Lipka Krajeńska dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+222 Lipno Nowe Lipno dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+223 Lipowa Tucholska Lipowa Tucholska dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+224 Lubań Śląski Lubań dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+225 Lublin Główny Lublin dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK TAK TAK TAK TAK TAK TAK TAK TAK TAK
+226 Lubliniec Lubliniec dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK NIE NIE NIE TAK TAK TAK
+227 Luboń koło Poznania Luboń dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
+228 Lutol Suchy Lutol Suchy dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+229 Luzino Luzino dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+230 Łańcut Łańcut dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
+231 Łaskarzew Przystanek Łaskarzew dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+232 Łeba Łeba czasowo nieudostępniany
+233 Łęczyca Łęczyca dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+234 Łobez Łobez dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
+235 Łomnica-Zdrój Łomnica dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+236 Łowczówek Pleśna Pleśna dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE NIE TAK TAK
+237 Łowicz Główny Łowicz dworzec tymczasowy
+238 Łódź Chojny Łódź dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE TAK NIE NIE TAK TAK TAK
+239 Łódź Kaliska Łódź dworzec tymczasowy
+240 Łódź Widzew Łódź dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK TAK TAK TAK TAK TAK TAK
+241 Ługi Górzyckie Ługi Górzyckie dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+242 Łuków Łuków dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
+243 Machnacz Machnacz dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+244 Maksymilianowo Maksymilianowo dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+245 Malbork Malbork dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK TAK TAK TAK TAK TAK NIE NIE TAK TAK
+246 Malczyce Malczyce dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+247 Małkinia Małkinia Górna dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
+248 Małowice Wołowskie Małowice Wołowskie dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+249 Miały Miały czasowo nieudostępniany
+250 Miasteczko Krajeńskie Miasteczko Krajeńskie dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+251 Michalin Józefów dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+252 Miechów Miechów dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE TAK TAK TAK TAK TAK
+253 Mieszkowice Mieszkowice dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
+254 Mieszków Mieszków dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+255 Międzyborów Międzyborów dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
+256 Międzylesie Międzylesie dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+257 Międzyrzec Podlaski Międzyrzec Podlaski dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
+258 Międzyzdroje Międzyzdroje dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK TAK TAK TAK NIE NIE NIE TAK TAK TAK
+259 Milanówek Milanówek dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+260 Milik Milik dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+261 Mińsk Mazowiecki Mińsk Mazowiecki dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE NIE NIE TAK TAK NIE TAK TAK TAK
+262 Mława Mława dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK NIE NIE NIE TAK TAK TAK
+263 Młodów Młodów dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+264 Modlin Nowy Dwór Mazowiecki dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE TAK NIE TAK TAK TAK TAK
+265 Mogilno Mogilno
+266 Mokra Mokra Lewa dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE NIE TAK TAK
+267 Mońki Mońki dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+268 Morąg Morąg dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+269 Morzeszczyn Morzeszczyn dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE NIE TAK TAK
+270 Mosina Mosina dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE TAK TAK TAK TAK
+271 Mrozy Mrozy dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
+272 Myszków Myszków dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK TAK TAK TAK TAK TAK TAK
+273 Nakło nad Notecią Nakło nad Notecią dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK TAK NIE NIE NIE TAK TAK TAK
+274 Nałęczów Nałęczów dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+275 Nasielsk Mogowo dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK TAK NIE NIE TAK TAK TAK
+276 Nekla Nekla dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE NIE NIE NIE NIE NIE TAK TAK TAK
+277 Nidzica Nidzica dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+278 Nieszawa Waganiec Waganiec dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+279 Nowa Ruda Nowa Ruda dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+280 NowaWieś Mochy Nowa Wieś dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+281 Nowa Wieś Wielka Nowa Wieś Wielka dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+282 Nowe Drezdenko Drezdenko dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+283 Nowiny Wielkie Nowiny Wielkie dworzec tymczasowy
+284 Nowogard Nowogard dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE NIE TAK TAK
+285 Nowy Sącz Nowy Sącz dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
+286 Nowy Tomyśl Nowy Tomyśl dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
+287 Oborniki Śląskie Oborniki Śląskie dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK NIE TAK NIE TAK TAK TAK
+288 Oborniki Wielkopolskie Oborniki dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+289 Oborniki Wielkopolskie Miasto Oborniki dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE NIE NIE NIE NIE NIE NIE TAK TAK
+290 Oborzyska Stare Kościan dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+291 Okonek Okonek dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+292 Olesno Śląskie Olesno dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE TAK TAK TAK TAK
+293 Oleśnica Oleśnica dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE TAK NIE NIE TAK TAK TAK
+294 Olsztyn Główny Olsztyn dworzec tymczasowy
+295 Olsztyn Zachodni Olsztyn dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK NIE TAK TAK TAK TAK TAK
+296 Oława Oława dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK TAK NIE NIE TAK TAK TAK
+297 Opalenica Opalenica dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+298 Opoczno Opoczno dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+299 Opole Główne Opole dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK TAK TAK TAK TAK TAK TAK TAK TAK TAK
+300 Opole Groszowice Opole dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+301 Osie Osie dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+302 Osielec Osielec dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+303 Osowiec Osowiec dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+304 Ostrowie Biebrzańskie Jastrzębna Pierwsza dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+305 Ostrów Wielkopolski Ostrów Wielkopolski dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK TAK TAK TAK TAK TAK TAK TAK TAK TAK
+306 Ostrzeszów Ostrzeszów dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+307 Oświęcim Oświęcim dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK TAK TAK NIE NIE NIE NIE TAK TAK TAK
+308 Otwock Otwock dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE TAK TAK NIE TAK TAK TAK
+309 Ożarów Mazowiecki Ożarów Mazowiecki dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE Nie TAK TAK TAK
+310 Pabianice Pabianice dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
+311 Palędzie Palędzie dworzec tymczasowy
+312 Pamiątkowo Pamiątkowo dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE NIE NIE NIE NIE NIE NIE TAK TAK
+313 Panki Panki dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE NIE TAK TAK
+314 Parlin Parlin dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+315 Pasłęk Pasłęk dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+316 Pelplin Pelplin dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+317 Pępowo Pępowo dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+318 Piastów Piastów dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK TAK NIE TAK TAK TAK TAK
+319 Pierzchno Pierzchno dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE NIE TAK TAK
+320 Pierzyska Pierzyska dworzec tymczasowy
+321 Pilawa Pilawa dworzec tymczasowy
+322 Piła Główna Piła dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE TAK NIE TAK TAK TAK TAK
+323 Pionki Zachodnie Pionki dworzec tymczasowy
+324 Piotrków Trybunalski Piotrków Trybunalski dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK TAK NIE NIE TAK TAK TAK
+325 Piwniczna Piwniczna dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+326 Piwniczna-Zdrój Piwniczna dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+327 Pleszew Pleszew dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE NIE TAK TAK
+328 Płochocin Płochocin dworzec tymczasowy
+329 Płociczno koło Suwałk Płociczno-Osiedle dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+330 Pobiedziska Pobiedziska dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE TAK NIE NIE TAK TAK TAK
+331 Pobiedziska Letnisko Pobiedziska dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE TAK NIE NIE TAK TAK TAK
+332 Podborsko Tychowo dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE NIE TAK TAK
+333 Podlasek Podlasek dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+334 Polanica-Zdrój Polanica-Zdrój dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+335 Pomiechówek Pomiechówek dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE TAK NIE TAK TAK TAK
+336 Poraj Poraj dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK NIE NIE TAK TAK TAK TAK
+337 Poronin Poronin dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+338 Potęgowo Potęgowo dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+339 Poznań Dębiec Poznań dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK TAK NIE NIE NIE TAK TAK TAK
+340 Poznań Garbary Poznań dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE TAK TAK NIE TAK TAK TAK
+341 Poznań Główny Poznań dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK TAK TAK TAK TAK TAK TAK TAK TAK TAK
+342 Poznań Starołęka Poznań Starołęka dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
+343 Poznań Wola Poznań dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+344 Prabuty Prabuty dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+345 Prudnik Prudnik dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+346 Pruszcz Gdański Pruszcz Gdański dworzec tymczasowy
+347 Pruszków Pruszków dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE TAK TAK TAK TAK TAK TAK
+348 Przemyśl Główny Przemyśl dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK TAK TAK TAK TAK TAK TAK TAK TAK TAK
+349 Przetycz Stare Bosewo dworzec tymczasowy
+350 Przeworsk Przeworsk dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
+351 Przyłubie Przyłubie dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE NIE TAK TAK
+352 Przywory Opolskie Przywory dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+353 Pszczółki Pszczółki dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+354 Pszczyna Pszczyna dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK TAK TAK TAK TAK TAK TAK
+355 Puck Puck dworzec tymczasowy
+356 Puławy Miasto Puławy dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
+357 Puszczykówko Puszczykowo dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE NIE TAK TAK
+358 Raba Wyżna Raba Wyżna dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+359 Rabka-Zdrój Rabka-Zdrój dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+360 Racewo Racewo dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+361 Racibory Nowe Racibory dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE NIE TAK TAK
+362 Racibórz Racibórz dworzec tymczasowy
+363 Racławice Śląskie Racławice Śląskie dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+364 Radom Główny Radom dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK TAK TAK TAK TAK NIE TAK TAK TAK TAK
+365 Radomsko Radomsko dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK TAK TAK NIE TAK TAK TAK
+366 Radymno Radymno dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+367 Radziwiłłów Mazowiecki Radziwiłłów Mazowiecki dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
+368 Rawicz Rawicz dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE TAK NIE NIE TAK TAK TAK
+369 Rogoźno Wielkopolskie Rogoźno dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
+370 Rogów Rogów dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+371 Rokietnica Rokietnica czasowo nieudostępniany
+372 Rosochatka Rosochatka dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+373 Roztoki Bystrzyckie Roztoki dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+374 Ruda Śląska Ruda Śląska dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE NIE NIE NIE NIE NIE TAK TAK TAK
+375 Ruda Wielka Dąbrówka Zabłotnia dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+376 Rumia Rumia dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK TAK NIE TAK TAK TAK TAK
+377 Runowo Pomorskie Runowo Pomorskie dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+378 Ruszów Ruszów dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE NIE TAK TAK
+379 Rybnik Rybnik dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK NIE NIE NIE TAK TAK TAK
+380 Rybnik Niedobczyce Rybnik dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+381 Rybnik Paruszowiec Rybnik dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+382 Rytel Rytel dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+383 Rytro Rytro dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+384 Rzepin Rzepin czasowo nieudostępniany
+385 Rzeszów Główny Rzeszów modernizacja
+386 Sadurki Sadurki dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE TAK TAK TAK TAK
+387 Sątopy-Samulewo Sątopy-Samulewo dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE TAK TAK TAK TAK
+388 Serock Serock dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+389 Sędzisław Sędzisław dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+390 Sędziszów Sędziszów dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE TAK TAK TAK TAK
+391 Sędziszów Małopolski Sędziszów Małopolski dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+392 Sidra Sidra dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+393 Siedlce Siedlce dworzec tymczasowy
+394 Siemiatycze Siemiatycze-Stacja dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+395 Siechnice Siechnice dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+396 Sieradz Sieradz dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
+397 Sierakowice Skierniewickie Sierakowice Lewe dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE NIE TAK TAK
+398 Sieraków Śląski Sieraków dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+399 Silno Silno dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+400 Skarżysko-Kamienna Skarżysko-Kamienna dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE TAK TAK NIE TAK TAK TAK
+401 Skierniewice Skierniewice dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK TAK TAK TAK TAK TAK TAK
+402 Skokowa Skokowa dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+403 Skorzewo Skorzewo dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+404 Sławięcice Kędzierzyn-Koźle dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE NIE TAK TAK
+405 Sławno Sławno dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK NIE NIE NIE TAK TAK TAK
+406 Słonice Słonice dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+407 Słupca Słupca dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
+408 Słupsk Słupsk dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK TAK TAK TAK TAK TAK TAK TAK TAK TAK
+409 Smardzów Wrocławski Wrocław dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+410 Smętowo Smętowo Graniczne dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE NIE TAK TAK
+411 Smolec Smolec dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
+412 Sochaczew Sochaczew dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
+413 Sopot Sopot dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK TAK TAK TAK TAK TAK TAK TAK TAK TAK
+414 Sosnowiec Główny Sosnowiec dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK TAK NIE NIE TAK TAK TAK
+415 Sośnie Ostrowskie Sośnie dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE NIE TAK TAK
+416 Stalowa Wola Rozwadów Stalowa Wola dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE TAK NIE NIE NIE TAK TAK TAK
+417 Staniszcze Małe Staniszcze Małe dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+418 Stara Łubianka Stara Łubianka dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+419 Starczów Starczów dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE NIE TAK TAK
+420 Stare Bojanowo Stare Bojanowo dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+421 Stare Kurowo Stare Kurowo dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+422 Stare Pole Stare Pole dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE NIE TAK TAK
+423 Stargard Stargard dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK TAK TAK TAK TAK TAK TAK TAK TAK TAK
+424 Stary Sącz Stary Sącz dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+425 Sterkowiec Sterkowiec dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+426 Stęszew Stęszew dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+427 Stronie Stronie dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE NIE TAK TAK
+428 Stryków Stryków dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+429 Stryszów Stryszów dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE NIE TAK TAK
+430 Strzałkowo Strzałkowo dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+431 Strzebielino Morskie Strzebielino dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE NIE TAK TAK
+432 Strzelce Krajeńskie Wschód Strzelce Krajeńskie dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK TAK NIE NIE NIE TAK TAK TAK
+433 Strzelce Opolskie Strzelce Opolskie dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK TAK NIE NIE NIE TAK TAK TAK
+434 Strzelin Strzelin dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
+435 Sucha Beskidzka Sucha Beskidzka dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+436 Suchedniów Suchedniów dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
+437 Sulechów Sulechów dworzec tymczasowy
+438 Sulejówek Miłosna Sulejówek dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE NIE NIE TAK TAK NIE TAK TAK TAK
+439 Sułkowice Sułkowice dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE NIE NIE NIE NIE NIE TAK TAK TAK
+440 Sumina Wieś Sumina dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+441 Susz Susz dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+442 Suwałki Suwałki dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+443 Swarzędz Swarzędz dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
+444 Szamotuły Szamotuły dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
+445 Szczecin Dąbie Szczecin dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE TAK TAK NIE TAK TAK TAK
+446 Szczecin Główny Szczecin dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK TAK TAK TAK TAK TAK TAK TAK TAK TAK
+447 Szczecinek Szczecinek stacja nieudostępniana
+448 Szczepki Szczepki dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+449 Szczytna Szczytna dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+450 Szczytno Szczytno dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+451 Szepietowo Szepietowo dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+452 Szklarska Poręba Górna Szklarska Poręba dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
+453 Szlachta Szlachta dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+454 Sztum Sztum dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE NIE TAK TAK
+455 Szydłów Szydłów dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+456 Szymiszów Szymiszów dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+457 Ścinawa Ścinawa dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+458 Ścinawka Średnia Ścinawka Średnia dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+459 Środa Wielkopolska Środa Wielkopolska dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK NIE NIE NIE TAK TAK TAK
+460 Świdnik Miasto Świdnik dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+461 Świdwin Świdwin dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
+462 Świebodzice Świebodzice dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK TAK NIE NIE NIE TAK TAK TAK
+463 Świebodzin Świebodzin dworzec tymczasowy
+464 Świekatowo Świekatowo dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+465 Święta Katarzyna Święta Katarzyna dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+466 Świnoujście Świnoujście dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK TAK TAK TAK TAK NIE NIE TAK TAK TAK
+467 Taczanów Pleszew dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE NIE TAK TAK
+468 Tarnowskie Góry Tarnowskie Góry dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK NIE NIE NIE TAK TAK TAK
+469 Tarnów Tarnów dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK TAK TAK TAK TAK TAK TAK TAK TAK TAK
+470 Tczew Tczew dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK TAK NIE TAK TAK NIE NIE TAK TAK TAK
+471 Terespol Terespol dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK NIE NIE NIE TAK TAK TAK
+472 Tłuszcz Tłuszcz dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE TAK NIE NIE TAK TAK TAK
+473 Tomaszów Mazowiecki Tomaszów Mazowiecki dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+474 Toruń Miasto Toruń dworzec tymczasowy
+475 Toruń Wschodni Toruń dworzec tymczasowy
+476 Trakiszki Trakiszki dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+477 Trawniki Trawniki dworzec tymczasowy
+478 Trzcianka Trzcianka dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+479 Trzebiatów Trzebiatów dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE NIE TAK TAK
+480 Trzebinia Trzebinia dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE TAK TAK TAK TAK
+481 Trzemeszno Trzemeszno dworzec tymczasowy
+482 Turzno Turzno dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+483 Twarda Góra Twarda Góra dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+484 Tychowo Tychowo dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE NIE TAK TAK
+485 Wałbrzych Główny Wałbrzych dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE TAK NIE NIE TAK TAK TAK
+486 Wałbrzych Miasto Wałbrzych dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK TAK TAK TAK TAK NIE TAK TAK TAK TAK
+487 Warka Warka dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
+488 Warszawa Centralna Warszawa
+489 Warszawa Gdańska Warszawa dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE TAK TAK TAK TAK
+490 Warszawa Międzylesie Warszawa czasowo nieudostępniany
+491 Warszawa Ochota Warszawa dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK NIE NIE NIE TAK TAK TAK
+492 Warszawa Powiśle Warszawa dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK TAK NIE TAK TAK TAK TAK
+493 Warszawa Rembertów Warszawa dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE NIE NIE NIE NIE TAK TAK TAK TAK
+494 Warszawa Stadion Warszawa dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE TAK NIE NIE TAK TAK TAK
+495 Warszawa Śródmieście Warszawa
+496 Warszawa Ursus Warszawa
+497 Warszawa Wileńska Warszawa
+498 Warszawa WKD Śródmieście Warszawa dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE NIE NIE TAK TAK NIE TAK TAK TAK
+499 Warszawa Włochy Warszawa dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE TAK NIE TAK TAK
+500 Warszawa Wschodnia Warszawa dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK TAK TAK TAK TAK TAK TAK TAK TAK TAK
+501 Warszawa Zachodnia Warszawa dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK TAK TAK TAK TAK TAK TAK TAK TAK TAK
+502 Wasilków Wasilków dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+503 Wąbrzeźno Wąbrzeźno dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+504 Wejherowo Wejherowo dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE NIE NIE TAK TAK NIE NIE TAK TAK
+505 Węgliniec Węgliniec dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+506 Wieliczka Park Wieliczka dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
+507 Wierchomla Wielka Wierchomla dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+508 Wierzchowo Człuchowskie Wierzchowo dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+509 Wierzchucin Wierzchucin dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+510 Wilkoszewice Gościnna dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+511 Witaszyce Witaszyce dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE NIE TAK TAK
+512 Witnica Witnica dworzec tymczasowy
+513 Władysławowo Władysławowo dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+514 Włocławek Włocławek dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
+515 Włocławek Zazamcze Włocławek dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE NIE TAK TAK
+516 Włoszakowice Włoszakowice dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+517 Włoszczowa Włoszczowa dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+518 Wolin Wolin dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+519 Wołczyn Wołczyn dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+520 Wrocław Brochów Wrocław dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK TAK NIE NIE NIE TAK TAK TAK
+521 Wrocław Główny Wrocław dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK TAK TAK TAK TAK TAK TAK TAK TAK TAK
+522 Wrocław Kuźniki Wrocław dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK TAK NIE NIE NIE TAK TAK TAK
+523 Wrocław Leśnica Wrocław dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK TAK TAK TAK NIE TAK TAK TAK
+524 Wrocław Mikołajów Wrocław dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK TAK NIE NIE TAK TAK TAK
+525 Wrocław Osobowice Wrocław dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+526 Wrocław Pracze Wrocław dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK TAK NIE NIE NIE TAK TAK TAK
+527 Wrocław Psie Pole Wrocław dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK TAK NIE NIE NIE TAK TAK TAK
+528 Wrocław Zachodni Wrocław dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+529 Wronki Wronki dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
+530 Września Września dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK TAK NIE NIE TAK TAK TAK
+531 Wrzosów Wrzosów dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE NIE TAK TAK
+532 Wydminy Wydminy dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+533 Wyrzysk Osiek Osiek n/Notecią dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE NIE TAK TAK
+534 Zajezierze Koło Dęblina Zajezierze dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+535 Zalesie Górne Zalesie Górne dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE TAK NIE TAK TAK TAK
+536 Zawadzkie Zawadzkie dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+537 Zawiercie Zawiercie dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK TAK TAK TAK TAK TAK TAK
+538 Ząbki Ząbki czasowo nieudostępniany
+539 Ząbkowice Śląskie Ząbkowice Śląskie dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+540 Zbąszynek Zbąszynek dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE NIE TAK TAK
+541 Zbąszyń Zbąszyń
+542 Zblewo Zblewo dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE NIE TAK TAK
+543 Zdrody Nowe Zdrody Nowe dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+544 Zdzieszowice Zdzieszowice dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+545 Zebrzydowice Zebrzydowice dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+546 Zgierz Zgierz dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
+547 Zgorzelec Ujazd Zgorzelec dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
+548 Zielona Góra Główna Zielona Góra dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK TAK TAK TAK TAK TAK TAK TAK TAK TAK
+549 Zielonczyn Zielonczyn dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE NIE TAK TAK
+550 Zielonka Pomorska Zielonka Pomorska dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE NIE TAK TAK
+551 Ziębice Ziębice dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+552 Złocieniec Złocieniec dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+553 Złotniki Kujawskie Złotniki Kujawskie
+554 Złotów Złotów stacja nieudostępniana
+555 Zubrzyk Zubrzyk dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+556 Żagań Żagań dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK NIE NIE NIE TAK TAK TAK
+557 Żarów Żarów dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK TAK NIE NIE NIE TAK TAK TAK
+558 Żary Żary dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK NIE NIE NIE TAK TAK TAK
+559 Żegiestów Żegiestów dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+560 Żegiestów Zdrój Żegiestów dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
+561 Żukowo Wschodnie Żukowo dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
+562 Życzyn Życzyn stacja nieudostępniana
+563 Żyrardów Żyrardów dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK TAK NIE TAK TAK TAK TAK
+564 Żywiec Żywiec dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK NIE NIE NIE TAK TAK TAK

@@ -1,0 +1,55 @@
+use BillMaster
+go
+
+-- Update Tables: Trasa, Stacja-Trasa
+update Stacja-Trasa set "Nazwa_Stacji" = 'Mrozy' where "Nazwa_Stacji" = 'Częstochowa Stradom' and "ID_Trasy" = '56';
+update Stacja-Trasa set "Nazwa_Stacji" = 'Nowiny Wielkie' where "Nazwa_Stacji" = 'Poznań Dębiec' and "ID_Trasy" = '56';
+update Stacja-Trasa set "Nazwa_Stacji" = 'Lubliniec' where "Nazwa_Stacji" = 'Ostrów Wielkopolski' and "ID_Trasy" = '56';
+update Trasa set "Dlugosc" = '592.92', "Czas_Trwania" = '6:46' where "ID" = '56';
+update Trasa set "Dlugosc" = '1175.76', "Czas_Trwania" = '13:11' where "ID" = '69';
+update Stacja-Trasa set "Nazwa_Stacji" = 'Kostrzyn Kostrzyn' where "Nazwa_Stacji" = 'Panki' and "ID_Trasy" = '35';
+update Stacja-Trasa set "Nazwa_Stacji" = 'Korzeńsko' where "Nazwa_Stacji" = 'Koniecpol' and "ID_Trasy" = '35';
+update Trasa set "Dlugosc" = '1012.2', "Czas_Trwania" = '13:06' where "ID" = '35';
+update Stacja-Trasa set "Nazwa_Stacji" = 'Pobiedziska' where "Nazwa_Stacji" = 'Mińsk Mazowiecki' and "ID_Trasy" = '3';
+update Stacja-Trasa set "Nazwa_Stacji" = 'Podborsko' where "Nazwa_Stacji" = 'Brzesko Okocim' and "ID_Trasy" = '3';
+update Trasa set "Dlugosc" = '3166.2', "Czas_Trwania" = '35:30' where "ID" = '3';
+update Stacja-Trasa set "Nazwa_Stacji" = 'Czaplinek' where "Nazwa_Stacji" = 'Toruń Miasto' and "ID_Trasy" = '87';
+update Stacja-Trasa set "Nazwa_Stacji" = 'Szczecin Dąbie' where "Nazwa_Stacji" = 'Warszawa Wileńska' and "ID_Trasy" = '87';
+update Stacja-Trasa set "Nazwa_Stacji" = 'Słupca' where "Nazwa_Stacji" = 'Czarna Białostocka' and "ID_Trasy" = '87';
+update Stacja-Trasa set "Nazwa_Stacji" = 'Sterkowiec' where "Nazwa_Stacji" = 'Dziemiany Kaszubskie' and "ID_Trasy" = '87';
+update Stacja-Trasa set "Nazwa_Stacji" = 'Szczytna' where "Nazwa_Stacji" = 'Pelplin' and "ID_Trasy" = '87';
+update Trasa set "Dlugosc" = '3201.93', "Czas_Trwania" = '42:05' where "ID" = '87';
+update Stacja-Trasa set "Nazwa_Stacji" = 'Czerwieńsk' where "Nazwa_Stacji" = 'Czaplinek' and "ID_Trasy" = '16';
+update Trasa set "Dlugosc" = '1128.48', "Czas_Trwania" = '14:05' where "ID" = '16';
+update Stacja-Trasa set "Nazwa_Stacji" = 'Rytro' where "Nazwa_Stacji" = 'Sadurki' and "ID_Trasy" = '45';
+update Trasa set "Dlugosc" = '1775.08', "Czas_Trwania" = '22:35' where "ID" = '45';
+update Stacja-Trasa set "Nazwa_Stacji" = 'Pleszew' where "Nazwa_Stacji" = 'Łódź Chojny' and "ID_Trasy" = '5';
+update Stacja-Trasa set "Nazwa_Stacji" = 'Sidra' where "Nazwa_Stacji" = 'Międzyzdroje' and "ID_Trasy" = '5';
+update Trasa set "Dlugosc" = '1168.66', "Czas_Trwania" = '14:12' where "ID" = '5';
+update Trasa set "Dlugosc" = '1898.09', "Czas_Trwania" = '26:00' where "ID" = '59';
+update Trasa set "Dlugosc" = '572.29', "Czas_Trwania" = '7:15' where "ID" = '48';
+update Stacja-Trasa set "Nazwa_Stacji" = 'Kostrzyn Kostrzyn' where "Nazwa_Stacji" = 'Złocieniec' and "ID_Trasy" = '24';
+update Trasa set "Dlugosc" = '2042.97', "Czas_Trwania" = '26:08' where "ID" = '24';
+update Trasa set "Dlugosc" = '1765.34', "Czas_Trwania" = '20:15' where "ID" = '89';
+update Stacja-Trasa set "Nazwa_Stacji" = 'Wrocław Zachodni' where "Nazwa_Stacji" = 'Łódź Kaliska' and "ID_Trasy" = '16';
+update Stacja-Trasa set "Nazwa_Stacji" = 'Międzyrzec Podlaski' where "Nazwa_Stacji" = 'Wrocław Psie' and "ID_Trasy" = '16';
+update Trasa set "Dlugosc" = '1777.82', "Czas_Trwania" = '19:40' where "ID" = '16';
+update Stacja-Trasa set "Nazwa_Stacji" = 'Chełm Miasto' where "Nazwa_Stacji" = 'Włocławek' and "ID_Trasy" = '32';
+update Stacja-Trasa set "Nazwa_Stacji" = 'Kliniska Kliniska' where "Nazwa_Stacji" = 'Piła Główna' and "ID_Trasy" = '32';
+update Trasa set "Dlugosc" = '718.12', "Czas_Trwania" = '7:52' where "ID" = '32';
+update Stacja-Trasa set "Nazwa_Stacji" = 'Konin' where "Nazwa_Stacji" = 'Głowno' and "ID_Trasy" = '89';
+update Stacja-Trasa set "Nazwa_Stacji" = 'Sulechów' where "Nazwa_Stacji" = 'Świdnik Miasto' and "ID_Trasy" = '89';
+update Trasa set "Dlugosc" = '1851.53', "Czas_Trwania" = '21:39' where "ID" = '89';
+update Trasa set "Dlugosc" = '1154.29', "Czas_Trwania" = '16:10' where "ID" = '6';
+update Trasa set "Dlugosc" = '987.09', "Czas_Trwania" = '11:18' where "ID" = '39';
+update Stacja-Trasa set "Nazwa_Stacji" = 'Gdańsk Oliwa' where "Nazwa_Stacji" = 'Świdnik Miasto' and "ID_Trasy" = '69';
+update Stacja-Trasa set "Nazwa_Stacji" = 'Łańcut' where "Nazwa_Stacji" = 'Ostrów Wielkopolski' and "ID_Trasy" = '69';
+update Stacja-Trasa set "Nazwa_Stacji" = 'Strzelce Opolskie' where "Nazwa_Stacji" = 'Pierzyska' and "ID_Trasy" = '69';
+update Trasa set "Dlugosc" = '662.74', "Czas_Trwania" = '8:18' where "ID" = '69';
+update Stacja-Trasa set "Nazwa_Stacji" = 'Kanie' where "Nazwa_Stacji" = 'Wąbrzeźno' and "ID_Trasy" = '88';
+update Stacja-Trasa set "Nazwa_Stacji" = 'Lutol Suchy' where "Nazwa_Stacji" = 'Racławice Śląskie' and "ID_Trasy" = '88';
+update Trasa set "Dlugosc" = '1786.35', "Czas_Trwania" = '21:26' where "ID" = '88';
+update Stacja-Trasa set "Nazwa_Stacji" = 'Malczyce' where "Nazwa_Stacji" = 'Kraków Płaszów' and "ID_Trasy" = '24';
+update Stacja-Trasa set "Nazwa_Stacji" = 'Jeżewo' where "Nazwa_Stacji" = 'Zielonka Pomorska' and "ID_Trasy" = '24';
+update Stacja-Trasa set "Nazwa_Stacji" = 'Korzeńsko' where "Nazwa_Stacji" = 'Nakło Notecią' and "ID_Trasy" = '24';
+update Trasa set "Dlugosc" = '1700.87', "Czas_Trwania" = '22:30' where "ID" = '24';

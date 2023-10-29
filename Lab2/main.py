@@ -16,11 +16,14 @@ MIN_DISTANCE = 5
 ROUTE_NOT_USED = 0.2
 MIN_COURSES_FOR_ROUTE = 50
 MAX_COURSES_FOR_ROUTE = 200
-NUMBER_OF_TICKETS = 1000
+NUMBER_OF_TICKETS = 10000
 ONE_KILOMETER_COST = 0.1
 
 NUMBER_OF_ROUTES_TO_CHANGE = 20
 STATION_ON_ROUTE_CHANGE_CHANCE = 0.2
+MIN_NEW_COURSES_FOR_ROUTE = 10
+MAX_NEW_COURSES_FOR_ROUTE = 50
+NUMBER_OF_NEW_TICKETS = 3000
 
 T0 = datetime.date(year=2023, month=1, day=1)
 T1 = datetime.date(year=2023, month=3, day=1)
@@ -54,14 +57,20 @@ Tickets = []
 
 with open("TwojBilet1.sql", "w", encoding="utf8") as firstSnapshot:
     firstSnapshot.write("use TwojBilet\ngo\n\n")
-    PossibleStations = load_stations()
 
+    #Generate stations
+    print("Generating stations: ", end='')
+    PossibleStations = load_stations()
     Stations = random.sample(PossibleStations, NUMBER_OF_STATIONS)
 
     firstSnapshot.write("-- Table: Stacja\n")
     for station in Stations:
         firstSnapshot.write(station.write())
+    firstSnapshot.write("go\n")
+    print("DONE \033[K")
 
+    #Generate distances between stations
+    print("Generating distances: ", end='')
     with open("Distances.csv", "w", encoding="utf8") as csv:
         csv.write("Stacja1, Stacja2, Dystans\n")
         for i in range(0, NUMBER_OF_STATIONS):
@@ -69,7 +78,10 @@ with open("TwojBilet1.sql", "w", encoding="utf8") as firstSnapshot:
                 distance = round(random.uniform(MIN_DISTANCE, MAX_DISTANCE), 2)
                 csv.write(f"{Stations[i].name}, {Stations[j].name}, {distance}\n")
                 Distances.append({"Stacja1": Stations[i].name, "Stacja2": Stations[j].name, "Dystans": distance})
+    print("DONE \033[K")
 
+    #Generate routes
+    print("Generating routes: ", end='')
     for i in range(NUMBER_OF_ROUTES):
         StationsOnRoute = random.sample(Stations, random.randint(4, 10))
         distance = 0
@@ -86,13 +98,18 @@ with open("TwojBilet1.sql", "w", encoding="utf8") as firstSnapshot:
     firstSnapshot.write("-- Table: Trasa\n")
     for route in Routes:
         firstSnapshot.write(route.write())
+    firstSnapshot.write("go\n")
 
     firstSnapshot.write("-- Table: Stacja-Trasa\n")
     for sr in StationRoute:
         firstSnapshot.write(sr.write())
+    firstSnapshot.write("go\n")
+    print("DONE \033[K")
 
+    #Generate courses
+    print("Generating courses: ")
     index = 1
-    for route in Routes:
+    for counter, route in enumerate(Routes):
         if random.random() > ROUTE_NOT_USED:
             CoursesForRoute = random.randint(MIN_COURSES_FOR_ROUTE, MAX_COURSES_FOR_ROUTE)
             for i in range(CoursesForRoute):
@@ -101,11 +118,16 @@ with open("TwojBilet1.sql", "w", encoding="utf8") as firstSnapshot:
                 minuta = random.randint(0, 59)
                 Courses.append(Kurs(index, route.ID, f"{0 if godzina < 10 else ''}{godzina}:{0 if minuta < 10 else ''}{minuta}", date))
                 index += 1
+        print(f"Progress: {round((counter/NUMBER_OF_ROUTES)*100, 2)}%", end='\r', flush=True)
 
     firstSnapshot.write("-- Table: Kurs\n")
     for course in Courses:
         firstSnapshot.write(course.write())
+    firstSnapshot.write("go\n")
+    print("DONE \033[K")
 
+    #Generate tickets
+    print("Generating tickets: ")
     for i in range(NUMBER_OF_TICKETS):
         course = random.choice(Courses)
         stations = random.sample(getStationsOnRoute(StationRoute, course.trasa), 2)
@@ -113,17 +135,24 @@ with open("TwojBilet1.sql", "w", encoding="utf8") as firstSnapshot:
         price = getDistance(Distances, stations[0].Nazwa_Stacji, stations[1].Nazwa_Stacji) * ONE_KILOMETER_COST * (100 - discount) / 100
         purchaseMethod = random.choice(MethodsOfPurchase)
         choosenClass = random.choice(ClassChoice)
-        date = fake.date_between(start_date=T0, end_date=T1)
+        date = fake.date_between(start_date=T0, end_date=course.data)
         Tickets.append(Bilet(i, course.ID, stations[0].Nazwa_Stacji, stations[1].Nazwa_Stacji, round(price, 2), purchaseMethod, date, choosenClass, discount))
 
-        print(f"Progress: {(i/NUMBER_OF_TICKETS)*100}%", end='\r', flush=True)
+        print(f"Progress: {round((i/NUMBER_OF_TICKETS)*100, 2)}%", end='\r', flush=True)
     
     firstSnapshot.write("-- Table: Ticket\n")
     for ticket in Tickets:
         firstSnapshot.write(ticket.write())
+    firstSnapshot.write("go\n")
+    print("DONE \033[K")
+    
 
+#Second file
 with open("TwojBilet2.sql", "w", encoding="utf8") as secondSnapshot:
     secondSnapshot.write("use TwojBilet\ngo\n\n")
+
+    #Update routes by changing stations, distance and time
+    print("Updating routes: ")
     secondSnapshot.write("-- Update Tables: Trasa, Stacja-Trasa\n")
     for i in range(NUMBER_OF_ROUTES_TO_CHANGE):
         routeToChange = random.choice(Routes)
@@ -143,4 +172,49 @@ with open("TwojBilet2.sql", "w", encoding="utf8") as secondSnapshot:
         routeToChange.dlugosc = round(distance, 2)
         routeToChange.czasTrwania = f"{godziny}:{0 if minuty < 10 else ''}{minuty}"
         secondSnapshot.write(routeToChange.update())
-pass
+        print(f"Progress: {round((i/NUMBER_OF_ROUTES_TO_CHANGE)*100, 2)}%", end='\r', flush=True)
+    secondSnapshot.write("go\n")
+    print("DONE \033[K")
+    
+    #New records in second time period
+    NewCourses = []
+    NewTickets = []
+    #Generate courses
+    print("Generating new courses: ")
+    index = 1
+    for counter, route in enumerate(Routes):
+        if random.random() > ROUTE_NOT_USED:
+            CoursesForRoute = random.randint(MIN_NEW_COURSES_FOR_ROUTE, MAX_NEW_COURSES_FOR_ROUTE)
+            for i in range(CoursesForRoute):
+                date = fake.date_between(start_date=T1, end_date=T2)
+                godzina = random.randint(0, 23)
+                minuta = random.randint(0, 59)
+                NewCourses.append(Kurs(index, route.ID, f"{0 if godzina < 10 else ''}{godzina}:{0 if minuta < 10 else ''}{minuta}", date))
+                index += 1
+        print(f"Progress: {round((counter/NUMBER_OF_ROUTES)*100, 2)}%", end='\r', flush=True)
+
+    secondSnapshot.write("-- Table: Kurs\n")
+    for course in NewCourses:
+        secondSnapshot.write(course.write())
+    secondSnapshot.write("go\n")
+    print("DONE \033[K")
+
+    #Generate tickets
+    print("Generating new tickets: ")
+    for i in range(NUMBER_OF_NEW_TICKETS):
+        course = random.choice(NewCourses)
+        stations = random.sample(getStationsOnRoute(StationRoute, course.trasa), 2)
+        discount = random.choice(DiscountOptions)
+        price = getDistance(Distances, stations[0].Nazwa_Stacji, stations[1].Nazwa_Stacji) * ONE_KILOMETER_COST * (100 - discount) / 100
+        purchaseMethod = random.choice(MethodsOfPurchase)
+        choosenClass = random.choice(ClassChoice)
+        date = fake.date_between(start_date=T1, end_date=course.data)
+        NewTickets.append(Bilet(i, course.ID, stations[0].Nazwa_Stacji, stations[1].Nazwa_Stacji, round(price, 2), purchaseMethod, date, choosenClass, discount))
+
+        print(f"Progress: {round((i/NUMBER_OF_NEW_TICKETS)*100, 2)}%", end='\r', flush=True)
+    
+    secondSnapshot.write("-- Table: Ticket\n")
+    for ticket in NewTickets:
+        secondSnapshot.write(ticket.write())
+    secondSnapshot.write("go\n")
+    print("DONE \033[K")

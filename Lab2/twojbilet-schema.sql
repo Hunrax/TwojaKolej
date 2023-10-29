@@ -12,8 +12,8 @@ go
 
 create table Trasa(
     ID integer primary key,
-    Dlugosc integer not null,
-    Czas_Trwania integer not null
+    Dlugosc decimal not null,
+    Czas_Trwania varchar(5) not null
 )
 go
 

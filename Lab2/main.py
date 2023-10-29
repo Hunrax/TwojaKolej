@@ -108,7 +108,7 @@ with open("TwojBilet1.sql", "w", encoding="utf8") as firstSnapshot:
 
     #Generate courses
     print("Generating courses: ")
-    index = 1
+    index = 0
     for counter, route in enumerate(Routes):
         if random.random() > ROUTE_NOT_USED:
             CoursesForRoute = random.randint(MIN_COURSES_FOR_ROUTE, MAX_COURSES_FOR_ROUTE)
@@ -181,7 +181,7 @@ with open("TwojBilet2.sql", "w", encoding="utf8") as secondSnapshot:
     NewTickets = []
     #Generate courses
     print("Generating new courses: ")
-    index = 1
+    index = len(Courses)
     for counter, route in enumerate(Routes):
         if random.random() > ROUTE_NOT_USED:
             CoursesForRoute = random.randint(MIN_NEW_COURSES_FOR_ROUTE, MAX_NEW_COURSES_FOR_ROUTE)
@@ -201,7 +201,7 @@ with open("TwojBilet2.sql", "w", encoding="utf8") as secondSnapshot:
 
     #Generate tickets
     print("Generating new tickets: ")
-    for i in range(NUMBER_OF_NEW_TICKETS):
+    for i in range(NUMBER_OF_TICKETS, NUMBER_OF_TICKETS+NUMBER_OF_NEW_TICKETS):
         course = random.choice(NewCourses)
         stations = random.sample(getStationsOnRoute(StationRoute, course.trasa), 2)
         discount = random.choice(DiscountOptions)
@@ -211,7 +211,7 @@ with open("TwojBilet2.sql", "w", encoding="utf8") as secondSnapshot:
         date = fake.date_between(start_date=T1, end_date=course.data)
         NewTickets.append(Bilet(i, course.ID, stations[0].Nazwa_Stacji, stations[1].Nazwa_Stacji, round(price, 2), purchaseMethod, date, choosenClass, discount))
 
-        print(f"Progress: {round((i/NUMBER_OF_NEW_TICKETS)*100, 2)}%", end='\r', flush=True)
+        print(f"Progress: {round(((i - NUMBER_OF_TICKETS)/(NUMBER_OF_NEW_TICKETS + NUMBER_OF_TICKETS))*100, 2)}%", end='\r', flush=True)
     
     secondSnapshot.write("-- Table: Ticket\n")
     for ticket in NewTickets:

@@ -17,7 +17,7 @@ create table Trasa(
 )
 go
 
-create table Stacja-Trasa(
+create table Stacja_Trasa(
     Nazwa_Stacji varchar(30) foreign key references Stacja,
     ID_Trasy integer foreign key references Trasa,
     Numer_Stacji_Na_Trasie integer not null,
@@ -39,9 +39,9 @@ create table Bilet(
     Od varchar(30) foreign key references Stacja,
     Do varchar(30) foreign key references Stacja,
     Cena decimal(5, 2) not null,
-    Sposob_Zakupu varchar (9) check (Sposob_Zakupu in('Kasa', 'Konduktor', "Internet")) not null,
+    Sposob_Zakupu varchar (9) check (Sposob_Zakupu in('Kasa', 'Konduktor', 'Internet')) not null,
     Data_Zakupu date not null,
-    Klasa varchar (2) check (Klasa in("I", "II")) not null,
+    Klasa varchar (2) check (Klasa in('I', 'II')) not null,
     Ulga integer check (Ulga >= 0 and Ulga <= 100) not null
 )
 go

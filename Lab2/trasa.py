@@ -18,9 +18,9 @@ class StacjaTrasa:
         self.Numer_Stacji_Na_Trasie = Numer_Stacji_Na_Trasie
     
     def write(self):
-        return f"insert into Stacja-Trasa (\"Nazwa_Stacji\", \"ID_Trasy\", \"Numer_Stacji_Na_Trasie\") values ('{self.Nazwa_Stacji}', '{self.ID_Trasy}', '{self.Numer_Stacji_Na_Trasie}');\n"
+        return f"insert into Stacja_Trasa (\"Nazwa_Stacji\", \"ID_Trasy\", \"Numer_Stacji_Na_Trasie\") values ('{self.Nazwa_Stacji}', '{self.ID_Trasy}', '{self.Numer_Stacji_Na_Trasie}');\n"
 
     def update(self, nowaNazwa):
         staraNazwa = self.Nazwa_Stacji
         self.Nazwa_Stacji = nowaNazwa
-        return f"update Stacja-Trasa set \"Nazwa_Stacji\" = '{self.Nazwa_Stacji}' where \"Nazwa_Stacji\" = '{staraNazwa}' and \"ID_Trasy\" = '{self.ID_Trasy}';\n"
+        return f"update Stacja_Trasa set \"Nazwa_Stacji\" = '{self.Nazwa_Stacji}' where \"Nazwa_Stacji\" = '{staraNazwa}' and \"ID_Trasy\" = '{self.ID_Trasy}';\n"

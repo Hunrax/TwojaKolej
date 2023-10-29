@@ -100,7 +100,7 @@ with open("TwojBilet1.sql", "w", encoding="utf8") as firstSnapshot:
         firstSnapshot.write(route.write())
     firstSnapshot.write("go\n")
 
-    firstSnapshot.write("-- Table: Stacja-Trasa\n")
+    firstSnapshot.write("-- Table: Stacja_Trasa\n")
     for sr in StationRoute:
         firstSnapshot.write(sr.write())
     firstSnapshot.write("go\n")
@@ -153,7 +153,7 @@ with open("TwojBilet2.sql", "w", encoding="utf8") as secondSnapshot:
 
     #Update routes by changing stations, distance and time
     print("Updating routes: ")
-    secondSnapshot.write("-- Update Tables: Trasa, Stacja-Trasa\n")
+    secondSnapshot.write("-- Update Tables: Trasa, Stacja_Trasa\n")
     for i in range(NUMBER_OF_ROUTES_TO_CHANGE):
         routeToChange = random.choice(Routes)
         stationsOnRoute = getStationsOnRoute(StationRoute, routeToChange.ID)

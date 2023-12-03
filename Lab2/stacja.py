@@ -1,3 +1,4 @@
+from unidecode import unidecode
 class Stacja:
 
     def __init__(self, name, town):
@@ -36,6 +37,6 @@ def load_stations():
         elif len(station) == 6:
             station_name = station[0] + " " + station[1] + " "  + station[2]
             station_town = station[3] + " " + station[4] + " "  + station[5]
-        new_station = Stacja(station_name, station_town)
+        new_station = Stacja(unidecode(station_name), unidecode(station_town))
         Stations.append(new_station)
     return Stations

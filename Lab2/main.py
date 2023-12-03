@@ -5,29 +5,31 @@ from bilet import *
 import random
 import datetime
 from faker import Faker
+from unidecode import unidecode
 
 NUMBER_OF_STATIONS = 500
 NUMBER_OF_ROUTES = 100
 
 TRAIN_SPEED = 80
 TRAIN_SPEED_FLUCTUATION = 10
+DISTANCE_FLUCTUATION_PERCENT = 10
 MAX_DISTANCE = 500
 MIN_DISTANCE = 5
 ROUTE_NOT_USED = 0.2
 MIN_COURSES_FOR_ROUTE = 50
 MAX_COURSES_FOR_ROUTE = 200
-NUMBER_OF_TICKETS = 100000
+NUMBER_OF_TICKETS = 1000
 ONE_KILOMETER_COST = 0.1
 
 NUMBER_OF_ROUTES_TO_CHANGE = 20
 STATION_ON_ROUTE_CHANGE_CHANCE = 0.2
 MIN_NEW_COURSES_FOR_ROUTE = 10
 MAX_NEW_COURSES_FOR_ROUTE = 50
-NUMBER_OF_NEW_TICKETS = 30000
+NUMBER_OF_NEW_TICKETS = 300
 
 T0 = datetime.date(year=2023, month=1, day=1)
-T1 = datetime.date(year=2023, month=3, day=1)
-T2 = datetime.date(year=2023, month=4, day=1)
+T1 = datetime.date(year=2023, month=9, day=1)
+T2 = datetime.date(year=2023, month=12, day=31)
 
 MethodsOfPurchase = ["Kasa", "Konduktor", "Internet"]
 ClassChoice = ["I", "II", "II", "II"]
@@ -72,11 +74,11 @@ with open("TwojBilet1.sql", "w", encoding="utf8") as firstSnapshot:
     #Generate distances between stations
     print("Generating distances: ", end='')
     with open("Distances.csv", "w", encoding="utf8") as csv:
-        csv.write("Stacja1, Stacja2, Dystans\n")
+        csv.write("Stacja1;Stacja2;Dystans\n")
         for i in range(0, NUMBER_OF_STATIONS):
             for j in range(i+1, NUMBER_OF_STATIONS):
                 distance = round(random.uniform(MIN_DISTANCE, MAX_DISTANCE), 2)
-                csv.write(f"{Stations[i].name}, {Stations[j].name}, {distance}\n")
+                csv.write(f"{Stations[i].name};{Stations[j].name};{str(distance).replace('.',',')}\n")
                 Distances.append({"Stacja1": Stations[i].name, "Stacja2": Stations[j].name, "Dystans": distance})
     print("DONE \033[K")
 
@@ -156,16 +158,10 @@ with open("TwojBilet2.sql", "w", encoding="utf8") as secondSnapshot:
     secondSnapshot.write("-- Update Tables: Trasa, Stacja_Trasa\n")
     for i in range(NUMBER_OF_ROUTES_TO_CHANGE):
         routeToChange = random.choice(Routes)
-        stationsOnRoute = getStationsOnRoute(StationRoute, routeToChange.ID)
-        for sr in stationsOnRoute:
-            if random.random() < STATION_ON_ROUTE_CHANGE_CHANCE:
-                randomStation = random.choice(Stations)
-                secondSnapshot.write(sr.update(randomStation.name))
 
-        distance = 0
-        for j in range(1, len(stationsOnRoute)):
-            distance += getDistance(Distances, stationsOnRoute[j].Nazwa_Stacji, stationsOnRoute[j-1].Nazwa_Stacji)
-        predkoscOdchylenie = random.randint(-TRAIN_SPEED_FLUCTUATION, TRAIN_SPEED_FLUCTUATION)
+        distance = routeToChange.dlugosc + random.randint(-DISTANCE_FLUCTUATION_PERCENT, DISTANCE_FLUCTUATION_PERCENT)*0.01*routeToChange.dlugosc
+
+        predkoscOdchylenie = random.randint(-TRAIN_SPEED_FLUCTUATION, TRAIN_SPEED_FLUCTUATION*2)
         godziny = int(distance // (TRAIN_SPEED + predkoscOdchylenie))
         minuty = int(distance % (TRAIN_SPEED + predkoscOdchylenie) * 60 / 100)
 

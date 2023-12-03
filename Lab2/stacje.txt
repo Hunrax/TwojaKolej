@@ -285,7 +285,6 @@
 285 Nowy Sącz Nowy Sącz dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
 286 Nowy Tomyśl Nowy Tomyśl dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK NIE NIE NIE NIE TAK TAK TAK
 287 Oborniki Śląskie Oborniki Śląskie dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE TAK TAK NIE TAK NIE TAK TAK TAK
-288 Oborniki Wielkopolskie Oborniki dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE NIE NIE NIE NIE NIE TAK TAK TAK
 289 Oborniki Wielkopolskie Miasto Oborniki dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy TAK NIE NIE NIE NIE NIE NIE NIE TAK TAK
 290 Oborzyska Stare Kościan dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK
 291 Okonek Okonek dworzec nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy nie dotyczy NIE NIE TAK NIE NIE NIE NIE TAK TAK TAK

@@ -1,0 +1,95 @@
+﻿--Porównaj łączny dystans przejechany przez osoby w I klasie w tym miesiącu w porównaniu z poprzednim.--
+WITH MEMBER [Poprzedni miesiac] AS '(PARALLELPERIOD([Kurs - ID Daty].[Date Hierarchy].[Miesiac]
+, 1, [Kurs - ID Daty].[Date Hierarchy].CurrentMember), [Measures].[Laczny dystans])'
+SELECT CrossJoin([Kurs - ID Daty].[Date Hierarchy].[Miesiac].[Listopad],[Junk].[Klasa].[I]) ON ROWS,
+{[Measures].[Laczny dystans], [Poprzedni miesiac]} ON COLUMNS
+FROM [Data Warehouse];
+
+-- Porównaj średnią długość trasy na bilecie w tym miesiącu w porównaniu z poprzednim.--
+WITH MEMBER [Poprzedni miesiac] AS '(PARALLELPERIOD([Kurs - ID Daty].[Date Hierarchy].[Miesiac]
+, 1, [Kurs - ID Daty].[Date Hierarchy].CurrentMember), [Measures].[SredniDystans])'
+SELECT [Kurs - ID Daty].[Date Hierarchy].[Miesiac].[Pazdziernik] ON ROWS,
+{[Measures].[SredniDystans], [Poprzedni miesiac]} ON COLUMNS
+FROM [Data Warehouse];
+
+--Porównaj przychód ze sprzedaży biletów na poszczególnych trasach w tym miesiącu w porównaniu z poprzednim. --
+WITH MEMBER [Poprzedni miesiac] AS '(PARALLELPERIOD([Data].[Date Hierarchy].[Miesiac]
+, 1, [Data].[Date Hierarchy].CurrentMember), [Measures].[Zysk ze sprzedanych biletow])'
+SELECT CrossJoin([Data].[Date Hierarchy].[Miesiac].[Luty], [Trasa].[Nazwa].Members) ON ROWS,
+{[Measures].[Zysk ze sprzedanych biletow], [Poprzedni miesiac]} ON COLUMNS
+FROM [Data Warehouse];
+
+--Porównaj liczbę sprzedanych biletów w dniach pracy w tym miesiącu w porównaniu z poprzednim.--
+WITH MEMBER [Poprzedni miesiac] AS '(PARALLELPERIOD([Data].[Date Hierarchy].[Miesiac]
+, 1, [Data].[Date Hierarchy].CurrentMember), [Measures].[Liczba przewiezionych osob])'
+SELECT [Data].[Date Hierarchy].[Miesiac].[Wrzesien] ON ROWS,
+{[Measures].[Liczba przewiezionych osob], [Poprzedni miesiac]} ON COLUMNS
+FROM [Data Warehouse] WHERE [Data].[Dzien Pracy].[Dzien pracy];
+
+--Jaka była średnia długość trasy na bilecie, którego stacja początkowa to XXX w tym miesiącu w porównaniu z poprzednim?--
+WITH MEMBER [Poprzedni miesiac] AS '(PARALLELPERIOD([Kurs - ID Daty].[Date Hierarchy].[Miesiac]
+, 1, [Kurs - ID Daty].[Date Hierarchy].CurrentMember), [Measures].[SredniDystans])'
+SELECT [Kurs - ID Daty].[Date Hierarchy].[Miesiac].[Luty] ON ROWS,
+{[Measures].[SredniDystans], [Poprzedni miesiac]} ON COLUMNS
+FROM [Data Warehouse] WHERE [ID Stacja Poczatkowa].[Nazwa].[Bochnia];
+
+--Porównaj liczbę sprzedanych biletów ulgowych w tym miesiącu w porównaniu z poprzednim.--
+WITH 
+MEMBER [Bilety ulgowe] AS SUM(
+EXCEPT([Junk].[Ulga].Members,{[Junk].[Ulga].[All],[Junk].[Ulga].[All].UNKNOWNMEMBER, [Junk].[Ulga].[All].[0%]}),
+[Measures].[Liczba przewiezionych osob])
+
+MEMBER [Poprzedni miesiac] AS '(PARALLELPERIOD([Data].[Date Hierarchy].[Miesiac]
+, 1, [Data].[Date Hierarchy].CurrentMember), [Bilety ulgowe])'
+SELECT [Data].[Date Hierarchy].[Miesiac].[Luty] ON ROWS,
+{[Bilety ulgowe], [Poprzedni miesiac]} ON COLUMNS
+FROM [Data Warehouse];
+
+--Jaka byla najczesciej wybierana stacja koncowa/początkowa w tym i w zeszlym miesiacu? --
+SELECT {([Kurs - ID Daty].[Date Hierarchy].[Miesiac].[Kwiecien], TOPCOUNT(
+[ID Stacja Koncowa].[Nazwa].Children, 1, ([Kurs - ID Daty].[Date Hierarchy].[Miesiac].[Kwiecien], [Measures].[Liczba przewiezionych osob])
+)),
+([Kurs - ID Daty].[Date Hierarchy].[Miesiac].[Marzec], TOPCOUNT(
+[ID Stacja Koncowa].[Nazwa].Children, 1, ([Kurs - ID Daty].[Date Hierarchy].[Miesiac].[Marzec], [Measures].[Liczba przewiezionych osob])
+))
+} ON ROWS,
+[Measures].[Liczba przewiezionych osob] ON COLUMNS
+FROM [Data Warehouse];
+
+--Które trasy były najpopularniejsze w godzinach szczytu w tym i w zeszłym miesiącu.--
+SELECT {([Kurs - ID Daty].[Date Hierarchy].[Miesiac].[Kwiecien], TOPCOUNT(
+[Trasa].[Nazwa].Children, 5, ([Kurs - ID Daty].[Date Hierarchy].[Miesiac].[Kwiecien], [Measures].[Liczba przewiezionych osob])
+)),
+([Kurs - ID Daty].[Date Hierarchy].[Miesiac].[Marzec], TOPCOUNT(
+[Trasa].[Nazwa].Children, 5, ([Kurs - ID Daty].[Date Hierarchy].[Miesiac].[Marzec], [Measures].[Liczba przewiezionych osob])
+))
+} ON ROWS,
+[Measures].[Liczba przewiezionych osob] ON COLUMNS
+FROM [Data Warehouse] WHERE [Czas].[Godziny Szczytu].&[Godziny szczytu];
+
+--Które trasy były najpopularniejsze w okolicy świąt w tym i w zeszłym miesiącu.--
+SELECT {([Kurs - ID Daty].[Date Hierarchy].[Miesiac].[Kwiecien], TOPCOUNT(
+[Trasa].[Nazwa].Children, 5, ([Kurs - ID Daty].[Date Hierarchy].[Miesiac].[Kwiecien], [Measures].[Liczba przewiezionych osob])
+)),
+([Kurs - ID Daty].[Date Hierarchy].[Miesiac].[Marzec], TOPCOUNT(
+[Trasa].[Nazwa].Children, 5, ([Kurs - ID Daty].[Date Hierarchy].[Miesiac].[Marzec], [Measures].[Liczba przewiezionych osob])
+))
+} ON ROWS,
+[Measures].[Liczba przewiezionych osob] ON COLUMNS
+FROM [Data Warehouse] WHERE 
+EXCEPT([Kurs - ID Daty].[Okolice Swiat].Members,{[Kurs - ID Daty].[Okolice Swiat].[All],[Kurs - ID Daty].[Okolice Swiat].[All].UNKNOWNMEMBER,
+[Kurs - ID Daty].[Okolice Swiat].[All].[Brak swiat]});
+
+--Porównaj liczbę sprzedanych biletów I klasy w tym miesiącu w porównaniu z poprzednim.--
+WITH MEMBER [Poprzedni miesiac] AS '(PARALLELPERIOD([Data].[Date Hierarchy].[Miesiac]
+, 1, [Data].[Date Hierarchy].CurrentMember), [Measures].[Liczba przewiezionych osob])'
+SELECT [Data].[Date Hierarchy].[Miesiac].[Wrzesien] ON ROWS,
+{[Measures].[Liczba przewiezionych osob], [Poprzedni miesiac]} ON COLUMNS
+FROM [Data Warehouse] WHERE [Junk].[Klasa].[I];
+
+--Podaj średnią cenę biletu w tym miesiącu--
+WITH MEMBER [Srednia cena] 
+AS 'Round([Measures].[Zysk ze sprzedanych biletow] / [Measures].[Liczba przewiezionych osob], 2)'
+SELECT [Data].[Date Hierarchy].[Miesiac].[Wrzesien] ON ROWS,
+[Srednia cena] ON COLUMNS
+FROM [Data Warehouse]

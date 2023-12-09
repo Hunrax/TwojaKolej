@@ -2,18 +2,18 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>ETL process</Name>
-    <LastWriteTime>2023-12-02T18:23:07.6047846Z</LastWriteTime>
+    <LastWriteTime>2023-12-09T09:47:44.6046876Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
       <Name>Initial data.dtsx</Name>
-      <LastWriteTime>2023-12-02T09:18:58.0994041Z</LastWriteTime>
+      <LastWriteTime>2023-12-09T09:47:11.1494711Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>Recurrent loading.dtsx</Name>
-      <LastWriteTime>2023-12-02T18:27:48.2252894Z</LastWriteTime>
+      <LastWriteTime>2023-12-09T09:47:43.5002071Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>

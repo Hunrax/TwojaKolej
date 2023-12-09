@@ -11,11 +11,28 @@
   DTS:LocaleID="1045"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="182"
-  DTS:VersionGUID="{AFAC2876-7943-41A1-92AC-4975C7ECE4E9}">
+  DTS:VersionBuild="184"
+  DTS:VersionGUID="{EA440EE6-AD08-4BE6-B200-D84366290108}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[.\DATAWAREHOUSES]"
+      DTS:CreationName="MSOLAP100"
+      DTS:DTSID="{F2DC9E68-F79F-4CAB-89E0-49B334B8CC5A}"
+      DTS:ObjectName=".\DATAWAREHOUSES">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="0"
+          DTS:ConnectRetryInterval="0"
+          DTS:ConnectionString="Data Source=.\DATAWAREHOUSES;User ID=Radek;Provider=MSOLAP.8;Impersonation Level=Impersonate;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAsXf7Y4cUlkedvPQaoIgOOgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACGEyVul4KiYEpvzO24ZLHH2ScLxaFC+qlIeVfhsoRJ5gAAAAAOgAAAAAIAACAAAADmcbjkkjWacVelAX18KnY0cJC8ajVsE9/x113Nv33l3SAAAAAq7bvQjguyO3Q10qkVo3diWcGAJC7RN/XEfB9Ejy0vA0AAAADZ9ldAMMsbcUg7K4i0RISIqW8JPznCjB8scH3ozYJH0g0yRHDBVOmmQ+7zJvJZvGqtFLhYAQah2E8VDXXOcCMz</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[DESKTOP-O5JTIFR\DATAWAREHOUSES.DataWarehouse]"
       DTS:CreationName="OLEDB"
@@ -54,7 +71,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\Radek\Desktop\ETL process\sources\Distances.csv">
+          DTS:ConnectionString="D:\INNE\Studia\5 SEMESTR\HURTOWNIE DANYCH\TwojaKolej\Lab5\ETL process\sources\Distances.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -63,7 +80,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Stacja1"
-              DTS:DTSID="{3906432C-670A-4B98-B658-5234197CD4F8}"
+              DTS:DTSID="{33740F5F-2B12-479F-BF80-65BD6FD506B6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -72,7 +89,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName=" Stacja2"
-              DTS:DTSID="{9F084AB4-6238-46A7-BEEB-52BA5B051A02}"
+              DTS:DTSID="{4E862CFB-9A8E-4C1E-BF46-B68AC4C4159B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -81,7 +98,7 @@
               DTS:DataScale="2"
               DTS:TextQualified="True"
               DTS:ObjectName=" Dystans"
-              DTS:DTSID="{10D9EA0B-50A8-4B0B-B112-2E4EF8009B1A}"
+              DTS:DTSID="{822D882A-935F-4168-AF1C-5C55789B1B24}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -134,7 +151,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\Radek\Desktop\ETL process\scripts\errors.txt">
+          DTS:ConnectionString="D:\INNE\Studia\5 SEMESTR\HURTOWNIE DANYCH\TwojaKolej\Lab5\ETL process\scripts\errors.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -142,7 +159,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ID"
-              DTS:DTSID="{EB38454B-FF09-4FE9-B9DC-806418CBB7A8}"
+              DTS:DTSID="{AC57B946-80BD-4973-B6CA-64273D0A4062}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -151,7 +168,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Od"
-              DTS:DTSID="{4930C0A2-4DA1-48DF-8B65-4B79B2AFD930}"
+              DTS:DTSID="{75DF4054-239A-4F0B-A51B-865DB7E1FB4F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -160,7 +177,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Do"
-              DTS:DTSID="{047A65ED-BD76-4F79-8DD4-6BADD4EBC967}"
+              DTS:DTSID="{0AA2B565-6FF5-4672-8705-4E89A9E6746D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -170,7 +187,7 @@
               DTS:DataScale="2"
               DTS:TextQualified="True"
               DTS:ObjectName="Cena"
-              DTS:DTSID="{B0583183-0321-4832-BFF7-C3B5A264E974}"
+              DTS:DTSID="{99711DA3-85DC-44F6-8A46-CF84A04CCD09}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -179,7 +196,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Sposob_Zakupu"
-              DTS:DTSID="{4040B0F0-0A11-4582-A96F-FED226BA2BA1}"
+              DTS:DTSID="{BCDCECDB-0E15-4055-BB09-9ED53C3D0B65}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -187,7 +204,7 @@
               DTS:DataType="133"
               DTS:TextQualified="True"
               DTS:ObjectName="Data_Zakupu"
-              DTS:DTSID="{546293C1-88DE-4682-BD1D-D833F7B5DF8C}"
+              DTS:DTSID="{5C79CCEC-9802-4F09-A878-2FCB5402C574}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -196,7 +213,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Klasa"
-              DTS:DTSID="{84350467-C72D-45FA-9DD3-408BB2A24A64}"
+              DTS:DTSID="{5FBFA0EF-1331-42E8-BBC4-4249174318D3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -204,7 +221,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="Ulga"
-              DTS:DTSID="{83066C90-0EE7-43DD-A42D-1B44615ED79B}"
+              DTS:DTSID="{9D2A2CBE-C692-42B6-BD33-91E0562C9AC6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -212,7 +229,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ID_Kursu"
-              DTS:DTSID="{EDD3A79B-A856-40BF-B03A-EA53E977848A}"
+              DTS:DTSID="{C1F164C4-D8BC-465E-9B72-7340B96F60A0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -221,7 +238,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Dzien"
-              DTS:DTSID="{6839D974-E413-4AA1-A765-1982B5381ECE}"
+              DTS:DTSID="{9ED812D7-B079-4DCE-AD84-8CB3B3BC9E48}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -229,7 +246,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="Miesiac"
-              DTS:DTSID="{613285A8-3811-43CA-90B3-2BA2F6C31958}"
+              DTS:DTSID="{73A93CBB-ADAC-4D46-AB27-C967E2718CE2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -238,7 +255,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Rok"
-              DTS:DTSID="{D0E04CA6-C64D-4C8A-B0CA-5CAF9E2963A6}"
+              DTS:DTSID="{959DCC6F-253E-4AA6-B889-A90EA56EDF1C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -247,7 +264,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Ulga_String"
-              DTS:DTSID="{F347A720-6622-4BA0-B065-AEE1BB92756E}"
+              DTS:DTSID="{3E999EF4-D192-4F97-B584-6A0BBCB38554}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -255,7 +272,7 @@
               DTS:DataType="6"
               DTS:TextQualified="True"
               DTS:ObjectName="Cena_Money"
-              DTS:DTSID="{DEF893FA-0974-4600-859E-83869FDD7D0B}"
+              DTS:DTSID="{1F25C98E-367F-41DB-9112-C44D789D1E82}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -264,7 +281,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Miesiac_Slownie"
-              DTS:DTSID="{4D66C843-E85B-4522-A4EB-FDC7362981B8}"
+              DTS:DTSID="{0296FB53-EA85-45D7-9396-12C6026FB6AF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -272,7 +289,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ID_Daty"
-              DTS:DTSID="{297C034D-BD0F-4508-91B5-3B1141E1131E}"
+              DTS:DTSID="{7D87E2A2-BDBA-42BC-B4A7-96E96794D823}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -280,7 +297,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ID_Stacji_Poczatkowej"
-              DTS:DTSID="{90B3004B-4130-422D-9EF8-20CC80B798D2}"
+              DTS:DTSID="{6A66E30D-30A7-4557-B0B9-47643580C1B1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -288,7 +305,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ID_Stacji_Koncowej"
-              DTS:DTSID="{4A11B842-7F1D-459C-9ABE-6CE72764C404}"
+              DTS:DTSID="{19B2264D-504B-408C-A6BB-0CA65A440935}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -296,7 +313,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ID_Junk"
-              DTS:DTSID="{7ABB03EA-8ADC-44EE-82C5-1700C9AAFAE9}"
+              DTS:DTSID="{8DCF0D78-BA88-4A63-BEB4-96E26AC4A7EF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -304,7 +321,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorCode"
-              DTS:DTSID="{6EF24FF3-E7B5-408C-A7EB-9DAE5143B9B4}"
+              DTS:DTSID="{A21AFAEA-1E49-42CE-9EB5-EA9DF891DB46}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -312,7 +329,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorColumn"
-              DTS:DTSID="{ACF22D47-5CF3-409F-A94C-5728BFC7856D}"
+              DTS:DTSID="{681010E2-BAB2-41A4-BF53-CD56A5DB9925}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -321,6 +338,22 @@
   </DTS:ConnectionManagers>
   <DTS:Variables />
   <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Analysis Services Processing Task"
+      DTS:CreationName="Microsoft.DTSProcessingTask"
+      DTS:Description="Analysis Services Processing Task"
+      DTS:DTSID="{4020F30D-4734-4605-BE0E-31764B8241DB}"
+      DTS:ExecutableType="Microsoft.DTSProcessingTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Analysis Services Processing Task"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <ASProcessingData
+          ConnectionName=".\DATAWAREHOUSES"
+          ProcessingCommands="&lt;Batch xmlns=&quot;http://schemas.microsoft.com/analysisservices/2003/engine&quot;&gt;&#xA;  &lt;Process xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:ddl2=&quot;http://schemas.microsoft.com/analysisservices/2003/engine/2&quot; xmlns:ddl2_2=&quot;http://schemas.microsoft.com/analysisservices/2003/engine/2/2&quot; xmlns:ddl100_100=&quot;http://schemas.microsoft.com/analysisservices/2008/engine/100/100&quot; xmlns:ddl200=&quot;http://schemas.microsoft.com/analysisservices/2010/engine/200&quot; xmlns:ddl200_200=&quot;http://schemas.microsoft.com/analysisservices/2010/engine/200/200&quot; xmlns:ddl300=&quot;http://schemas.microsoft.com/analysisservices/2011/engine/300&quot; xmlns:ddl300_300=&quot;http://schemas.microsoft.com/analysisservices/2011/engine/300/300&quot; xmlns:ddl400=&quot;http://schemas.microsoft.com/analysisservices/2012/engine/400&quot; xmlns:ddl400_400=&quot;http://schemas.microsoft.com/analysisservices/2012/engine/400/400&quot; xmlns:ddl500=&quot;http://schemas.microsoft.com/analysisservices/2013/engine/500&quot; xmlns:ddl500_500=&quot;http://schemas.microsoft.com/analysisservices/2013/engine/500/500&quot;&gt;&#xA;    &lt;Object&gt;&#xA;      &lt;DatabaseID&gt;DataWarehousesProject&lt;/DatabaseID&gt;&#xA;    &lt;/Object&gt;&#xA;    &lt;Type&gt;ProcessFull&lt;/Type&gt;&#xA;    &lt;WriteBackTableCreation&gt;UseExisting&lt;/WriteBackTableCreation&gt;&#xA;  &lt;/Process&gt;&#xA;&lt;/Batch&gt;" />
+      </DTS:ObjectData>
+    </DTS:Executable>
     <DTS:Executable
       DTS:refId="Package\Loading Distances to Cache"
       DTS:CreationName="Microsoft.Pipeline"
@@ -12325,69 +12358,69 @@ where [refTable].[Nazwa] = ?</property>
               startId="Package\Populating Przewoz_Pasazera\Create Nazwa_Trasy.Outputs[Derived Column Output]" />
             <path
               refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output12]"
-              endId="Package\Populating Przewoz_Pasazera\Lookup Stacja (DW) - Stacja_Koncowa.Inputs[Lookup Input]"
+              endId="Package\Populating Przewoz_Pasazera\Union All.Inputs[Union All Input 2]"
               name="Lookup Match Output"
-              startId="Package\Populating Przewoz_Pasazera\Lookup Stacja (DW) - Stacja_Poczatkowa.Outputs[Lookup Match Output]" />
+              startId="Package\Populating Przewoz_Pasazera\Lookup.Outputs[Lookup Match Output]" />
             <path
               refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output10]"
-              endId="Package\Populating Przewoz_Pasazera\Lookup Junk (DW).Inputs[Lookup Input]"
-              name="Lookup Match Output"
-              startId="Package\Populating Przewoz_Pasazera\Lookup Stacja (DW) - Stacja_Koncowa.Outputs[Lookup Match Output]" />
-            <path
-              refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output9]"
-              endId="Package\Populating Przewoz_Pasazera\Lookup Dystans (Cache).Inputs[Lookup Input]"
-              name="Lookup Match Output"
-              startId="Package\Populating Przewoz_Pasazera\Lookup Junk (DW).Outputs[Lookup Match Output]" />
-            <path
-              refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output8]"
-              endId="Package\Populating Przewoz_Pasazera\Sort.Inputs[Sort Input]"
-              name="Lookup Match Output"
-              startId="Package\Populating Przewoz_Pasazera\Lookup Kurs (TwojBilet).Outputs[Lookup Match Output]" />
-            <path
-              refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output7]"
-              endId="Package\Populating Przewoz_Pasazera\Union All.Inputs[Union All Input 1]"
-              name="Lookup Match Output"
-              startId="Package\Populating Przewoz_Pasazera\Lookup Dystans (Cache).Outputs[Lookup Match Output]" />
-            <path
-              refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output6]"
-              endId="Package\Populating Przewoz_Pasazera\Lookup Kurs (DW).Inputs[Lookup Input]"
-              name="Lookup Match Output"
-              startId="Package\Populating Przewoz_Pasazera\Lookup Czas (DW).Outputs[Lookup Match Output]" />
-            <path
-              refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output11]"
-              endId="Package\Populating Przewoz_Pasazera\Lookup data (DW).Inputs[Lookup Input]"
-              name="Lookup Match Output"
-              startId="Package\Populating Przewoz_Pasazera\Lookup Trasa (DW).Outputs[Lookup Match Output]" />
-            <path
-              refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output4]"
-              endId="Package\Populating Przewoz_Pasazera\Sort by ID (min).Inputs[Sort Input]"
-              name="Lookup Match Output"
-              startId="Package\Populating Przewoz_Pasazera\Lookup for Nazwa_Stacji (min).Outputs[Lookup Match Output]" />
-            <path
-              refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output3]"
-              endId="Package\Populating Przewoz_Pasazera\Lookup Czas (DW).Inputs[Lookup Input]"
-              name="Lookup Match Output"
-              startId="Package\Populating Przewoz_Pasazera\Lookup data (DW).Outputs[Lookup Match Output]" />
-            <path
-              refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output2]"
-              endId="Package\Populating Przewoz_Pasazera\Lookup Stacja (DW) - Stacja_Poczatkowa.Inputs[Lookup Input]"
-              name="Lookup Match Output"
-              startId="Package\Populating Przewoz_Pasazera\Lookup Data (DW).Outputs[Lookup Match Output]" />
-            <path
-              refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output1]"
               endId="Package\Populating Przewoz_Pasazera\Remove unnecesarry columns.Inputs[Union All Input 1]"
               name="Lookup Match Output"
               startId="Package\Populating Przewoz_Pasazera\Lookup Kurs (DW).Outputs[Lookup Match Output]" />
             <path
-              refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output5]"
+              refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output9]"
+              endId="Package\Populating Przewoz_Pasazera\Lookup Stacja (DW) - Stacja_Poczatkowa.Inputs[Lookup Input]"
+              name="Lookup Match Output"
+              startId="Package\Populating Przewoz_Pasazera\Lookup Data (DW).Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output8]"
+              endId="Package\Populating Przewoz_Pasazera\Lookup Czas (DW).Inputs[Lookup Input]"
+              name="Lookup Match Output"
+              startId="Package\Populating Przewoz_Pasazera\Lookup data (DW).Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output7]"
+              endId="Package\Populating Przewoz_Pasazera\Sort by ID (min).Inputs[Sort Input]"
+              name="Lookup Match Output"
+              startId="Package\Populating Przewoz_Pasazera\Lookup for Nazwa_Stacji (min).Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output6]"
+              endId="Package\Populating Przewoz_Pasazera\Lookup data (DW).Inputs[Lookup Input]"
+              name="Lookup Match Output"
+              startId="Package\Populating Przewoz_Pasazera\Lookup Trasa (DW).Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output11]"
               endId="Package\Populating Przewoz_Pasazera\Sort by ID (max).Inputs[Sort Input]"
               name="Lookup Match Output"
               startId="Package\Populating Przewoz_Pasazera\Lookup for Nazwa_Stacji (max).Outputs[Lookup Match Output]" />
             <path
-              refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output]"
-              endId="Package\Populating Przewoz_Pasazera\Union All.Inputs[Union All Input 2]"
+              refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output4]"
+              endId="Package\Populating Przewoz_Pasazera\Union All.Inputs[Union All Input 1]"
               name="Lookup Match Output"
-              startId="Package\Populating Przewoz_Pasazera\Lookup.Outputs[Lookup Match Output]" />
+              startId="Package\Populating Przewoz_Pasazera\Lookup Dystans (Cache).Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output3]"
+              endId="Package\Populating Przewoz_Pasazera\Sort.Inputs[Sort Input]"
+              name="Lookup Match Output"
+              startId="Package\Populating Przewoz_Pasazera\Lookup Kurs (TwojBilet).Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output2]"
+              endId="Package\Populating Przewoz_Pasazera\Lookup Dystans (Cache).Inputs[Lookup Input]"
+              name="Lookup Match Output"
+              startId="Package\Populating Przewoz_Pasazera\Lookup Junk (DW).Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output1]"
+              endId="Package\Populating Przewoz_Pasazera\Lookup Junk (DW).Inputs[Lookup Input]"
+              name="Lookup Match Output"
+              startId="Package\Populating Przewoz_Pasazera\Lookup Stacja (DW) - Stacja_Koncowa.Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output5]"
+              endId="Package\Populating Przewoz_Pasazera\Lookup Kurs (DW).Inputs[Lookup Input]"
+              name="Lookup Match Output"
+              startId="Package\Populating Przewoz_Pasazera\Lookup Czas (DW).Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output]"
+              endId="Package\Populating Przewoz_Pasazera\Lookup Stacja (DW) - Stacja_Koncowa.Inputs[Lookup Input]"
+              name="Lookup Match Output"
+              startId="Package\Populating Przewoz_Pasazera\Lookup Stacja (DW) - Stacja_Poczatkowa.Outputs[Lookup Match Output]" />
             <path
               refId="Package\Populating Przewoz_Pasazera.Paths[Lookup No Match Output]"
               endId="Package\Populating Przewoz_Pasazera\Lookup.Inputs[Lookup Input]"
@@ -16266,6 +16299,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 3"
       DTS:To="Package\Populating Przewoz_Pasazera" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 4]"
+      DTS:CreationName=""
+      DTS:DTSID="{9433FAE0-B4EA-4774-BE82-34216955AD9C}"
+      DTS:From="Package\Populating Przewoz_Pasazera"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 4"
+      DTS:To="Package\Analysis Services Processing Task" />
   </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
@@ -16403,6 +16444,32 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                     Point3="-214,66.5679758308157" />
                   <mssgle:LineSegment
                     End="-214,87.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="237,42"
+          Id="Package\Analysis Services Processing Task"
+          TopLeft="704,422" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 4]"
+          TopLeft="823.75,349">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,73"
+              Start="0,0"
+              End="0,65.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,65.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -17266,57 +17333,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
       <GraphLayout
         Capacity="128" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="171,42"
-          Id="Package\Populating Przewoz_Pasazera\Lookup Trasa (DW)"
-          TopLeft="321,964" />
-        <NodeLayout
-          Size="221,42"
-          Id="Package\Populating Przewoz_Pasazera\Remove unnecesarry columns"
-          TopLeft="300,1258" />
-        <NodeLayout
-          Size="192,42"
-          Id="Package\Populating Przewoz_Pasazera\Stacja-Trasa (TwojBilet)"
-          TopLeft="358,39" />
-        <NodeLayout
-          Size="176,42"
-          Id="Package\Populating Przewoz_Pasazera\Create Nazwa_Trasy"
-          TopLeft="150,626" />
-        <NodeLayout
-          Size="98,42"
-          Id="Package\Populating Przewoz_Pasazera\Sort"
-          TopLeft="506,670" />
-        <NodeLayout
-          Size="226,42"
-          Id="Package\Populating Przewoz_Pasazera\Lookup for Nazwa_Stacji (max)"
-          TopLeft="55,345" />
-        <NodeLayout
-          Size="165,42"
-          Id="Package\Populating Przewoz_Pasazera\Lookup data (DW)"
-          TopLeft="324,1036" />
-        <NodeLayout
-          Size="166,42"
-          Id="Package\Populating Przewoz_Pasazera\Lookup Kurs (DW)"
-          TopLeft="327,1172" />
-        <NodeLayout
-          Size="139,42"
-          Id="Package\Populating Przewoz_Pasazera\Merge Join 1"
-          TopLeft="326,739" />
-        <NodeLayout
-          Size="274,42"
-          Id="Package\Populating Przewoz_Pasazera\Lookup Stacja (DW) - Stacja_Poczatkowa"
-          TopLeft="286,1528" />
-        <NodeLayout
           Size="172,42"
           Id="Package\Populating Przewoz_Pasazera\Dropping old values"
           TopLeft="359,1949" />
-        <NodeLayout
-          Size="235,42"
-          Id="Package\Populating Przewoz_Pasazera\Create Miesiac_Slownie (Zakupu)"
-          TopLeft="294,1391" />
-        <NodeLayout
-          Size="156,42"
-          Id="Package\Populating Przewoz_Pasazera\Sort by ID (min)"
-          TopLeft="376,447" />
         <NodeLayout
           Size="193,42"
           Id="Package\Populating Przewoz_Pasazera\Przewoz_Pasazera (DW)"
@@ -17330,9 +17349,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
           Id="Package\Populating Przewoz_Pasazera\Sort by ID (max)"
           TopLeft="157.666666666667,445" />
         <NodeLayout
-          Size="130,42"
-          Id="Package\Populating Przewoz_Pasazera\Merge Join"
-          TopLeft="171,549" />
+          Size="176,42"
+          Id="Package\Populating Przewoz_Pasazera\Create Nazwa_Trasy"
+          TopLeft="150,626" />
         <NodeLayout
           Size="120,42"
           Id="Package\Populating Przewoz_Pasazera\Multicast"
@@ -17354,6 +17373,10 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
           Id="Package\Populating Przewoz_Pasazera\Lookup Junk (DW)"
           TopLeft="340,1673" />
         <NodeLayout
+          Size="235,42"
+          Id="Package\Populating Przewoz_Pasazera\Create Miesiac_Slownie (Zakupu)"
+          TopLeft="294,1391" />
+        <NodeLayout
           Size="146,42"
           Id="Package\Populating Przewoz_Pasazera\Separate Date"
           TopLeft="337,1323" />
@@ -17365,6 +17388,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
           Size="96,42"
           Id="Package\Populating Przewoz_Pasazera\Min"
           TopLeft="406,243" />
+        <NodeLayout
+          Size="189,42"
+          Id="Package\Populating Przewoz_Pasazera\Create Miesiac_Slownie"
+          TopLeft="306,893.5" />
+        <NodeLayout
+          Size="113,42"
+          Id="Package\Populating Przewoz_Pasazera\Lookup"
+          TopLeft="559,1775" />
         <NodeLayout
           Size="167,42"
           Id="Package\Populating Przewoz_Pasazera\Lookup Data (DW)"
@@ -17378,225 +17409,57 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
           Id="Package\Populating Przewoz_Pasazera\Lookup for Nazwa_Stacji (min)"
           TopLeft="342,345" />
         <NodeLayout
+          Size="192,42"
+          Id="Package\Populating Przewoz_Pasazera\Stacja-Trasa (TwojBilet)"
+          TopLeft="358,39" />
+        <NodeLayout
+          Size="171,42"
+          Id="Package\Populating Przewoz_Pasazera\Lookup Trasa (DW)"
+          TopLeft="321,964" />
+        <NodeLayout
+          Size="221,42"
+          Id="Package\Populating Przewoz_Pasazera\Remove unnecesarry columns"
+          TopLeft="300,1258" />
+        <NodeLayout
+          Size="130,42"
+          Id="Package\Populating Przewoz_Pasazera\Merge Join"
+          TopLeft="171,549" />
+        <NodeLayout
+          Size="156,42"
+          Id="Package\Populating Przewoz_Pasazera\Sort by ID (min)"
+          TopLeft="376,447" />
+        <NodeLayout
+          Size="121,42"
+          Id="Package\Populating Przewoz_Pasazera\Union All"
+          TopLeft="384,1867" />
+        <NodeLayout
+          Size="98,42"
+          Id="Package\Populating Przewoz_Pasazera\Sort"
+          TopLeft="506,670" />
+        <NodeLayout
+          Size="226,42"
+          Id="Package\Populating Przewoz_Pasazera\Lookup for Nazwa_Stacji (max)"
+          TopLeft="55,345" />
+        <NodeLayout
+          Size="165,42"
+          Id="Package\Populating Przewoz_Pasazera\Lookup data (DW)"
+          TopLeft="324,1036" />
+        <NodeLayout
+          Size="166,42"
+          Id="Package\Populating Przewoz_Pasazera\Lookup Kurs (DW)"
+          TopLeft="327,1172" />
+        <NodeLayout
           Size="154,42"
           Id="Package\Populating Przewoz_Pasazera\Bilet (TwojBilet)"
           TopLeft="473,517" />
         <NodeLayout
-          Size="189,42"
-          Id="Package\Populating Przewoz_Pasazera\Create Miesiac_Slownie"
-          TopLeft="306,893.5" />
-        <EdgeLayout
-          Id="Package\Populating Przewoz_Pasazera.Paths[Union All Output 1]"
-          TopLeft="410.25,1300">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,23"
-              Start="0,0"
-              End="0,15.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,15.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populating Przewoz_Pasazera.Paths[Sort Output2]"
-          TopLeft="237.166666666667,487">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-21.5000000000003,62"
-              Start="0,0"
-              End="-21.5000000000003,54.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,32.7477203647417" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,32.7477203647417"
-                    Point2="0,36.7477203647417"
-                    Point3="-4,36.7477203647417" />
-                  <mssgle:LineSegment
-                    End="-17.5000000000003,36.7477203647417" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-17.5000000000003,36.7477203647417"
-                    Point2="-21.5000000000003,36.7477203647417"
-                    Point3="-21.5000000000003,40.7477203647417" />
-                  <mssgle:LineSegment
-                    End="-21.5000000000003,54.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populating Przewoz_Pasazera.Paths[Sort Output1]"
-          TopLeft="555,712">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-137.666666666667,27"
-              Start="0,0"
-              End="-137.666666666667,19.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,12.0156472261735" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,12.0156472261735"
-                    Point2="0,16.0156472261735"
-                    Point3="-4,16.0156472261735" />
-                  <mssgle:LineSegment
-                    End="-133.666666666667,16.0156472261735" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-133.666666666667,16.0156472261735"
-                    Point2="-137.666666666667,16.0156472261735"
-                    Point3="-137.666666666667,20.0156472261735" />
-                  <mssgle:LineSegment
-                    End="-137.666666666667,19.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populating Przewoz_Pasazera.Paths[Sort Output]"
-          TopLeft="454,489">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-197.666666666667,60"
-              Start="0,0"
-              End="-197.666666666667,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,31.5623100303951" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,31.5623100303951"
-                    Point2="0,35.5623100303951"
-                    Point3="-4,35.5623100303951" />
-                  <mssgle:LineSegment
-                    End="-193.666666666667,35.5623100303951" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-193.666666666667,35.5623100303951"
-                    Point2="-197.666666666667,35.5623100303951"
-                    Point3="-197.666666666667,39.5623100303951" />
-                  <mssgle:LineSegment
-                    End="-197.666666666667,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populating Przewoz_Pasazera.Paths[Output 01]"
-          TopLeft="403.5,935.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,28.5"
-              Start="0,0"
-              End="0,21">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,21" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populating Przewoz_Pasazera.Paths[Output 0]"
-          TopLeft="414,1433">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,26"
-              Start="0,0"
-              End="0,18.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,18.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populating Przewoz_Pasazera.Paths[OLE DB Source Output1]"
-          TopLeft="551,559">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,23"
-              Start="0,0"
-              End="0,15.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,15.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populating Przewoz_Pasazera.Paths[OLE DB Source Output]"
-          TopLeft="454,81">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,60"
-              Start="0,0"
-              End="0,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+          Size="139,42"
+          Id="Package\Populating Przewoz_Pasazera\Merge Join 1"
+          TopLeft="326,739" />
+        <NodeLayout
+          Size="274,42"
+          Id="Package\Populating Przewoz_Pasazera\Lookup Stacja (DW) - Stacja_Poczatkowa"
+          TopLeft="286,1528" />
         <EdgeLayout
           Id="Package\Populating Przewoz_Pasazera.Paths[Multicast Output 2]"
           TopLeft="435.333333333333,183">
@@ -17628,7 +17491,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -17662,29 +17527,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populating Przewoz_Pasazera.Paths[Merge Join Output]"
-          TopLeft="237,591">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,35"
-              Start="0,0"
-              End="0,27.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,27.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -17706,7 +17551,33 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populating Przewoz_Pasazera.Paths[Merge Join Output]"
+          TopLeft="237,591">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,35"
+              Start="0,0"
+              End="0,27.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,27.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -17734,139 +17605,31 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output1]"
-          TopLeft="410.25,1214">
+          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup No Match Output]"
+          TopLeft="471,1793">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,44"
+              EndConnector="88,0"
               Start="0,0"
-              End="0,36.5">
+              End="80.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,36.5" />
+                    End="80.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,12.4453125,96.3827734375,11.609375"
+              BoundingBox="-15.55638671875,5,111.6127734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output2]"
-          TopLeft="419.75,1501">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,27"
-              Start="0,0"
-              End="0,19.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,19.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,3.9453125,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output3]"
-          TopLeft="404.75,1078">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,25"
-              Start="0,0"
-              End="0,17.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,17.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,2.9453125,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output4]"
-          TopLeft="454,387">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,60"
-              Start="0,0"
-              End="0,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,20.4453125,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output5]"
-          TopLeft="168,387">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="69.166666666667,58"
-              Start="0,0"
-              End="69.166666666667,50.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,25" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,25"
-                    Point2="0,29"
-                    Point3="4,29" />
-                  <mssgle:LineSegment
-                    End="65.166666666667,29" />
-                  <mssgle:CubicBezierSegment
-                    Point1="65.166666666667,29"
-                    Point2="69.166666666667,29"
-                    Point3="69.166666666667,33" />
-                  <mssgle:LineSegment
-                    End="69.166666666667,50.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-13.6080533854165,34,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output12]"
+          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output]"
           TopLeft="422.25,1570">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -17891,54 +17654,54 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output6]"
-          TopLeft="406.5,1145">
+          TopLeft="406.5,1006">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,27"
+              EndConnector="0,30"
               Start="0,0"
-              End="0,19.5">
+              End="0,22.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,19.5" />
+                    End="0,22.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,3.9453125,96.3827734375,11.609375"
+              BoundingBox="-48.19138671875,5.4453125,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output8]"
-          TopLeft="553.5,624">
+          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output1]"
+          TopLeft="422.25,1636">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,46"
+              EndConnector="0,37"
               Start="0,0"
-              End="0,38.5">
+              End="0,29.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,38.5" />
+                    End="0,29.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,13.4453125,96.3827734375,11.609375"
+              BoundingBox="-48.19138671875,8.9453125,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output9]"
+          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output2]"
           TopLeft="423,1715">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -17974,221 +17737,31 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output10]"
-          TopLeft="422.25,1636">
+          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output3]"
+          TopLeft="553.5,624">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,37"
+              EndConnector="0,46"
               Start="0,0"
-              End="0,29.5">
+              End="0,38.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,29.5" />
+                    End="0,38.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,8.9453125,96.3827734375,11.609375"
+              BoundingBox="-48.19138671875,13.4453125,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output11]"
-          TopLeft="406.5,1006">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,30"
-              Start="0,0"
-              End="0,22.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,22.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,5.4453125,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populating Przewoz_Pasazera.Paths[Derived Column Output2]"
-          TopLeft="238,668">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="135.666666666667,71"
-              Start="0,0"
-              End="135.666666666667,63.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,38.1152204836415" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,38.1152204836415"
-                    Point2="0,42.1152204836415"
-                    Point3="4,42.1152204836415" />
-                  <mssgle:LineSegment
-                    End="131.666666666667,42.1152204836415" />
-                  <mssgle:CubicBezierSegment
-                    Point1="131.666666666667,42.1152204836415"
-                    Point2="135.666666666667,42.1152204836415"
-                    Point3="135.666666666667,46.1152204836415" />
-                  <mssgle:LineSegment
-                    End="135.666666666667,63.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populating Przewoz_Pasazera.Paths[Derived Column Output1]"
-          TopLeft="410.75,1365">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,26"
-              Start="0,0"
-              End="0,18.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,18.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populating Przewoz_Pasazera.Paths[Derived Column Output]"
-          TopLeft="401.25,862">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,31.5"
-              Start="0,0"
-              End="0,24">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,24" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populating Przewoz_Pasazera.Paths[Aggregate Output 11]"
-          TopLeft="454,285">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,60"
-              Start="0,0"
-              End="0,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populating Przewoz_Pasazera.Paths[Aggregate Output 1]"
-          TopLeft="296,285">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-128,60"
-              Start="0,0"
-              End="-128,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,26"
-                    Point2="0,30"
-                    Point3="-4,30" />
-                  <mssgle:LineSegment
-                    End="-124,30" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-124,30"
-                    Point2="-128,30"
-                    Point3="-128,34" />
-                  <mssgle:LineSegment
-                    End="-128,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="113,42"
-          Id="Package\Populating Przewoz_Pasazera\Lookup"
-          TopLeft="559,1775" />
-        <EdgeLayout
-          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup No Match Output]"
-          TopLeft="471,1793">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="88,0"
-              Start="0,0"
-              End="80.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="80.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-15.55638671875,5,111.6127734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="121,42"
-          Id="Package\Populating Przewoz_Pasazera\Union All"
-          TopLeft="384,1867" />
-        <EdgeLayout
-          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output7]"
+          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output4]"
           TopLeft="374,1811">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -18224,7 +17797,163 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output]"
+          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output5]"
+          TopLeft="406.5,1145">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,27"
+              Start="0,0"
+              End="0,19.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,19.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,3.9453125,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output11]"
+          TopLeft="168,387">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="69.166666666667,58"
+              Start="0,0"
+              End="69.166666666667,50.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,25" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,25"
+                    Point2="0,29"
+                    Point3="4,29" />
+                  <mssgle:LineSegment
+                    End="65.166666666667,29" />
+                  <mssgle:CubicBezierSegment
+                    Point1="65.166666666667,29"
+                    Point2="69.166666666667,29"
+                    Point3="69.166666666667,33" />
+                  <mssgle:LineSegment
+                    End="69.166666666667,50.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-13.6080533854165,34,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output7]"
+          TopLeft="454,387">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,20.4453125,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output8]"
+          TopLeft="404.75,1078">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,25"
+              Start="0,0"
+              End="0,17.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,17.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,2.9453125,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output9]"
+          TopLeft="419.75,1501">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,27"
+              Start="0,0"
+              End="0,19.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,19.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,3.9453125,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output10]"
+          TopLeft="410.25,1214">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,44"
+              Start="0,0"
+              End="0,36.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,36.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,12.4453125,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output12]"
           TopLeft="615.5,1817">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -18260,6 +17989,150 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
+          Id="Package\Populating Przewoz_Pasazera.Paths[Derived Column Output2]"
+          TopLeft="238,668">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="135.666666666667,71"
+              Start="0,0"
+              End="135.666666666667,63.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,38.1152204836415" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,38.1152204836415"
+                    Point2="0,42.1152204836415"
+                    Point3="4,42.1152204836415" />
+                  <mssgle:LineSegment
+                    End="131.666666666667,42.1152204836415" />
+                  <mssgle:CubicBezierSegment
+                    Point1="131.666666666667,42.1152204836415"
+                    Point2="135.666666666667,42.1152204836415"
+                    Point3="135.666666666667,46.1152204836415" />
+                  <mssgle:LineSegment
+                    End="135.666666666667,63.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populating Przewoz_Pasazera.Paths[Derived Column Output1]"
+          TopLeft="410.75,1365">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,26"
+              Start="0,0"
+              End="0,18.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,18.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populating Przewoz_Pasazera.Paths[Derived Column Output]"
+          TopLeft="401.25,862">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,31.5"
+              Start="0,0"
+              End="0,24">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,24" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populating Przewoz_Pasazera.Paths[Aggregate Output 11]"
+          TopLeft="454,285">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populating Przewoz_Pasazera.Paths[Aggregate Output 1]"
+          TopLeft="296,285">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-128,60"
+              Start="0,0"
+              End="-128,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26"
+                    Point2="0,30"
+                    Point3="-4,30" />
+                  <mssgle:LineSegment
+                    End="-124,30" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-124,30"
+                    Point2="-128,30"
+                    Point3="-128,34" />
+                  <mssgle:LineSegment
+                    End="-128,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
           Id="Package\Populating Przewoz_Pasazera.Paths[Union All Output 11]"
           TopLeft="444.75,1909">
           <EdgeLayout.Curve>
@@ -18278,104 +18151,242 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populating Przewoz_Pasazera.Paths[Union All Output 1]"
+          TopLeft="410.25,1300">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,23"
+              Start="0,0"
+              End="0,15.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,15.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populating Przewoz_Pasazera.Paths[Sort Output2]"
+          TopLeft="237.166666666667,487">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-21.5000000000003,62"
+              Start="0,0"
+              End="-21.5000000000003,54.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,32.7477203647417" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,32.7477203647417"
+                    Point2="0,36.7477203647417"
+                    Point3="-4,36.7477203647417" />
+                  <mssgle:LineSegment
+                    End="-17.5000000000003,36.7477203647417" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-17.5000000000003,36.7477203647417"
+                    Point2="-21.5000000000003,36.7477203647417"
+                    Point3="-21.5000000000003,40.7477203647417" />
+                  <mssgle:LineSegment
+                    End="-21.5000000000003,54.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populating Przewoz_Pasazera.Paths[Sort Output1]"
+          TopLeft="555,712">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-137.666666666667,27"
+              Start="0,0"
+              End="-137.666666666667,19.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,12.0156472261735" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,12.0156472261735"
+                    Point2="0,16.0156472261735"
+                    Point3="-4,16.0156472261735" />
+                  <mssgle:LineSegment
+                    End="-133.666666666667,16.0156472261735" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-133.666666666667,16.0156472261735"
+                    Point2="-137.666666666667,16.0156472261735"
+                    Point3="-137.666666666667,20.0156472261735" />
+                  <mssgle:LineSegment
+                    End="-137.666666666667,19.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populating Przewoz_Pasazera.Paths[Sort Output]"
+          TopLeft="454,489">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-197.666666666667,60"
+              Start="0,0"
+              End="-197.666666666667,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,31.5623100303951" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,31.5623100303951"
+                    Point2="0,35.5623100303951"
+                    Point3="-4,35.5623100303951" />
+                  <mssgle:LineSegment
+                    End="-193.666666666667,35.5623100303951" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-193.666666666667,35.5623100303951"
+                    Point2="-197.666666666667,35.5623100303951"
+                    Point3="-197.666666666667,39.5623100303951" />
+                  <mssgle:LineSegment
+                    End="-197.666666666667,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populating Przewoz_Pasazera.Paths[Output 01]"
+          TopLeft="403.5,935.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,28.5"
+              Start="0,0"
+              End="0,21">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,21" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populating Przewoz_Pasazera.Paths[Output 0]"
+          TopLeft="414,1433">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,26"
+              Start="0,0"
+              End="0,18.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,18.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populating Przewoz_Pasazera.Paths[OLE DB Source Output1]"
+          TopLeft="551,559">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,23"
+              Start="0,0"
+              End="0,15.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,15.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populating Przewoz_Pasazera.Paths[OLE DB Source Output]"
+          TopLeft="454,81">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Populating Przewoz_Pasazera\Lookup Trasa (DW)">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:string">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[Trasa]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:string">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Populating Przewoz_Pasazera\Lookup data (DW)">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:string">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[Data]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:string">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Populating Przewoz_Pasazera\Lookup Kurs (DW)">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:string">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[Kurs]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:string">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Populating Przewoz_Pasazera\Lookup Stacja (DW) - Stacja_Poczatkowa">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:string">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[Stacja]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:string">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Populating Przewoz_Pasazera\Dropping old values">
     <Properties>
@@ -18492,6 +18503,29 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
+    design-time-name="Package\Populating Przewoz_Pasazera\Lookup">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string"></Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
     design-time-name="Package\Populating Przewoz_Pasazera\Lookup Data (DW)">
     <Properties>
       <Property>
@@ -18538,6 +18572,75 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
+    design-time-name="Package\Populating Przewoz_Pasazera\Lookup Trasa (DW)">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[Trasa]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Populating Przewoz_Pasazera\Lookup data (DW)">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[Data]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Populating Przewoz_Pasazera\Lookup Kurs (DW)">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[Kurs]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
     design-time-name="Package\Populating Przewoz_Pasazera\Bilet (TwojBilet)">
     <Properties>
       <Property>
@@ -18547,6 +18650,29 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
         <Name>TableInfoObjectType</Name>
         <Value
           type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Populating Przewoz_Pasazera\Lookup Stacja (DW) - Stacja_Poczatkowa">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[Stacja]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
@@ -19392,28 +19518,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Populating Przewoz_Pasazera\Lookup">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string"></Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
+  <ConnectionManager
+    design-time-name="Package.ConnectionManagers[.\DATAWAREHOUSES]">
+    <ProjectReferenceName></ProjectReferenceName>
+  </ConnectionManager>
 </Objects>]]></DTS:DesignTimeProperties>
 </DTS:Executable>

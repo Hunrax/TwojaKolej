@@ -11,8 +11,8 @@
   DTS:LocaleID="1045"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="5"
-  DTS:VersionGUID="{65691025-3785-4E7A-8953-CB809A760298}">
+  DTS:VersionBuild="6"
+  DTS:VersionGUID="{E753FA24-47D3-4F8B-BBB4-DD5ADDC12B74}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -23,7 +23,7 @@
       DTS:ObjectName="date.sql">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="C:\Users\Radek\Desktop\ETL process\scripts\date.sql" />
+          DTS:ConnectionString="D:\INNE\Studia\5 SEMESTR\HURTOWNIE DANYCH\TwojaKolej\Lab5\ETL process\scripts\date.sql" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -45,7 +45,7 @@
       DTS:ObjectName="junk.sql">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="C:\Users\Radek\Desktop\ETL process\scripts\junk.sql" />
+          DTS:ConnectionString="D:\INNE\Studia\5 SEMESTR\HURTOWNIE DANYCH\TwojaKolej\Lab5\ETL process\scripts\junk.sql" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -55,7 +55,7 @@
       DTS:ObjectName="time.sql">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="C:\Users\Radek\Desktop\ETL process\scripts\time.sql" />
+          DTS:ConnectionString="D:\INNE\Studia\5 SEMESTR\HURTOWNIE DANYCH\TwojaKolej\Lab5\ETL process\scripts\time.sql" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>

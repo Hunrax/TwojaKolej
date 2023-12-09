@@ -6,8 +6,6 @@ go
 use DataWarehouse
 go
 
-select * from Przewoz_Pasazera
-
 create table Trasa(
     ID_Trasy int identity(1, 1) primary key,
     Nazwa varchar(70) unique not null,
@@ -25,7 +23,8 @@ create table Data(
     ID_Daty int identity(1, 1) primary key,
     Dzien char(2) check (Dzien like '[0-3][0-9]') not null,
     Miesiac varchar(11) check (Miesiac in('Styczen', 'Luty', 'Marzec', 'Kwiecien', 'Maj', 'Czerwiec', 'Lipiec', 'Sierpien', 'Wrzesien', 'Pazdziernik', 'Listopad', 'Grudzien')) not null,
-    Rok char(4) check (Rok like '[0-9][0-9][0-9][0-9]') not null,
+    Miesiac_No int not null, 
+	Rok char(4) check (Rok like '[0-9][0-9][0-9][0-9]') not null,
     Dzien_Tygodnia varchar(12) check (Dzien_Tygodnia in('Poniedzialek', 'Wtorek', 'Sroda', 'Czwartek', 'Piatek', 'Sobota', 'Niedziela')) not null,
     Dzien_Pracy varchar(11) check (Dzien_Pracy in('Dzien pracy', 'Dzien wolny')) not null,
     Wakacje varchar(11) check (Wakacje in('Wakacje', 'Ferie', 'Rok szkolny')) not null,

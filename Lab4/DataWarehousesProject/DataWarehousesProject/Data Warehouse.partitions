@@ -1,63 +1,454 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="691843f2-4ce0-4434-8a98-dab7254a5951" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="80a1dfab-826b-4b6f-a9cb-c67f784bb6f1" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Data Warehouse</ID>
   <MeasureGroups>
     <MeasureGroup>
       <ID>Przewoz Pasazera</ID>
       <Partitions>
-        <Partition dwd:design-time-name="748ac2bd-99f3-40f3-afc5-255314e710b4">
+        <Partition dwd:design-time-name="c4fe5cc3-905f-4e62-b718-04422f4d11b1">
           <ID>Przewoz Pasazera</ID>
           <Name>Przewoz Pasazera</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="c622a7e8-0c3a-4d89-88bc-fa25515365d4">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="3c6f9dff-5ab5-4665-95fe-70c2580d3062">
             <DataSourceViewID>Data Warehouse</DataSourceViewID>
             <TableID>dbo_Przewoz_Pasazera</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching dwd:design-time-name="1d6cc509-8d33-441b-8bfa-eefe6de1da18">
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <AggregationStorage>MolapOnly</AggregationStorage>
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="8c3e4920-1587-4dcd-abaf-28b2252116b0">
+              <NotificationTechnique>Server</NotificationTechnique>
+            </Source>
+          </ProactiveCaching>
+          <EstimatedRows>500000</EstimatedRows>
+          <AggregationDesignID>AggregationDesign</AggregationDesignID>
         </Partition>
       </Partitions>
+      <AggregationDesigns>
+        <AggregationDesign>
+          <ID>AggregationDesign</ID>
+          <Name>AggregationDesign</Name>
+          <CreatedTimestamp>2023-12-16T11:33:53.5Z</CreatedTimestamp>
+          <LastSchemaUpdate>2023-12-16T11:33:53.5Z</LastSchemaUpdate>
+          <EstimatedRows>500000</EstimatedRows>
+          <Dimensions>
+            <Dimension>
+              <CubeDimensionID>Kurs</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>ID Kursu</AttributeID>
+                  <EstimatedCount>95502</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>ID Czasu</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>ID Trasy</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>ID Daty</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>ID Stacja Koncowa</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>ID Stacji</AttributeID>
+                  <EstimatedCount>500</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Nazwa</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Miejscowosc</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Data</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>ID Daty</AttributeID>
+                  <EstimatedCount>365</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Dzien</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Miesiac</AttributeID>
+                  <EstimatedCount>12</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Rok</AttributeID>
+                  <EstimatedCount>1</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Dzien Tygodnia</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Dzien Pracy</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Wakacje</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Swieta</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Okolice Swiat</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Miesiac No</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Ordering Miesiac on Data Miesiac_No</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>ID Stacja Poczatkowa</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>ID Stacji</AttributeID>
+                  <EstimatedCount>500</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Nazwa</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Miejscowosc</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Junk</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>ID Junk</AttributeID>
+                  <EstimatedCount>72</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Klasa</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Ulga</AttributeID>
+                  <EstimatedCount>12</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Sposob Zakupu</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Czas</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>ID Czasu</AttributeID>
+                  <EstimatedCount>1440</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Godzina</AttributeID>
+                  <EstimatedCount>24</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Minuta</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Godziny Szczytu</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Trasa</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>ID Trasy</AttributeID>
+                  <EstimatedCount>999</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Dlugosc</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Czas Trwania</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Nazwa</AttributeID>
+                  <EstimatedCount>999</EstimatedCount>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Kurs - ID Daty</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>ID Daty</AttributeID>
+                  <EstimatedCount>365</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Dzien</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Miesiac</AttributeID>
+                  <EstimatedCount>12</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Rok</AttributeID>
+                  <EstimatedCount>1</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Dzien Tygodnia</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Dzien Pracy</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Wakacje</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Swieta</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Okolice Swiat</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Miesiac No</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Ordering Miesiac on Data Miesiac_No</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Numer biletu</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Numer Biletu</AttributeID>
+                  <EstimatedCount>500000</EstimatedCount>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+          </Dimensions>
+          <Aggregations>
+            <Aggregation>
+              <ID>Aggregation 0</ID>
+              <Name>Aggregation 0</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Kurs</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>ID Stacja Koncowa</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Data</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Rok</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Miesiac</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>ID Stacja Poczatkowa</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Junk</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>ID Junk</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Czas</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Trasa</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Kurs - ID Daty</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Rok</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Numer biletu</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 1</ID>
+              <Name>Aggregation 1</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Kurs</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>ID Stacja Koncowa</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Data</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Rok</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Miesiac</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>ID Stacja Poczatkowa</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Junk</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Ulga</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Czas</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Godzina</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Trasa</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Kurs - ID Daty</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Rok</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Numer biletu</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 2</ID>
+              <Name>Aggregation 2</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Kurs</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>ID Stacja Koncowa</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Data</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>ID Daty</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>ID Stacja Poczatkowa</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Junk</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Ulga</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Czas</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Trasa</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Kurs - ID Daty</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Numer biletu</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+          </Aggregations>
+        </AggregationDesign>
+      </AggregationDesigns>
     </MeasureGroup>
     <MeasureGroup>
       <ID>Kurs</ID>
       <Partitions>
-        <Partition dwd:design-time-name="64be70fd-9f8a-4623-9c05-436351b5fc5b">
+        <Partition dwd:design-time-name="40b4cf63-84ac-4365-88fd-69866a0178f1">
           <ID>Kurs</ID>
           <Name>Kurs</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="0b3d1b07-116c-46a9-a508-a0dfd9d30b96">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="acd6a2ca-092c-4627-a01d-f5b9633c717e">
             <DataSourceViewID>Data Warehouse</DataSourceViewID>
             <TableID>dbo_Kurs</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching dwd:design-time-name="84efac39-56d1-4504-840f-258262a519d1">
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <AggregationStorage>MolapOnly</AggregationStorage>
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="ac2666ef-8490-4350-b5e8-fbd2f0bad1ff">
+              <NotificationTechnique>Server</NotificationTechnique>
+            </Source>
+          </ProactiveCaching>
         </Partition>
       </Partitions>
     </MeasureGroup>
     <MeasureGroup>
       <ID>Kurs 1</ID>
       <Partitions>
-        <Partition dwd:design-time-name="e233398c-120f-42be-83b3-9e1a8f639edf">
+        <Partition dwd:design-time-name="ca7b1b2a-0758-4b7c-9193-baf542776eaa">
           <ID>Kurs</ID>
           <Name>Kurs</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="b95f5549-fc33-49a9-a595-d9b0370c9ac4">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="5411f552-f697-4da8-9830-3298cdc64d07">
             <DataSourceViewID>Data Warehouse</DataSourceViewID>
             <TableID>dbo_Kurs</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching dwd:design-time-name="67996588-fd5d-4b67-ac92-5028c51e4774">
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <AggregationStorage>MolapOnly</AggregationStorage>
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="954effd9-edb8-4158-b05f-0dab93b84a01">
+              <NotificationTechnique>Server</NotificationTechnique>
+            </Source>
+          </ProactiveCaching>
         </Partition>
       </Partitions>
     </MeasureGroup>

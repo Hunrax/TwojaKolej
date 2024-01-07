@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="6e08ef36-5915-4170-9200-923387a1755a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="ef3e45e8-33d3-449a-aaa9-e22bc13cb4e3" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Junk</ID>
   <Name>Junk</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,9 +8,9 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4333" scrolltop="-9658" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="12012" y="22040" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4333" scrolltop="-9658" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="0" y="0" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
-              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+              <ddsxmlobjectstreamwrapper binary="01010000900180380100065461686f6d61" />
             </font>
             <mouseicon>
               <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
@@ -19,7 +19,7 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Junk" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3307" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Junk" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3307" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000eb0c0000a50a0000" />
             </control>
@@ -68,41 +68,42 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="cc1cc46f-7cca-4856-9607-ffe0a54c6b6d">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="e162f56b-9450-4f98-b25f-bddabf43f07d">
     <DataSourceViewID>Data Warehouse</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="4eb5ff72-c766-46d6-85e3-731b0c1a926c">
+  <ErrorConfiguration dwd:design-time-name="2ae4a48c-2f9a-4886-8506-cded9539867f">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="aac29ee9-e966-4a8b-85c1-5af45dfda766">
+    <Attribute dwd:design-time-name="fdf73724-bc91-4df4-b043-d6661a07a9b2">
       <ID>ID Junk</ID>
       <Name>ID Junk</Name>
       <Usage>Key</Usage>
+      <EstimatedCount>72</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="f747e89c-62e0-405e-a846-7cb6393e8d60">
+        <KeyColumn dwd:design-time-name="a8e3b298-9180-4654-9954-dcafd7572aad">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="2987907f-e5c2-4f4c-9452-51028e160a6d">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="75e7a79c-746e-4f4e-89a4-c35741dcae2a">
             <TableID>dbo_Junk</TableID>
             <ColumnID>ID_Junk</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="08903e60-8cc6-462f-9f8e-1ac0bc252bbe">
+        <AttributeRelationship dwd:design-time-name="954aefc2-4452-4340-8185-89e042bb71da">
           <AttributeID>Klasa</AttributeID>
           <Name>Klasa</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="eb72cad8-04a9-4ad9-a0bc-1d958e896ff6">
+        <AttributeRelationship dwd:design-time-name="8e4cd4bb-9a0f-441a-8fbe-4e847c8ab3a4">
           <AttributeID>Ulga</AttributeID>
           <Name>Ulga</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="809435f5-069b-4039-94c8-9737aa5a1c26">
+        <AttributeRelationship dwd:design-time-name="470fb876-f1c2-4812-a5b6-b9120d0f3716">
           <AttributeID>Sposob Zakupu</AttributeID>
           <Name>Sposob Zakupu</Name>
         </AttributeRelationship>
@@ -111,14 +112,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="5296a7ee-2d23-45c6-b9f2-fe31e4f4c951">
+    <Attribute dwd:design-time-name="631a8a7d-e3f0-4f52-83b6-a19d566f3660">
       <ID>Klasa</ID>
       <Name>Klasa</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="e7b63d6b-8c81-436e-b95e-cea9e2cb9f0b">
+        <KeyColumn dwd:design-time-name="779e3d06-e2e9-47d1-99fe-9403209883e3">
           <DataType>WChar</DataType>
           <DataSize>2</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="c3d75866-bcad-4dc2-9d73-3bc48bc2aaea">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a96fa769-3258-4b63-83b9-47ade6753e1e">
             <TableID>dbo_Junk</TableID>
             <ColumnID>Klasa</ColumnID>
           </Source>
@@ -127,14 +128,15 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="5a37973f-4ecd-44c4-82b6-aa82c24177bc">
+    <Attribute dwd:design-time-name="519f663e-034d-40c4-887f-248d0f075045">
       <ID>Ulga</ID>
       <Name>Ulga</Name>
+      <EstimatedCount>12</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="38db64b5-302e-4da6-9c31-8d40fb774aa4">
+        <KeyColumn dwd:design-time-name="b7e8aabf-9a9d-4cfa-867e-3145604fb499">
           <DataType>WChar</DataType>
           <DataSize>4</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="fcaf20c1-f260-4a6e-98c5-09296a784d75">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="564bd7aa-7c1e-4f1a-a0ef-579728833709">
             <TableID>dbo_Junk</TableID>
             <ColumnID>Ulga</ColumnID>
           </Source>
@@ -143,14 +145,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="cd704f56-2d75-499d-85c6-8399896fb616">
+    <Attribute dwd:design-time-name="06e80876-03fd-4b4a-a980-206f326f19c9">
       <ID>Sposob Zakupu</ID>
       <Name>Sposob Zakupu</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="0c171238-e8e2-4fad-914e-790c99b73ccd">
+        <KeyColumn dwd:design-time-name="7e8cd2b8-dd22-4861-a13b-6da0a9c3832f">
           <DataType>WChar</DataType>
           <DataSize>9</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="cacc81d5-85c7-48dc-9526-28199e02bd7d">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="713733ad-1c7d-42b3-80a8-913d00fbebf3">
             <TableID>dbo_Junk</TableID>
             <ColumnID>Sposob_Zakupu</ColumnID>
           </Source>
@@ -161,21 +163,21 @@
     </Attribute>
   </Attributes>
   <Hierarchies>
-    <Hierarchy dwd:design-time-name="c44e60bd-2679-40d5-864d-b37179374f7b">
+    <Hierarchy dwd:design-time-name="eb43be20-1795-4d48-8bf1-051939390f1e">
       <ID>Hierarchy</ID>
       <Name>Bilet</Name>
       <Levels>
-        <Level dwd:design-time-name="53c330b4-7ae7-4a54-b9ec-a382699d8f8b">
+        <Level dwd:design-time-name="18cb9917-8801-4049-8743-ed061891c6b1">
           <ID>Ulga</ID>
           <Name>Ulga</Name>
           <SourceAttributeID>Ulga</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="061a26fc-63b9-47d2-83e0-eed7adfafd38">
+        <Level dwd:design-time-name="2dc607fa-2c8d-4cb4-aa6b-e7e0d381ba89">
           <ID>Klasa</ID>
           <Name>Klasa</Name>
           <SourceAttributeID>Klasa</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="1616b9d8-a538-4272-b6eb-8408c265d8d5">
+        <Level dwd:design-time-name="a454ac7a-4c9f-4c9c-8336-5b416ae0ffa7">
           <ID>Sposob Zakupu</ID>
           <Name>Sposob Zakupu</Name>
           <SourceAttributeID>Sposob Zakupu</SourceAttributeID>

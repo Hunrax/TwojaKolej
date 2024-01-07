@@ -5,10 +5,9 @@ from bilet import *
 import random
 import datetime
 from faker import Faker
-from unidecode import unidecode
 
 NUMBER_OF_STATIONS = 500
-NUMBER_OF_ROUTES = 100
+NUMBER_OF_ROUTES = 1000
 
 TRAIN_SPEED = 80
 TRAIN_SPEED_FLUCTUATION = 10
@@ -18,14 +17,14 @@ MIN_DISTANCE = 5
 ROUTE_NOT_USED = 0.2
 MIN_COURSES_FOR_ROUTE = 50
 MAX_COURSES_FOR_ROUTE = 200
-NUMBER_OF_TICKETS = 1000
+NUMBER_OF_TICKETS = 500000
 ONE_KILOMETER_COST = 0.1
 
 NUMBER_OF_ROUTES_TO_CHANGE = 20
 STATION_ON_ROUTE_CHANGE_CHANCE = 0.2
 MIN_NEW_COURSES_FOR_ROUTE = 10
 MAX_NEW_COURSES_FOR_ROUTE = 50
-NUMBER_OF_NEW_TICKETS = 300
+NUMBER_OF_NEW_TICKETS = 10000
 
 T0 = datetime.date(year=2023, month=1, day=1)
 T1 = datetime.date(year=2023, month=9, day=1)
@@ -145,7 +144,8 @@ with open("TwojBilet1.sql", "w", encoding="utf8") as firstSnapshot:
     firstSnapshot.write("-- Table: Ticket\n")
     for ticket in Tickets:
         firstSnapshot.write(ticket.write())
-    firstSnapshot.write("go\n")
+        firstSnapshot.write("go\n")
+#    firstSnapshot.write("go\n")
     print("DONE \033[K")
     
 

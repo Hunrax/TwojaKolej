@@ -33,56 +33,56 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>z2DY2jbi/toCMm0HOVVguFElYfA=18.11.2023 18:04:2603.12.2023 16:18:43</TimeStamp>
+        <TimeStamp>53dRztIKVFA15JP/sD/GDY0lBBg=15.12.2023 22:45:0103.12.2023 16:18:43</TimeStamp>
         <ID>
           <String>Kurs</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>u8lMh4yoLz/nhVKYUTMHIVDuc/4=18.11.2023 18:04:2603.12.2023 16:18:43</TimeStamp>
+        <TimeStamp>hRxAWdhNhUj5WuuCEDgcjn9M/4o=15.12.2023 22:45:0103.12.2023 16:18:43</TimeStamp>
         <ID>
           <String>Stacja</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>e6mOBSayAjZ7K7CXSroCe379aVE=09.12.2023 12:10:2803.12.2023 16:18:43</TimeStamp>
+        <TimeStamp>cf5EO+R1pyreUEAcXs20GVt9VPw=15.12.2023 22:45:0103.12.2023 16:18:43</TimeStamp>
         <ID>
           <String>Data</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>5WbjpNQu+L6DxwtGTGczGwmG/AQ=18.11.2023 18:04:2603.12.2023 16:18:43</TimeStamp>
+        <TimeStamp>A+uIwJr1hdFChxQRz7vWP+8X5bw=15.12.2023 22:45:0103.12.2023 16:18:43</TimeStamp>
         <ID>
           <String>Junk</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>jqQxkG/36jMe55n4z1/P9gmxK/Y=18.11.2023 18:04:2603.12.2023 16:18:43</TimeStamp>
+        <TimeStamp>hqmQpJSe0qiTXQRFhZDM5JPn6Y0=15.12.2023 22:45:0103.12.2023 16:18:43</TimeStamp>
         <ID>
           <String>Czas</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>4bDSrnb8kRcqnra6rPTxrARS6UA=27.11.2023 16:23:1203.12.2023 16:18:43</TimeStamp>
+        <TimeStamp>BAP+f0y/MwpYl8PmexTz1lLXE9I=15.12.2023 22:45:0103.12.2023 16:18:43</TimeStamp>
         <ID>
           <String>Trasa</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>XaP0T0ZhTETGr4hzoG8ippB3wDk=18.11.2023 18:04:2603.12.2023 16:18:43</TimeStamp>
+        <TimeStamp>ttpnDHVCed5ix38M/uDb2XyEHGI=15.12.2023 22:45:0103.12.2023 16:18:43</TimeStamp>
         <ID>
           <String>Przewoz Pasazera</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>yb4RjRyrKBidNgkAvGLler33g5Q=09.12.2023 12:10:2803.12.2023 16:18:43iiapMI/jGOBTA5HEKNMnXg5wtLE=18.11.2023 18:04:2603.12.2023 16:18:43</TimeStamp>
+        <TimeStamp>BwDBLOaFwY9wXChaDtUKregCKJg=16.12.2023 12:34:0603.12.2023 16:18:43CC9Vy3KnO2qrOgqk3PslhFoJSlo=16.12.2023 12:34:0603.12.2023 16:18:43</TimeStamp>
         <ID>
           <String>Data Warehouse</String>
         </ID>
@@ -99,5 +99,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2023-12-09T11:15:45.346667Z</LastDeployed>
+  <LastDeployed>2023-12-16T11:34:37.053333Z</LastDeployed>
 </DeploymentSnapshot>

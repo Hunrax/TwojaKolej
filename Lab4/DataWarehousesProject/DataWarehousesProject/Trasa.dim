@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e4fd302e-1939-49ab-9d9c-fb73de266b21" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="950d51a4-09de-4886-a1f6-a22e2ddbef88" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Trasa</ID>
   <Name>Trasa</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,9 +8,9 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4486" scrolltop="-1394" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7408" y="9578" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4486" scrolltop="-1394" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="0" y="0" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
-              <ddsxmlobjectstreamwrapper binary="01ee0000900180380100065461686f6d61" />
+              <ddsxmlobjectstreamwrapper binary="01010000900180380100065461686f6d61" />
             </font>
             <mouseicon>
               <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
@@ -68,41 +68,42 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="3bbf106b-40d5-40ef-8d6b-c1571272fcfe">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="33d453f6-e220-4941-a0d2-c78d77b5867f">
     <DataSourceViewID>Data Warehouse</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="64213fa1-8e88-43c5-abb7-036f1fc098a8">
+  <ErrorConfiguration dwd:design-time-name="8a6d423b-6348-4c71-a20d-1a4ca7efef0f">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="fd0e52e1-7c94-463a-ba10-25ac5b6b1131">
+    <Attribute dwd:design-time-name="f7e9296d-882a-4d81-85ea-2af602998e46">
       <ID>ID Trasy</ID>
       <Name>ID Trasy</Name>
       <Usage>Key</Usage>
+      <EstimatedCount>999</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="db79aea5-75ca-48aa-a975-9659cf390ecd">
+        <KeyColumn dwd:design-time-name="4e8fb975-cc72-41f0-859d-b4ddcc04e8a3">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="cc88cf8e-5afc-4070-8205-be97ccbdc4d9">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="024a2231-404e-4b4c-b46b-00d0b4eb6bfb">
             <TableID>dbo_Trasa</TableID>
             <ColumnID>ID_Trasy</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="6f3fefde-7164-4a75-93b2-5f860f7eb363">
+        <AttributeRelationship dwd:design-time-name="67b7d344-b4c3-4ccb-867e-6dc4506fcb32">
           <AttributeID>Dlugosc</AttributeID>
           <Name>Dlugosc</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="d85a9f9b-07d6-448e-ae11-6dfbf4d546d8">
+        <AttributeRelationship dwd:design-time-name="91a8a3e2-98ed-4909-b6dc-c3ed10be44c5">
           <AttributeID>Czas Trwania</AttributeID>
           <Name>Czas Trwania</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="5b4d60a4-7e55-410a-a166-9090e084f809">
+        <AttributeRelationship dwd:design-time-name="bed9f9a8-420b-48c7-8e23-cc4b29e19905">
           <AttributeID>Nazwa</AttributeID>
           <Name>Nazwa</Name>
         </AttributeRelationship>
@@ -111,14 +112,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="7ef3f5b7-105b-4252-a515-536018f04436">
+    <Attribute dwd:design-time-name="c487bf8d-1f44-4919-8fc8-ae0547bd4b70">
       <ID>Dlugosc</ID>
       <Name>Dlugosc</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="419e0b0e-e2f3-4401-951f-44e3ae3f22ba">
+        <KeyColumn dwd:design-time-name="82c5f86a-0586-4125-8b91-3f2632569f8c">
           <DataType>WChar</DataType>
           <DataSize>11</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="8d87034c-37b7-4e4e-a3b1-eb81a240ff1a">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b74eddea-081d-4fd1-b0bc-bace0dc897f4">
             <TableID>dbo_Trasa</TableID>
             <ColumnID>Dlugosc</ColumnID>
           </Source>
@@ -127,14 +128,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="fa63baed-c853-4a96-a82d-83e92f4c18f8">
+    <Attribute dwd:design-time-name="db99be7a-fddb-43f4-aea1-4a79edf217eb">
       <ID>Czas Trwania</ID>
       <Name>Czas Trwania</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="675718f1-756c-4ef2-afe2-475ac956fdb1">
+        <KeyColumn dwd:design-time-name="c3a96d71-e7d2-42a2-910a-702ff74433d2">
           <DataType>WChar</DataType>
           <DataSize>11</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="ce14fd61-f43e-4f9d-8caf-bdcd5ea1d15e">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="69dd1c9c-0009-47a4-9535-fe1c0a7eed0c">
             <TableID>dbo_Trasa</TableID>
             <ColumnID>Czas_Trwania</ColumnID>
           </Source>
@@ -143,14 +144,15 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="1946509d-179b-48dd-9252-2baaaf6caa88">
+    <Attribute dwd:design-time-name="0c9da00c-2556-4476-bf64-4fd184bc19b3">
       <ID>Nazwa</ID>
       <Name>Nazwa</Name>
+      <EstimatedCount>999</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="c3ca1a80-3314-49a3-aaa5-dce3b41375b0">
+        <KeyColumn dwd:design-time-name="4ed25bac-8cb6-4661-a1a0-8819345db734">
           <DataType>WChar</DataType>
           <DataSize>70</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="6b4147dd-5601-4dce-b66b-073eaad21b8e">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="581d837c-f2bf-454c-b469-b25f32cd6333">
             <TableID>dbo_Trasa</TableID>
             <ColumnID>Nazwa</ColumnID>
           </Source>

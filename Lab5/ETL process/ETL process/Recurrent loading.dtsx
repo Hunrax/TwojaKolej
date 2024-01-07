@@ -11,8 +11,8 @@
   DTS:LocaleID="1045"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="184"
-  DTS:VersionGUID="{EA440EE6-AD08-4BE6-B200-D84366290108}">
+  DTS:VersionBuild="185"
+  DTS:VersionGUID="{658F0D69-0393-4408-9096-E5F72701B06A}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,7 +29,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAsXf7Y4cUlkedvPQaoIgOOgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAD2QBF6CYRCwLw0Z+rao5c7Fno9zun10S2r5ReSsdZp3wAAAAAOgAAAAAIAACAAAACsdzToD2J5hpL9bC80YhNEnNhMGBWAzFH1PGAstsyguyAAAADL4MiNAXr5dySLYH4pgPxV677ETqOCGyZD/pIPt+5hO0AAAADEPgrOEdrDSvircl2qynTPyNdsZcp3qiIf8iZJKfIOOw4e4ruiexvv2Yw/H8Q6eO13/Oz4l6VDUlHnbqQUbUMj</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAsXf7Y4cUlkedvPQaoIgOOgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABSUqOyi/qnuc+b3uMs0Q2ynk/km4uyUnPq5ThiC+GiHwAAAAAOgAAAAAIAACAAAADKJsAQxl10/49sKulHRZRYPMRQDXK4cn0uT2cWx8zLOCAAAACXNjeexioNGgzDLQmgUB5m/oR0oAAsdztzAgS8bdW41kAAAACOKpPWDCvp1RX24hYsMt9yDl18m2XrMJ+8NYtxHAvtFTI1S+dH9AdsdI/TxI8kIvg0dTvLw0MPFCLUm60T1Ea6</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -12358,69 +12358,69 @@ where [refTable].[Nazwa] = ?</property>
               startId="Package\Populating Przewoz_Pasazera\Create Nazwa_Trasy.Outputs[Derived Column Output]" />
             <path
               refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output12]"
-              endId="Package\Populating Przewoz_Pasazera\Lookup Stacja (DW) - Stacja_Koncowa.Inputs[Lookup Input]"
+              endId="Package\Populating Przewoz_Pasazera\Union All.Inputs[Union All Input 2]"
               name="Lookup Match Output"
-              startId="Package\Populating Przewoz_Pasazera\Lookup Stacja (DW) - Stacja_Poczatkowa.Outputs[Lookup Match Output]" />
+              startId="Package\Populating Przewoz_Pasazera\Lookup.Outputs[Lookup Match Output]" />
             <path
               refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output10]"
-              endId="Package\Populating Przewoz_Pasazera\Lookup Junk (DW).Inputs[Lookup Input]"
-              name="Lookup Match Output"
-              startId="Package\Populating Przewoz_Pasazera\Lookup Stacja (DW) - Stacja_Koncowa.Outputs[Lookup Match Output]" />
-            <path
-              refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output9]"
-              endId="Package\Populating Przewoz_Pasazera\Lookup Dystans (Cache).Inputs[Lookup Input]"
-              name="Lookup Match Output"
-              startId="Package\Populating Przewoz_Pasazera\Lookup Junk (DW).Outputs[Lookup Match Output]" />
-            <path
-              refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output8]"
-              endId="Package\Populating Przewoz_Pasazera\Sort.Inputs[Sort Input]"
-              name="Lookup Match Output"
-              startId="Package\Populating Przewoz_Pasazera\Lookup Kurs (TwojBilet).Outputs[Lookup Match Output]" />
-            <path
-              refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output7]"
-              endId="Package\Populating Przewoz_Pasazera\Union All.Inputs[Union All Input 1]"
-              name="Lookup Match Output"
-              startId="Package\Populating Przewoz_Pasazera\Lookup Dystans (Cache).Outputs[Lookup Match Output]" />
-            <path
-              refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output6]"
-              endId="Package\Populating Przewoz_Pasazera\Lookup Kurs (DW).Inputs[Lookup Input]"
-              name="Lookup Match Output"
-              startId="Package\Populating Przewoz_Pasazera\Lookup Czas (DW).Outputs[Lookup Match Output]" />
-            <path
-              refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output11]"
-              endId="Package\Populating Przewoz_Pasazera\Lookup data (DW).Inputs[Lookup Input]"
-              name="Lookup Match Output"
-              startId="Package\Populating Przewoz_Pasazera\Lookup Trasa (DW).Outputs[Lookup Match Output]" />
-            <path
-              refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output4]"
-              endId="Package\Populating Przewoz_Pasazera\Sort by ID (min).Inputs[Sort Input]"
-              name="Lookup Match Output"
-              startId="Package\Populating Przewoz_Pasazera\Lookup for Nazwa_Stacji (min).Outputs[Lookup Match Output]" />
-            <path
-              refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output3]"
-              endId="Package\Populating Przewoz_Pasazera\Lookup Czas (DW).Inputs[Lookup Input]"
-              name="Lookup Match Output"
-              startId="Package\Populating Przewoz_Pasazera\Lookup data (DW).Outputs[Lookup Match Output]" />
-            <path
-              refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output2]"
-              endId="Package\Populating Przewoz_Pasazera\Lookup Stacja (DW) - Stacja_Poczatkowa.Inputs[Lookup Input]"
-              name="Lookup Match Output"
-              startId="Package\Populating Przewoz_Pasazera\Lookup Data (DW).Outputs[Lookup Match Output]" />
-            <path
-              refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output1]"
               endId="Package\Populating Przewoz_Pasazera\Remove unnecesarry columns.Inputs[Union All Input 1]"
               name="Lookup Match Output"
               startId="Package\Populating Przewoz_Pasazera\Lookup Kurs (DW).Outputs[Lookup Match Output]" />
             <path
-              refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output5]"
+              refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output9]"
+              endId="Package\Populating Przewoz_Pasazera\Lookup Stacja (DW) - Stacja_Poczatkowa.Inputs[Lookup Input]"
+              name="Lookup Match Output"
+              startId="Package\Populating Przewoz_Pasazera\Lookup Data (DW).Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output8]"
+              endId="Package\Populating Przewoz_Pasazera\Lookup Czas (DW).Inputs[Lookup Input]"
+              name="Lookup Match Output"
+              startId="Package\Populating Przewoz_Pasazera\Lookup data (DW).Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output7]"
+              endId="Package\Populating Przewoz_Pasazera\Sort by ID (min).Inputs[Sort Input]"
+              name="Lookup Match Output"
+              startId="Package\Populating Przewoz_Pasazera\Lookup for Nazwa_Stacji (min).Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output6]"
+              endId="Package\Populating Przewoz_Pasazera\Lookup data (DW).Inputs[Lookup Input]"
+              name="Lookup Match Output"
+              startId="Package\Populating Przewoz_Pasazera\Lookup Trasa (DW).Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output11]"
               endId="Package\Populating Przewoz_Pasazera\Sort by ID (max).Inputs[Sort Input]"
               name="Lookup Match Output"
               startId="Package\Populating Przewoz_Pasazera\Lookup for Nazwa_Stacji (max).Outputs[Lookup Match Output]" />
             <path
-              refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output]"
-              endId="Package\Populating Przewoz_Pasazera\Union All.Inputs[Union All Input 2]"
+              refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output4]"
+              endId="Package\Populating Przewoz_Pasazera\Union All.Inputs[Union All Input 1]"
               name="Lookup Match Output"
-              startId="Package\Populating Przewoz_Pasazera\Lookup.Outputs[Lookup Match Output]" />
+              startId="Package\Populating Przewoz_Pasazera\Lookup Dystans (Cache).Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output3]"
+              endId="Package\Populating Przewoz_Pasazera\Sort.Inputs[Sort Input]"
+              name="Lookup Match Output"
+              startId="Package\Populating Przewoz_Pasazera\Lookup Kurs (TwojBilet).Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output2]"
+              endId="Package\Populating Przewoz_Pasazera\Lookup Dystans (Cache).Inputs[Lookup Input]"
+              name="Lookup Match Output"
+              startId="Package\Populating Przewoz_Pasazera\Lookup Junk (DW).Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output1]"
+              endId="Package\Populating Przewoz_Pasazera\Lookup Junk (DW).Inputs[Lookup Input]"
+              name="Lookup Match Output"
+              startId="Package\Populating Przewoz_Pasazera\Lookup Stacja (DW) - Stacja_Koncowa.Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output5]"
+              endId="Package\Populating Przewoz_Pasazera\Lookup Kurs (DW).Inputs[Lookup Input]"
+              name="Lookup Match Output"
+              startId="Package\Populating Przewoz_Pasazera\Lookup Czas (DW).Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output]"
+              endId="Package\Populating Przewoz_Pasazera\Lookup Stacja (DW) - Stacja_Koncowa.Inputs[Lookup Input]"
+              name="Lookup Match Output"
+              startId="Package\Populating Przewoz_Pasazera\Lookup Stacja (DW) - Stacja_Poczatkowa.Outputs[Lookup Match Output]" />
             <path
               refId="Package\Populating Przewoz_Pasazera.Paths[Lookup No Match Output]"
               endId="Package\Populating Przewoz_Pasazera\Lookup.Inputs[Lookup Input]"
@@ -13117,7 +13117,7 @@ where [refTable].[Nazwa] = ? and [refTable].[Miejscowosc] = ?</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
-                  name="DefaultCodePage">1252</property>
+                  name="DefaultCodePage">1250</property>
                 <property
                   dataType="System.Boolean"
                   description="Forces the use of the DefaultCodePage property value when describing character data."
@@ -15415,13 +15415,13 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                       refId="Package\Populating Trasa\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[Czas_Trwania]"
                       codePage="1252"
                       dataType="str"
-                      length="11"
+                      length="12"
                       name="Czas_Trwania" />
                     <externalMetadataColumn
                       refId="Package\Populating Trasa\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[Dlugosc]"
                       codePage="1252"
                       dataType="str"
-                      length="11"
+                      length="12"
                       name="Dlugosc" />
                     <externalMetadataColumn
                       refId="Package\Populating Trasa\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[Nazwa]"
@@ -16321,6 +16321,10 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
+          Size="237,42"
+          Id="Package\Analysis Services Processing Task"
+          TopLeft="704,422" />
+        <NodeLayout
           Size="209,42"
           Id="Package\Loading Distances to Cache"
           TopLeft="987,170" />
@@ -16452,10 +16456,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="237,42"
-          Id="Package\Analysis Services Processing Task"
-          TopLeft="704,422" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 4]"
           TopLeft="823.75,349">
@@ -16481,6 +16481,10 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
       </GraphLayout>
     </LayoutInfo>
   </Package>
+  <ConnectionManager
+    design-time-name="Package.ConnectionManagers[.\DATAWAREHOUSES]">
+    <ProjectReferenceName></ProjectReferenceName>
+  </ConnectionManager>
   <TaskHost
     design-time-name="Package\Loading Distances to Cache">
     <LayoutInfo>
@@ -17630,198 +17634,42 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output12]"
-          TopLeft="422.25,1570">
+          TopLeft="615.5,1817">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,24"
+              EndConnector="-152.166666666667,50"
               Start="0,0"
-              End="0,16.5">
+              End="-152.166666666667,42.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,16.5" />
+                    End="0,25.6084828711256" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,25.6084828711256"
+                    Point2="0,29.6084828711256"
+                    Point3="-4,29.6084828711256" />
+                  <mssgle:LineSegment
+                    End="-148.166666666667,29.6084828711256" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-148.166666666667,29.6084828711256"
+                    Point2="-152.166666666667,29.6084828711256"
+                    Point3="-152.166666666667,33.6084828711256" />
+                  <mssgle:LineSegment
+                    End="-152.166666666667,42.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,2.4453125,96.3827734375,11.609375"
+              BoundingBox="-124.274720052083,34.6084828711256,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output11]"
-          TopLeft="406.5,1006">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,30"
-              Start="0,0"
-              End="0,22.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,22.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,5.4453125,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output10]"
-          TopLeft="422.25,1636">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,37"
-              Start="0,0"
-              End="0,29.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,29.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,8.9453125,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output9]"
-          TopLeft="423,1715">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-49,54"
-              Start="0,0"
-              End="-49,46.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,23" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,23"
-                    Point2="0,27"
-                    Point3="-4,27" />
-                  <mssgle:LineSegment
-                    End="-45,27" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-45,27"
-                    Point2="-49,27"
-                    Point3="-49,31" />
-                  <mssgle:LineSegment
-                    End="-49,46.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-72.69138671875,32,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output8]"
-          TopLeft="553.5,624">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,46"
-              Start="0,0"
-              End="0,38.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,38.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,13.4453125,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output7]"
-          TopLeft="374,1811">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="51.6666666666667,56"
-              Start="0,0"
-              End="51.6666666666667,48.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,29.1615008156607" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,29.1615008156607"
-                    Point2="0,33.1615008156607"
-                    Point3="4,33.1615008156607" />
-                  <mssgle:LineSegment
-                    End="47.6666666666667,33.1615008156607" />
-                  <mssgle:CubicBezierSegment
-                    Point1="47.6666666666667,33.1615008156607"
-                    Point2="51.6666666666667,33.1615008156607"
-                    Point3="51.6666666666667,37.1615008156607" />
-                  <mssgle:LineSegment
-                    End="51.6666666666667,48.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-22.3580533854167,38.1615008156607,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output6]"
-          TopLeft="406.5,1145">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,27"
-              Start="0,0"
-              End="0,19.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,19.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,3.9453125,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output5]"
           TopLeft="168,387">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -17857,79 +17705,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output4]"
-          TopLeft="454,387">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,60"
-              Start="0,0"
-              End="0,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,20.4453125,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output3]"
-          TopLeft="404.75,1078">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,25"
-              Start="0,0"
-              End="0,17.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,17.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,2.9453125,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output2]"
-          TopLeft="419.75,1501">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,27"
-              Start="0,0"
-              End="0,19.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,19.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,3.9453125,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output1]"
+          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output10]"
           TopLeft="410.25,1214">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -17953,38 +17729,266 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output]"
-          TopLeft="615.5,1817">
+          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output9]"
+          TopLeft="419.75,1501">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-152.166666666667,50"
+              EndConnector="0,27"
               Start="0,0"
-              End="-152.166666666667,42.5">
+              End="0,19.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,25.6084828711256" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,25.6084828711256"
-                    Point2="0,29.6084828711256"
-                    Point3="-4,29.6084828711256" />
-                  <mssgle:LineSegment
-                    End="-148.166666666667,29.6084828711256" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-148.166666666667,29.6084828711256"
-                    Point2="-152.166666666667,29.6084828711256"
-                    Point3="-152.166666666667,33.6084828711256" />
-                  <mssgle:LineSegment
-                    End="-152.166666666667,42.5" />
+                    End="0,19.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-124.274720052083,34.6084828711256,96.3827734375,11.609375"
+              BoundingBox="-48.19138671875,3.9453125,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output8]"
+          TopLeft="404.75,1078">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,25"
+              Start="0,0"
+              End="0,17.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,17.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,2.9453125,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output7]"
+          TopLeft="454,387">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,20.4453125,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output6]"
+          TopLeft="406.5,1006">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,30"
+              Start="0,0"
+              End="0,22.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,22.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,5.4453125,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output5]"
+          TopLeft="406.5,1145">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,27"
+              Start="0,0"
+              End="0,19.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,19.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,3.9453125,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output4]"
+          TopLeft="374,1811">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="51.6666666666667,56"
+              Start="0,0"
+              End="51.6666666666667,48.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,29.1615008156607" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,29.1615008156607"
+                    Point2="0,33.1615008156607"
+                    Point3="4,33.1615008156607" />
+                  <mssgle:LineSegment
+                    End="47.6666666666667,33.1615008156607" />
+                  <mssgle:CubicBezierSegment
+                    Point1="47.6666666666667,33.1615008156607"
+                    Point2="51.6666666666667,33.1615008156607"
+                    Point3="51.6666666666667,37.1615008156607" />
+                  <mssgle:LineSegment
+                    End="51.6666666666667,48.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-22.3580533854167,38.1615008156607,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output3]"
+          TopLeft="553.5,624">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,46"
+              Start="0,0"
+              End="0,38.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,38.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,13.4453125,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output2]"
+          TopLeft="423,1715">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-49,54"
+              Start="0,0"
+              End="-49,46.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,23" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,23"
+                    Point2="0,27"
+                    Point3="-4,27" />
+                  <mssgle:LineSegment
+                    End="-45,27" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-45,27"
+                    Point2="-49,27"
+                    Point3="-49,31" />
+                  <mssgle:LineSegment
+                    End="-49,46.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-72.69138671875,32,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output1]"
+          TopLeft="422.25,1636">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,37"
+              Start="0,0"
+              End="0,29.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,29.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,8.9453125,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populating Przewoz_Pasazera.Paths[Lookup Match Output]"
+          TopLeft="422.25,1570">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,24"
+              Start="0,0"
+              End="0,16.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,16.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,2.4453125,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -18799,13 +18803,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
       <GraphLayout
         Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="167,43"
-          Id="Package\Populating Trasa\OLE DB Command"
-          TopLeft="468.916664375613,1224.31666677127" />
-        <NodeLayout
           Size="209,43"
           Id="Package\Populating Trasa\Slowly Changing Dimension"
-          TopLeft="293.833333333333,1127.5" />
+          TopLeft="300,924.5" />
         <NodeLayout
           Size="224,42"
           Id="Package\Populating Trasa\Lookup for Nazwa_Stacji (min)"
@@ -18813,11 +18813,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
         <NodeLayout
           Size="159,42"
           Id="Package\Populating Trasa\Sort by ID (max)"
-          TopLeft="107.166666666667,413.5" />
+          TopLeft="107,413.5" />
         <NodeLayout
           Size="160,42"
           Id="Package\Populating Trasa\Trasa (TwojBilet)"
-          TopLeft="318.5,515.5" />
+          TopLeft="112.5,515.5" />
         <NodeLayout
           Size="156,42"
           Id="Package\Populating Trasa\Sort by ID (min)"
@@ -18825,11 +18825,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
         <NodeLayout
           Size="139,42"
           Id="Package\Populating Trasa\Merge Join 1"
-          TopLeft="327.916666685293,717.550000034869" />
+          TopLeft="335,719.5" />
         <NodeLayout
           Size="127,42"
           Id="Package\Populating Trasa\Sort by ID"
-          TopLeft="335.166666666667,617.5" />
+          TopLeft="129,617.5" />
         <NodeLayout
           Size="98,42"
           Id="Package\Populating Trasa\Max"
@@ -18837,11 +18837,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
         <NodeLayout
           Size="164,43"
           Id="Package\Populating Trasa\Script Component"
-          TopLeft="312.499995343387,858.98333215942" />
-        <NodeLayout
-          Size="164,43"
-          Id="Package\Populating Trasa\Insert Destination"
-          TopLeft="90.5000000000002,1230.16666666667" />
+          TopLeft="322.5,821.5" />
         <NodeLayout
           Size="192,42"
           Id="Package\Populating Trasa\Stacja-Trasa (TwojBilet)"
@@ -18857,49 +18853,47 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
         <NodeLayout
           Size="130,42"
           Id="Package\Populating Trasa\Merge Join"
-          TopLeft="121.5,515.5" />
+          TopLeft="339.5,515.5" />
         <NodeLayout
           Size="226,42"
           Id="Package\Populating Trasa\Lookup for Nazwa_Stacji (max)"
-          TopLeft="5.50000000000006,311.5" />
+          TopLeft="5.5,311.5" />
         <NodeLayout
           Size="176,42"
           Id="Package\Populating Trasa\Create Nazwa_Trasy"
-          TopLeft="98.5000000000001,617.5" />
+          TopLeft="316.5,617.5" />
         <EdgeLayout
           Id="Package\Populating Trasa.Paths[Sort Output1]"
-          TopLeft="398.5,659.5">
+          TopLeft="192.5,659.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="20.5277777964041,58.0500000348687"
+              EndConnector="190.166666666667,60"
               Start="0,0"
-              End="20.5277777964041,50.5500000348687">
+              End="190.166666666667,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,30.4326996404545" />
+                    End="0,31.5903271692745" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,30.4326996404545"
-                    Point2="0,34.4326996404545"
-                    Point3="4,34.4326996404545" />
+                    Point1="0,31.5903271692745"
+                    Point2="0,35.5903271692745"
+                    Point3="4,35.5903271692745" />
                   <mssgle:LineSegment
-                    End="16.5277777964041,34.4326996404545" />
+                    End="186.166666666667,35.5903271692745" />
                   <mssgle:CubicBezierSegment
-                    Point1="16.5277777964041,34.4326996404545"
-                    Point2="20.5277777964041,34.4326996404545"
-                    Point3="20.5277777964041,38.4326996404545" />
+                    Point1="186.166666666667,35.5903271692745"
+                    Point2="190.166666666667,35.5903271692745"
+                    Point3="190.166666666667,39.5903271692745" />
                   <mssgle:LineSegment
-                    End="20.5277777964041,50.5500000348687" />
+                    End="190.166666666667,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -18908,9 +18902,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-20.3333333333333,60"
+              EndConnector="197.666666666667,60"
               Start="0,0"
-              End="-20.3333333333333,52.5">
+              End="197.666666666667,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
@@ -18919,52 +18913,26 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                   <mssgle:CubicBezierSegment
                     Point1="0,31.5623100303951"
                     Point2="0,35.5623100303951"
-                    Point3="-4,35.5623100303951" />
+                    Point3="4,35.5623100303951" />
                   <mssgle:LineSegment
-                    End="-16.3333333333333,35.5623100303951" />
+                    End="193.666666666667,35.5623100303951" />
                   <mssgle:CubicBezierSegment
-                    Point1="-16.3333333333333,35.5623100303951"
-                    Point2="-20.3333333333333,35.5623100303951"
-                    Point3="-20.3333333333333,39.5623100303951" />
+                    Point1="193.666666666667,35.5623100303951"
+                    Point2="197.666666666667,35.5623100303951"
+                    Point3="197.666666666667,39.5623100303951" />
                   <mssgle:LineSegment
-                    End="-20.3333333333333,52.5" />
+                    End="197.666666666667,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Populating Trasa.Paths[Output 0]"
-          TopLeft="396.499997671694,901.649998826087">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,225.850001173914"
-              Start="0,0"
-              End="0,218.350001173914">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,218.350001173914" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populating Trasa.Paths[OLE DB Source Output1]"
-          TopLeft="398.5,557.5">
+          TopLeft="404.5,864.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -18981,9 +18949,29 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populating Trasa.Paths[OLE DB Source Output1]"
+          TopLeft="192.5,557.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -19005,45 +18993,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populating Trasa.Paths[New Output]"
-          TopLeft="364.944444444445,1170.16666666667">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-192.444444444444,59.9999999999998"
-              Start="0,0"
-              End="-192.444444444444,52.4999999999998">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,20.2730720606826" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,20.2730720606826"
-                    Point2="0,24.2730720606826"
-                    Point3="-4,24.2730720606826" />
-                  <mssgle:LineSegment
-                    End="-188.444444444444,24.2730720606826" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-188.444444444444,24.2730720606826"
-                    Point2="-192.444444444444,24.2730720606826"
-                    Point3="-192.444444444444,28.2730720606826" />
-                  <mssgle:LineSegment
-                    End="-192.444444444444,52.4999999999998" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-123.313608940972,29.2730720606826,54.1827734375,11.43359375"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -19077,9 +19027,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -19113,38 +19061,12 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Populating Trasa.Paths[Merge Join Output1]"
-          TopLeft="395.874997681007,759.550000034869">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,99.4333321245513"
-              Start="0,0"
-              End="0,91.9333321245513">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,91.9333321245513" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populating Trasa.Paths[Merge Join Output]"
-          TopLeft="186.5,557.5">
+          TopLeft="404.5,761.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -19161,9 +19083,29 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populating Trasa.Paths[Merge Join Output]"
+          TopLeft="404.5,557.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -19228,74 +19170,36 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Populating Trasa.Paths[Derived Column Output]"
-          TopLeft="186.5,659.5">
+          TopLeft="404.5,659.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="188.972222240849,58.0500000348687"
+              EndConnector="21.8333333333333,60"
               Start="0,0"
-              End="188.972222240849,50.5500000348687">
+              End="21.8333333333333,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,30.4326996404545" />
+                    End="0,31.5903271692745" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,30.4326996404545"
-                    Point2="0,34.4326996404545"
-                    Point3="4,34.4326996404545" />
+                    Point1="0,31.5903271692745"
+                    Point2="0,35.5903271692745"
+                    Point3="4,35.5903271692745" />
                   <mssgle:LineSegment
-                    End="184.972222240849,34.4326996404545" />
+                    End="17.8333333333333,35.5903271692745" />
                   <mssgle:CubicBezierSegment
-                    Point1="184.972222240849,34.4326996404545"
-                    Point2="188.972222240849,34.4326996404545"
-                    Point3="188.972222240849,38.4326996404545" />
+                    Point1="17.8333333333333,35.5903271692745"
+                    Point2="21.8333333333333,35.5903271692745"
+                    Point3="21.8333333333333,39.5903271692745" />
                   <mssgle:LineSegment
-                    End="188.972222240849,50.5500000348687" />
+                    End="21.8333333333333,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populating Trasa.Paths[Changing Attribute Updates Output]"
-          TopLeft="432.055555555556,1170.16666666667">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="120.194442153391,54.1500001046059"
-              Start="0,0"
-              End="120.194442153391,46.6500001046059">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,17.9064475770845" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,17.9064475770845"
-                    Point2="0,21.9064475770845"
-                    Point3="4,21.9064475770845" />
-                  <mssgle:LineSegment
-                    End="116.194442153391,21.9064475770845" />
-                  <mssgle:CubicBezierSegment
-                    Point1="116.194442153391,21.9064475770845"
-                    Point2="120.194442153391,21.9064475770845"
-                    Point3="120.194442153391,25.9064475770845" />
-                  <mssgle:LineSegment
-                    End="120.194442153391,46.6500001046059" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-18.4366851733045,26.9064475770845,157.0678125,11.6630859375"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -19329,9 +19233,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -19353,9 +19255,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -19364,9 +19264,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-197.666666666667,60"
+              EndConnector="20.3333333333333,60"
               Start="0,0"
-              End="-197.666666666667,52.5">
+              End="20.3333333333333,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
@@ -19375,22 +19275,100 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                   <mssgle:CubicBezierSegment
                     Point1="0,31.5623100303951"
                     Point2="0,35.5623100303951"
-                    Point3="-4,35.5623100303951" />
+                    Point3="4,35.5623100303951" />
                   <mssgle:LineSegment
-                    End="-193.666666666667,35.5623100303951" />
+                    End="16.3333333333333,35.5623100303951" />
                   <mssgle:CubicBezierSegment
-                    Point1="-193.666666666667,35.5623100303951"
-                    Point2="-197.666666666667,35.5623100303951"
-                    Point3="-197.666666666667,39.5623100303951" />
+                    Point1="16.3333333333333,35.5623100303951"
+                    Point2="20.3333333333333,35.5623100303951"
+                    Point3="20.3333333333333,39.5623100303951" />
                   <mssgle:LineSegment
-                    End="-197.666666666667,52.5" />
+                    End="20.3333333333333,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="163,42"
+          Id="Package\Populating Trasa\Insert Destination"
+          TopLeft="98.0000000000001,1027.5" />
+        <EdgeLayout
+          Id="Package\Populating Trasa.Paths[New Output]"
+          TopLeft="371,967.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-191.5,60"
+              Start="0,0"
+              End="-191.5,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,20.2735042735043" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,20.2735042735043"
+                    Point2="0,24.2735042735043"
+                    Point3="-4,24.2735042735043" />
+                  <mssgle:LineSegment
+                    End="-187.5,24.2735042735043" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-187.5,24.2735042735043"
+                    Point2="-191.5,24.2735042735043"
+                    Point3="-191.5,28.2735042735043" />
+                  <mssgle:LineSegment
+                    End="-191.5,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
+              BoundingBox="-122.84138671875,29.2735042735043,54.1827734375,11.43359375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="166,42"
+          Id="Package\Populating Trasa\OLE DB Command"
+          TopLeft="489.5,1023.5" />
+        <EdgeLayout
+          Id="Package\Populating Trasa.Paths[Changing Attribute Updates Output]"
+          TopLeft="438,967.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="134.5,56"
+              Start="0,0"
+              End="134.5,48.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,18.6552706552707" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,18.6552706552707"
+                    Point2="0,22.6552706552707"
+                    Point3="4,22.6552706552707" />
+                  <mssgle:LineSegment
+                    End="130.5,22.6552706552707" />
+                  <mssgle:CubicBezierSegment
+                    Point1="130.5,22.6552706552707"
+                    Point2="134.5,22.6552706552707"
+                    Point3="134.5,26.6552706552707" />
+                  <mssgle:LineSegment
+                    End="134.5,48.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-11.28390625,27.6552706552707,157.0678125,11.6630859375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -19409,19 +19387,19 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
   &lt;TableName&gt;[dbo].[Trasa]&lt;/TableName&gt;
   &lt;InputToColumnsCollection&gt;
     &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;Convert to 1252 1.Outputs[Data Conversion Output].Columns[Nowy_Czas_Trwania]&lt;/IdentificationString&gt;
+      &lt;IdentificationString&gt;Script Component.Outputs[Output 0].Columns[CzasTrwaniaZakres]&lt;/IdentificationString&gt;
       &lt;ColumnName&gt;Czas_Trwania&lt;/ColumnName&gt;
       &lt;KeyType&gt;None&lt;/KeyType&gt;
       &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
     &lt;/InputColumnToDBColumn&gt;
     &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;Convert to 1252 1.Outputs[Data Conversion Output].Columns[Nowa_Dlugosc]&lt;/IdentificationString&gt;
+      &lt;IdentificationString&gt;Script Component.Outputs[Output 0].Columns[DlugoscZakres]&lt;/IdentificationString&gt;
       &lt;ColumnName&gt;Dlugosc&lt;/ColumnName&gt;
       &lt;KeyType&gt;None&lt;/KeyType&gt;
       &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
     &lt;/InputColumnToDBColumn&gt;
     &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;Convert to 1252 1.Outputs[Data Conversion Output].Columns[Nowa_Nazwa_Trasy]&lt;/IdentificationString&gt;
+      &lt;IdentificationString&gt;Merge Join 1.Outputs[Merge Join Output].Columns[Nazwa_Trasy]&lt;/IdentificationString&gt;
       &lt;ColumnName&gt;Nazwa&lt;/ColumnName&gt;
       &lt;KeyType&gt;BusinessKey&lt;/KeyType&gt;
       &lt;ChangeType&gt;None&lt;/ChangeType&gt;
@@ -19518,9 +19496,5 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
-  <ConnectionManager
-    design-time-name="Package.ConnectionManagers[.\DATAWAREHOUSES]">
-    <ProjectReferenceName></ProjectReferenceName>
-  </ConnectionManager>
 </Objects>]]></DTS:DesignTimeProperties>
 </DTS:Executable>

@@ -21,7 +21,7 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
           <Value>
             <dds xmlns="">
-              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="1520" scrolltop="1362" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="0" y="0" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="1520" scrolltop="1362" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="0" y="0" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                 <font>
                   <ddsxmlobjectstreamwrapper binary="01010000900180380100065461686f6d61" />
                 </font>
@@ -32,7 +32,7 @@
               <layoutmanager>
                 <ddsxmlobj />
               </layoutmanager>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000a50a0000" />
                 </control>
@@ -96,6 +96,7 @@
           <ID>ID Kursu</ID>
           <Name>ID Kursu</Name>
           <Usage>Key</Usage>
+          <EstimatedCount>95502</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>Integer</DataType>
@@ -263,6 +264,7 @@
           <ID>ID Stacji</ID>
           <Name>ID Stacji</Name>
           <Usage>Key</Usage>
+          <EstimatedCount>500</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>Integer</DataType>
@@ -332,9 +334,9 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
           <Value>
             <dds xmlns="">
-              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4359" scrolltop="-8599" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="10372" y="15028" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4359" scrolltop="-8599" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="0" y="0" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                 <font>
-                  <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+                  <ddsxmlobjectstreamwrapper binary="01010000900180380100065461686f6d61" />
                 </font>
                 <mouseicon>
                   <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
@@ -408,6 +410,7 @@
           <ID>ID Daty</ID>
           <Name>ID Daty</Name>
           <Usage>Key</Usage>
+          <EstimatedCount>365</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>Integer</DataType>
@@ -485,6 +488,7 @@
           <ID>Miesiac</ID>
           <Name>Miesiac</Name>
           <Type>Months</Type>
+          <EstimatedCount>12</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>WChar</DataType>
@@ -510,6 +514,7 @@
           <ID>Rok</ID>
           <Name>Rok</Name>
           <Type>Years</Type>
+          <EstimatedCount>1</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>WChar</DataType>
@@ -702,9 +707,9 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
           <Value>
             <dds xmlns="">
-              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4333" scrolltop="-9658" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="12012" y="22040" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4333" scrolltop="-9658" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="0" y="0" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                 <font>
-                  <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+                  <ddsxmlobjectstreamwrapper binary="01010000900180380100065461686f6d61" />
                 </font>
                 <mouseicon>
                   <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
@@ -713,7 +718,7 @@
               <layoutmanager>
                 <ddsxmlobj />
               </layoutmanager>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Junk" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3307" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Junk" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3307" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="000e0000eb0c0000a50a0000" />
                 </control>
@@ -777,6 +782,7 @@
           <ID>ID Junk</ID>
           <Name>ID Junk</Name>
           <Usage>Key</Usage>
+          <EstimatedCount>72</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>Integer</DataType>
@@ -824,6 +830,7 @@
         <Attribute>
           <ID>Ulga</ID>
           <Name>Ulga</Name>
+          <EstimatedCount>12</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>WChar</DataType>
@@ -965,6 +972,7 @@
           <ID>ID Czasu</ID>
           <Name>ID Czasu</Name>
           <Usage>Key</Usage>
+          <EstimatedCount>1440</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>Integer</DataType>
@@ -997,6 +1005,7 @@
           <ID>Godzina</ID>
           <Name>Godzina</Name>
           <Type>Hours</Type>
+          <EstimatedCount>24</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>WChar</DataType>
@@ -1074,9 +1083,9 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
           <Value>
             <dds xmlns="">
-              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4486" scrolltop="-1394" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="10372" y="15028" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4486" scrolltop="-1394" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="0" y="0" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                 <font>
-                  <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+                  <ddsxmlobjectstreamwrapper binary="01010000900180380100065461686f6d61" />
                 </font>
                 <mouseicon>
                   <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
@@ -1149,6 +1158,7 @@
           <ID>ID Trasy</ID>
           <Name>ID Trasy</Name>
           <Usage>Key</Usage>
+          <EstimatedCount>999</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>Integer</DataType>
@@ -1212,6 +1222,7 @@
         <Attribute>
           <ID>Nazwa</ID>
           <Name>Nazwa</Name>
+          <EstimatedCount>999</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>WChar</DataType>
@@ -1238,9 +1249,9 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
           <Value>
             <dds xmlns="">
-              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3896" scrolltop="-6191" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="10372" y="15028" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3896" scrolltop="-6191" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="0" y="0" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                 <font>
-                  <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+                  <ddsxmlobjectstreamwrapper binary="01010000900180380100065461686f6d61" />
                 </font>
                 <mouseicon>
                   <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
@@ -1312,6 +1323,7 @@
           <ID>Numer Biletu</ID>
           <Name>Numer Biletu</Name>
           <Usage>Key</Usage>
+          <EstimatedCount>500000</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>Integer</DataType>
@@ -1340,7 +1352,7 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
           <Value>
             <dds xmlns="">
-              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="40" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-9959" scrolltop="8969" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="29501" y="15028" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="32" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-9959" scrolltop="6350" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="29501" y="15028" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                 <font>
                   <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
                 </font>
@@ -1428,10 +1440,10 @@
                 </layoutobject>
                 <shape groupshapeid="0" groupnode="0" />
               </ddscontrol>
-              <ddscontrol controlprogid="MSDDS.Polyline" left="8837" top="12569" logicalid="32" controlid="17" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="MSDDS.Polyline" left="8837" top="12569" logicalid="23" controlid="8" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobj>
-                    <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
                   </ddsxmlobj>
                 </control>
                 <layoutobject>
@@ -1446,10 +1458,10 @@
                   <point x="9137" y="12968" />
                 </connector>
               </ddscontrol>
-              <ddscontrol controlprogid="MSDDS.Polyline" left="2348" top="8410" logicalid="33" controlid="18" masterid="0" hint1="0" hint2="0" width="3349" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="MSDDS.Polyline" left="2348" top="8410" logicalid="24" controlid="9" masterid="0" hint1="0" hint2="0" width="3349" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobj>
-                    <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
                   </ddsxmlobj>
                 </control>
                 <layoutobject>
@@ -1466,10 +1478,10 @@
                   <point x="5397" y="11309" />
                 </connector>
               </ddscontrol>
-              <ddscontrol controlprogid="MSDDS.Polyline" left="5647" top="7351" logicalid="34" controlid="19" masterid="0" hint1="0" hint2="0" width="827" height="4258" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="MSDDS.Polyline" left="5647" top="7351" logicalid="25" controlid="10" masterid="0" hint1="0" hint2="0" width="827" height="4258" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobj>
-                    <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
                   </ddsxmlobj>
                 </control>
                 <layoutobject>
@@ -1486,10 +1498,10 @@
                   <point x="5947" y="11309" />
                 </connector>
               </ddscontrol>
-              <ddscontrol controlprogid="MSDDS.Polyline" left="8837" top="13119" logicalid="35" controlid="20" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="MSDDS.Polyline" left="8837" top="13119" logicalid="26" controlid="11" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobj>
-                    <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
                   </ddsxmlobj>
                 </control>
                 <layoutobject>
@@ -1504,10 +1516,10 @@
                   <point x="9137" y="13518" />
                 </connector>
               </ddscontrol>
-              <ddscontrol controlprogid="MSDDS.Polyline" left="5547" top="15428" logicalid="36" controlid="21" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="MSDDS.Polyline" left="5547" top="15428" logicalid="27" controlid="12" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobj>
-                    <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
                   </ddsxmlobj>
                 </control>
                 <layoutobject>
@@ -1524,10 +1536,10 @@
                   <point x="5947" y="15728" />
                 </connector>
               </ddscontrol>
-              <ddscontrol controlprogid="MSDDS.Polyline" left="8374" top="4988" logicalid="37" controlid="22" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="MSDDS.Polyline" left="8374" top="4988" logicalid="28" controlid="13" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobj>
-                    <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
                   </ddsxmlobj>
                 </control>
                 <layoutobject>
@@ -1542,10 +1554,10 @@
                   <point x="8674" y="5387" />
                 </connector>
               </ddscontrol>
-              <ddscontrol controlprogid="MSDDS.Polyline" left="2974" top="4989" logicalid="38" controlid="23" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="MSDDS.Polyline" left="2974" top="4989" logicalid="29" controlid="14" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobj>
-                    <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
                   </ddsxmlobj>
                 </control>
                 <layoutobject>
@@ -1562,10 +1574,10 @@
                   <point x="5674" y="5387" />
                 </connector>
               </ddscontrol>
-              <ddscontrol controlprogid="MSDDS.Polyline" left="5774" top="2226" logicalid="39" controlid="24" masterid="0" hint1="0" hint2="0" width="880" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="MSDDS.Polyline" left="5774" top="2226" logicalid="30" controlid="15" masterid="0" hint1="0" hint2="0" width="880" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobj>
-                    <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
                   </ddsxmlobj>
                 </control>
                 <layoutobject>
@@ -1603,7 +1615,7 @@
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-          <Value>8969</Value>
+          <Value>6350</Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -1669,6 +1681,7 @@
             </Attribute>
             <Attribute>
               <AttributeID>Miesiac</AttributeID>
+              <AggregationUsage>Full</AggregationUsage>
             </Attribute>
             <Attribute>
               <AttributeID>Rok</AttributeID>
@@ -1733,6 +1746,7 @@
             </Attribute>
             <Attribute>
               <AttributeID>Ulga</AttributeID>
+              <AggregationUsage>Full</AggregationUsage>
             </Attribute>
             <Attribute>
               <AttributeID>Sposob Zakupu</AttributeID>
@@ -1784,6 +1798,7 @@
             </Attribute>
             <Attribute>
               <AttributeID>Nazwa</AttributeID>
+              <AggregationUsage>Full</AggregationUsage>
             </Attribute>
           </Attributes>
         </Dimension>
@@ -1902,6 +1917,7 @@
             </Measure>
           </Measures>
           <StorageMode>Molap</StorageMode>
+          <EstimatedRows>500000</EstimatedRows>
           <ProcessingMode>Regular</ProcessingMode>
           <Dimensions>
             <Dimension xsi:type="RegularMeasureGroupDimension">
@@ -2072,8 +2088,389 @@
               <StorageMode>Molap</StorageMode>
               <CurrentStorageMode>Molap</CurrentStorageMode>
               <ProcessingMode>Regular</ProcessingMode>
+              <ProactiveCaching>
+                <SilenceInterval>-PT1S</SilenceInterval>
+                <Latency>-PT1S</Latency>
+                <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+                <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+                <AggregationStorage>MolapOnly</AggregationStorage>
+                <Source xsi:type="ProactiveCachingInheritedBinding">
+                  <NotificationTechnique>Server</NotificationTechnique>
+                </Source>
+              </ProactiveCaching>
+              <EstimatedRows>500000</EstimatedRows>
+              <AggregationDesignID>AggregationDesign</AggregationDesignID>
             </Partition>
           </Partitions>
+          <AggregationDesigns>
+            <AggregationDesign>
+              <ID>AggregationDesign</ID>
+              <Name>AggregationDesign</Name>
+              <CreatedTimestamp>2023-12-16T11:33:53.5Z</CreatedTimestamp>
+              <LastSchemaUpdate>2023-12-16T11:33:53.5Z</LastSchemaUpdate>
+              <EstimatedRows>500000</EstimatedRows>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Kurs</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>ID Kursu</AttributeID>
+                      <EstimatedCount>95502</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>ID Czasu</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>ID Trasy</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>ID Daty</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>ID Stacja Koncowa</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>ID Stacji</AttributeID>
+                      <EstimatedCount>500</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Nazwa</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Miejscowosc</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Data</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>ID Daty</AttributeID>
+                      <EstimatedCount>365</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Dzien</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Miesiac</AttributeID>
+                      <EstimatedCount>12</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Rok</AttributeID>
+                      <EstimatedCount>1</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Dzien Tygodnia</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Dzien Pracy</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Wakacje</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Swieta</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Okolice Swiat</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Miesiac No</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Ordering Miesiac on Data Miesiac_No</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>ID Stacja Poczatkowa</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>ID Stacji</AttributeID>
+                      <EstimatedCount>500</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Nazwa</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Miejscowosc</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Junk</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>ID Junk</AttributeID>
+                      <EstimatedCount>72</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Klasa</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Ulga</AttributeID>
+                      <EstimatedCount>12</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Sposob Zakupu</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Czas</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>ID Czasu</AttributeID>
+                      <EstimatedCount>1440</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Godzina</AttributeID>
+                      <EstimatedCount>24</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Minuta</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Godziny Szczytu</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Trasa</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>ID Trasy</AttributeID>
+                      <EstimatedCount>999</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Dlugosc</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Czas Trwania</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Nazwa</AttributeID>
+                      <EstimatedCount>999</EstimatedCount>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Kurs - ID Daty</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>ID Daty</AttributeID>
+                      <EstimatedCount>365</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Dzien</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Miesiac</AttributeID>
+                      <EstimatedCount>12</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Rok</AttributeID>
+                      <EstimatedCount>1</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Dzien Tygodnia</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Dzien Pracy</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Wakacje</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Swieta</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Okolice Swiat</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Miesiac No</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Ordering Miesiac on Data Miesiac_No</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Numer biletu</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Numer Biletu</AttributeID>
+                      <EstimatedCount>500000</EstimatedCount>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+              </Dimensions>
+              <Aggregations>
+                <Aggregation>
+                  <ID>Aggregation 0</ID>
+                  <Name>Aggregation 0</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>Kurs</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Stacja Koncowa</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Data</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Rok</AttributeID>
+                        </Attribute>
+                        <Attribute>
+                          <AttributeID>Miesiac</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Stacja Poczatkowa</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Junk</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>ID Junk</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Czas</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Trasa</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Kurs - ID Daty</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Rok</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Numer biletu</CubeDimensionID>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+                <Aggregation>
+                  <ID>Aggregation 1</ID>
+                  <Name>Aggregation 1</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>Kurs</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Stacja Koncowa</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Data</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Rok</AttributeID>
+                        </Attribute>
+                        <Attribute>
+                          <AttributeID>Miesiac</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Stacja Poczatkowa</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Junk</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Ulga</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Czas</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Godzina</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Trasa</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Kurs - ID Daty</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Rok</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Numer biletu</CubeDimensionID>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+                <Aggregation>
+                  <ID>Aggregation 2</ID>
+                  <Name>Aggregation 2</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>Kurs</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Stacja Koncowa</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Data</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>ID Daty</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>ID Stacja Poczatkowa</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Junk</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Ulga</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Czas</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Trasa</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Kurs - ID Daty</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Numer biletu</CubeDimensionID>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+              </Aggregations>
+            </AggregationDesign>
+          </AggregationDesigns>
+          <ProactiveCaching>
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <AggregationStorage>MolapOnly</AggregationStorage>
+            <Source xsi:type="ProactiveCachingInheritedBinding">
+              <NotificationTechnique>Server</NotificationTechnique>
+            </Source>
+          </ProactiveCaching>
         </MeasureGroup>
         <MeasureGroup>
           <ID>Kurs</ID>
@@ -2190,8 +2587,28 @@
               <StorageMode>Molap</StorageMode>
               <CurrentStorageMode>Molap</CurrentStorageMode>
               <ProcessingMode>Regular</ProcessingMode>
+              <ProactiveCaching>
+                <SilenceInterval>-PT1S</SilenceInterval>
+                <Latency>-PT1S</Latency>
+                <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+                <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+                <AggregationStorage>MolapOnly</AggregationStorage>
+                <Source xsi:type="ProactiveCachingInheritedBinding">
+                  <NotificationTechnique>Server</NotificationTechnique>
+                </Source>
+              </ProactiveCaching>
             </Partition>
           </Partitions>
+          <ProactiveCaching>
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <AggregationStorage>MolapOnly</AggregationStorage>
+            <Source xsi:type="ProactiveCachingInheritedBinding">
+              <NotificationTechnique>Server</NotificationTechnique>
+            </Source>
+          </ProactiveCaching>
         </MeasureGroup>
         <MeasureGroup>
           <ID>Kurs 1</ID>
@@ -2309,8 +2726,28 @@
               <StorageMode>Molap</StorageMode>
               <CurrentStorageMode>Molap</CurrentStorageMode>
               <ProcessingMode>Regular</ProcessingMode>
+              <ProactiveCaching>
+                <SilenceInterval>-PT1S</SilenceInterval>
+                <Latency>-PT1S</Latency>
+                <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+                <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+                <AggregationStorage>MolapOnly</AggregationStorage>
+                <Source xsi:type="ProactiveCachingInheritedBinding">
+                  <NotificationTechnique>Server</NotificationTechnique>
+                </Source>
+              </ProactiveCaching>
             </Partition>
           </Partitions>
+          <ProactiveCaching>
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <AggregationStorage>MolapOnly</AggregationStorage>
+            <Source xsi:type="ProactiveCachingInheritedBinding">
+              <NotificationTechnique>Server</NotificationTechnique>
+            </Source>
+          </ProactiveCaching>
         </MeasureGroup>
       </MeasureGroups>
       <Source>
@@ -2421,7 +2858,7 @@ VISIBLE = 1  ; </Text>
                 <Name>_ALL_TABLES_</Name>
                 <DiagramLayout>
                   <dds>
-                    <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="48" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-6826" scrolltop="-1375" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="30030" y="16351" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                    <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="32" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-6826" scrolltop="-1375" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="30030" y="16351" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                       <font>
                         <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
                       </font>
@@ -2509,10 +2946,10 @@ VISIBLE = 1  ; </Text>
                       </layoutobject>
                       <shape groupshapeid="0" groupnode="0" />
                     </ddscontrol>
-                    <ddscontrol controlprogid="MSDDS.Polyline" left="8829" top="11038" logicalid="40" controlid="25" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="MSDDS.Polyline" left="8829" top="11038" logicalid="23" controlid="8" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobj>
-                          <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
                         </ddsxmlobj>
                       </control>
                       <layoutobject>
@@ -2527,10 +2964,10 @@ VISIBLE = 1  ; </Text>
                         <point x="9129" y="11437" />
                       </connector>
                     </ddscontrol>
-                    <ddscontrol controlprogid="MSDDS.Polyline" left="2262" top="7263" logicalid="41" controlid="26" masterid="0" hint1="0" hint2="0" width="3497" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="MSDDS.Polyline" left="2262" top="7263" logicalid="24" controlid="9" masterid="0" hint1="0" hint2="0" width="3497" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobj>
-                          <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
                         </ddsxmlobj>
                       </control>
                       <layoutobject>
@@ -2547,10 +2984,10 @@ VISIBLE = 1  ; </Text>
                         <point x="5459" y="10162" />
                       </connector>
                     </ddscontrol>
-                    <ddscontrol controlprogid="MSDDS.Polyline" left="5523" top="6381" logicalid="42" controlid="27" masterid="0" hint1="0" hint2="0" width="799" height="4081" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="MSDDS.Polyline" left="5523" top="6381" logicalid="25" controlid="10" masterid="0" hint1="0" hint2="0" width="799" height="4081" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobj>
-                          <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
                         </ddsxmlobj>
                       </control>
                       <layoutobject>
@@ -2567,10 +3004,10 @@ VISIBLE = 1  ; </Text>
                         <point x="6009" y="10162" />
                       </connector>
                     </ddscontrol>
-                    <ddscontrol controlprogid="MSDDS.Polyline" left="8829" top="11588" logicalid="43" controlid="28" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="MSDDS.Polyline" left="8829" top="11588" logicalid="26" controlid="11" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobj>
-                          <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
                         </ddsxmlobj>
                       </control>
                       <layoutobject>
@@ -2585,10 +3022,10 @@ VISIBLE = 1  ; </Text>
                         <point x="9129" y="11987" />
                       </connector>
                     </ddscontrol>
-                    <ddscontrol controlprogid="MSDDS.Polyline" left="5610" top="13513" logicalid="44" controlid="29" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="MSDDS.Polyline" left="5610" top="13513" logicalid="27" controlid="12" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobj>
-                          <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
                         </ddsxmlobj>
                       </control>
                       <layoutobject>
@@ -2603,10 +3040,10 @@ VISIBLE = 1  ; </Text>
                         <point x="6009" y="13813" />
                       </connector>
                     </ddscontrol>
-                    <ddscontrol controlprogid="MSDDS.Polyline" left="5523" top="1741" logicalid="45" controlid="30" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="MSDDS.Polyline" left="5523" top="1741" logicalid="28" controlid="13" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobj>
-                          <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
                         </ddsxmlobj>
                       </control>
                       <layoutobject>
@@ -2621,10 +3058,10 @@ VISIBLE = 1  ; </Text>
                         <point x="5922" y="4640" />
                       </connector>
                     </ddscontrol>
-                    <ddscontrol controlprogid="MSDDS.Polyline" left="2822" top="4811" logicalid="46" controlid="31" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="MSDDS.Polyline" left="2822" top="4811" logicalid="29" controlid="14" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobj>
-                          <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
                         </ddsxmlobj>
                       </control>
                       <layoutobject>
@@ -2639,10 +3076,10 @@ VISIBLE = 1  ; </Text>
                         <point x="5522" y="5210" />
                       </connector>
                     </ddscontrol>
-                    <ddscontrol controlprogid="MSDDS.Polyline" left="8222" top="4811" logicalid="47" controlid="32" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="MSDDS.Polyline" left="8222" top="4811" logicalid="30" controlid="15" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobj>
-                          <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
                         </ddsxmlobj>
                       </control>
                       <layoutobject>
@@ -2900,37 +3337,37 @@ VISIBLE = 1  ; </Text>
               <xs:selector xpath=".//dbo_Trasa" />
               <xs:field xpath="ID_Trasy" />
             </xs:unique>
-            <xs:keyref name="FK__Przewoz_P__ID_Ju__46E78A0C" refer="dbo_Junk_Constraint1">
+            <xs:keyref name="FK__Przewoz_P__ID_St__4316F928" refer="dbo_Stacja_Constraint1" msdata:RelationName="FK__Przewoz_P__ID_St__44FF419A">
               <xs:selector xpath=".//dbo_Przewoz_Pasazera" />
-              <xs:field xpath="ID_Junk" />
-            </xs:keyref>
-            <xs:keyref name="FK__Przewoz_P__ID_St__440B1D61" refer="dbo_Stacja_Constraint1">
-              <xs:selector xpath=".//dbo_Przewoz_Pasazera" />
-              <xs:field xpath="ID_Stacja_Poczatkowa" />
-            </xs:keyref>
-            <xs:keyref name="FK__Przewoz_P__ID_Ku__4316F928" refer="dbo_Kurs_Constraint1">
-              <xs:selector xpath=".//dbo_Przewoz_Pasazera" />
-              <xs:field xpath="ID_Kursu" />
+              <xs:field xpath="ID_Stacja_Koncowa" />
             </xs:keyref>
             <xs:keyref name="FK__Przewoz_P__ID_Da__45F365D3" refer="dbo_Data_Constraint1">
               <xs:selector xpath=".//dbo_Przewoz_Pasazera" />
               <xs:field xpath="ID_Daty" />
             </xs:keyref>
-            <xs:keyref name="FK__Przewoz_P__ID_St__4316F928" refer="dbo_Stacja_Constraint1" msdata:RelationName="FK__Przewoz_P__ID_St__44FF419A">
+            <xs:keyref name="FK__Przewoz_P__ID_Ku__4316F928" refer="dbo_Kurs_Constraint1">
               <xs:selector xpath=".//dbo_Przewoz_Pasazera" />
-              <xs:field xpath="ID_Stacja_Koncowa" />
+              <xs:field xpath="ID_Kursu" />
             </xs:keyref>
-            <xs:keyref name="FK__Kurs__ID_Trasy__3E52440B" refer="dbo_Trasa_Constraint1">
+            <xs:keyref name="FK__Przewoz_P__ID_St__440B1D61" refer="dbo_Stacja_Constraint1">
+              <xs:selector xpath=".//dbo_Przewoz_Pasazera" />
+              <xs:field xpath="ID_Stacja_Poczatkowa" />
+            </xs:keyref>
+            <xs:keyref name="FK__Przewoz_P__ID_Ju__46E78A0C" refer="dbo_Junk_Constraint1">
+              <xs:selector xpath=".//dbo_Przewoz_Pasazera" />
+              <xs:field xpath="ID_Junk" />
+            </xs:keyref>
+            <xs:keyref name="FK__Kurs__ID_Czasu__403A8C7D" refer="Constraint1">
               <xs:selector xpath=".//dbo_Kurs" />
-              <xs:field xpath="ID_Trasy" />
+              <xs:field xpath="ID_Czasu" />
             </xs:keyref>
             <xs:keyref name="FK__Kurs__ID_Daty__3F466844" refer="dbo_Data_Constraint1">
               <xs:selector xpath=".//dbo_Kurs" />
               <xs:field xpath="ID_Daty" />
             </xs:keyref>
-            <xs:keyref name="FK__Kurs__ID_Czasu__403A8C7D" refer="Constraint1">
+            <xs:keyref name="FK__Kurs__ID_Trasy__3E52440B" refer="dbo_Trasa_Constraint1">
               <xs:selector xpath=".//dbo_Kurs" />
-              <xs:field xpath="ID_Czasu" />
+              <xs:field xpath="ID_Trasy" />
             </xs:keyref>
           </xs:element>
         </xs:schema>

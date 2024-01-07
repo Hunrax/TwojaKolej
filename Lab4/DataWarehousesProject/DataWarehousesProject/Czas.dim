@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="7e519532-417a-4353-94da-9a594bba65a2" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="b446a15f-0e34-49fc-b852-ed5dbc4ae938" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Czas</ID>
   <Name>Czas</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,9 +8,9 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4306" scrolltop="-9658" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="12012" y="22040" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4306" scrolltop="-9658" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="0" y="0" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
-              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+              <ddsxmlobjectstreamwrapper binary="01010000900180380100065461686f6d61" />
             </font>
             <mouseicon>
               <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
@@ -19,7 +19,7 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Czas" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3360" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Czas" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3360" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000200d0000a50a0000" />
             </control>
@@ -68,42 +68,43 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="bcd24c51-1d6f-45ca-a748-5f1a862a71cb">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="f33e5571-3e22-4298-abca-f57987241be0">
     <DataSourceViewID>Data Warehouse</DataSourceViewID>
   </Source>
   <Type>Time</Type>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="907e2860-0bca-4490-b83d-b700c333384c">
+  <ErrorConfiguration dwd:design-time-name="2cba7839-4e7e-45b0-bd23-080781f12bf2">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="65f49676-3d7b-4b94-973f-25afe9ada15c">
+    <Attribute dwd:design-time-name="d5fab705-a88f-4df4-ad1d-15f8bcce7341">
       <ID>ID Czasu</ID>
       <Name>ID Czasu</Name>
       <Usage>Key</Usage>
+      <EstimatedCount>1440</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="180106d1-9320-4cde-898b-cfc92353e120">
+        <KeyColumn dwd:design-time-name="fbf8a595-34c0-4154-8b5e-14b72539576f">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="99aa68af-3dd0-4d5b-8497-3e1e97dab881">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1f6fbd80-e8bb-4cf3-88e6-d7b99a7849b9">
             <TableID>dbo_Czas</TableID>
             <ColumnID>ID_Czasu</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="4a4bd364-b2dc-4642-b9ef-f7f5ed94da7b">
+        <AttributeRelationship dwd:design-time-name="28043ebb-9a00-4b28-9868-a737ba1dd880">
           <AttributeID>Godzina</AttributeID>
           <Name>Godzina</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="d32c3d81-cd18-4045-90c4-162a75e267f1">
+        <AttributeRelationship dwd:design-time-name="64e777bf-e547-48d9-affa-0d80f2a7a961">
           <AttributeID>Minuta</AttributeID>
           <Name>Minuta</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="f8b387cd-8a73-43d5-a469-6ee04477c88a">
+        <AttributeRelationship dwd:design-time-name="bd5b1731-5ba3-4ba1-839c-33131145dee7">
           <AttributeID>Godziny Szczytu</AttributeID>
           <Name>Godziny Szczytu</Name>
         </AttributeRelationship>
@@ -112,15 +113,16 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="89a7b8a6-b39b-440f-8af2-133a3ddbb955">
+    <Attribute dwd:design-time-name="0f7d94ee-3b16-4b05-ab80-1f624eca9ab7">
       <ID>Godzina</ID>
       <Name>Godzina</Name>
       <Type>Hours</Type>
+      <EstimatedCount>24</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="8f121bd8-2b62-4ce7-959f-69525f265c2a">
+        <KeyColumn dwd:design-time-name="8f81101a-289a-4ba1-b1f0-f7ab9f9dc7e2">
           <DataType>WChar</DataType>
           <DataSize>2</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="b4fb6039-5b49-43fb-bcad-0e579b1b9c06">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1c0b507e-065f-4c92-adcd-fbe945487e87">
             <TableID>dbo_Czas</TableID>
             <ColumnID>Godzina</ColumnID>
           </Source>
@@ -129,15 +131,15 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="64a43b5a-b7dc-401b-9b89-5d2c1630313a">
+    <Attribute dwd:design-time-name="15a3db2f-916a-4450-a9b6-7ec4990d0092">
       <ID>Minuta</ID>
       <Name>Minuta</Name>
       <Type>Minutes</Type>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="37b87af1-7821-4b46-a3d8-2d43a8607e8b">
+        <KeyColumn dwd:design-time-name="e12c9b0d-292f-4735-981e-754f316d170b">
           <DataType>WChar</DataType>
           <DataSize>2</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="00e58dc1-03ac-4141-8ee6-c3eaad343885">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="76a4de1d-1c60-43bf-9153-d0df25890836">
             <TableID>dbo_Czas</TableID>
             <ColumnID>Minuta</ColumnID>
           </Source>
@@ -146,14 +148,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="8c4e1cb8-95b9-4452-9c58-9f043ead7c2d">
+    <Attribute dwd:design-time-name="8d6ef071-2101-4e3b-9896-1f1664275ace">
       <ID>Godziny Szczytu</ID>
       <Name>Godziny Szczytu</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="90e45324-f8a5-4edc-8ea6-bfbc3176135d">
+        <KeyColumn dwd:design-time-name="e691d62b-ab9b-477e-98a6-6ddb0ebf299c">
           <DataType>WChar</DataType>
           <DataSize>21</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="b97be122-c85f-418b-a550-7895823bd4f1">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6fa8d072-bf13-4710-b76c-c348f4b6beda">
             <TableID>dbo_Czas</TableID>
             <ColumnID>Godziny_Szczytu</ColumnID>
           </Source>
@@ -164,16 +166,16 @@
     </Attribute>
   </Attributes>
   <Hierarchies>
-    <Hierarchy dwd:design-time-name="1aa1179e-aed5-4d80-be76-044854cb88ba">
+    <Hierarchy dwd:design-time-name="2802d717-0da0-496d-9c5d-4453a951d733">
       <ID>Hierarchy</ID>
       <Name>Czas wyruszenia</Name>
       <Levels>
-        <Level dwd:design-time-name="4c1d7bb1-6d36-4203-8174-d9b1c8ec2346">
+        <Level dwd:design-time-name="83a6348e-d657-4cf7-afd0-6dcd67e69b38">
           <ID>Godzina</ID>
           <Name>Godzina</Name>
           <SourceAttributeID>Godzina</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="b1387535-8f41-4d01-b000-d0ef0308e108">
+        <Level dwd:design-time-name="911bad61-af3d-4224-8261-be8a7296b3a0">
           <ID>Minuta</ID>
           <Name>Minuta</Name>
           <SourceAttributeID>Minuta</SourceAttributeID>

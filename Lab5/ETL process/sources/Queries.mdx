@@ -13,11 +13,11 @@ SELECT [Kurs - ID Daty].[Date Hierarchy].[Miesiac].[Pazdziernik] ON ROWS,
 FROM [Data Warehouse];
 
 --Porównaj przychód ze sprzedaży biletów na poszczególnych trasach w tym miesiącu w porównaniu z poprzednim. --
-WITH MEMBER [Poprzedni miesiac] AS '(PARALLELPERIOD([Data].[Date Hierarchy].[Miesiac]
-, 1, [Data].[Date Hierarchy].CurrentMember), [Measures].[Zysk ze sprzedanych biletow])'
-SELECT CrossJoin([Data].[Date Hierarchy].[Miesiac].[Luty], [Trasa].[Nazwa].Members) ON ROWS,
-{[Measures].[Zysk ze sprzedanych biletow], [Poprzedni miesiac]} ON COLUMNS
-FROM [Data Warehouse];
+	WITH MEMBER [Poprzedni miesiac] AS '(PARALLELPERIOD([Data].[Date Hierarchy].[Miesiac]
+	, 1, [Data].[Date Hierarchy].CurrentMember), [Measures].[Zysk ze sprzedanych biletow])'
+	SELECT CrossJoin([Data].[Date Hierarchy].[Miesiac].[Luty], [Trasa].[Nazwa].Members) ON ROWS,
+	{[Measures].[Zysk ze sprzedanych biletow], [Poprzedni miesiac]} ON COLUMNS
+	FROM [Data Warehouse];
 
 --Porównaj liczbę sprzedanych biletów w dniach pracy w tym miesiącu w porównaniu z poprzednim.--
 WITH MEMBER [Poprzedni miesiac] AS '(PARALLELPERIOD([Data].[Date Hierarchy].[Miesiac]
@@ -92,4 +92,9 @@ WITH MEMBER [Srednia cena]
 AS 'Round([Measures].[Zysk ze sprzedanych biletow] / [Measures].[Liczba przewiezionych osob], 2)'
 SELECT [Data].[Date Hierarchy].[Miesiac].[Wrzesien] ON ROWS,
 [Srednia cena] ON COLUMNS
-FROM [Data Warehouse]
+FROM [Data Warehouse];
+
+--Porównaj liczbę sprzedanych biletów w poszczególne dni tygodnia w danym miesiącu--
+SELECT EXCEPT([Data].[Dzien Tygodnia].Members, {[Data].[Dzien Tygodnia].[All], [Data].[Dzien Tygodnia].[All].UNKNOWNMEMBER}) ON ROWS,
+[Measures].[Liczba przewiezionych osob] ON COLUMNS 
+FROM [Data Warehouse] WHERE [Data].[Date Hierarchy].[Miesiac].[Kwiecien];
